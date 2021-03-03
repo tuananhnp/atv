@@ -72,9 +72,15 @@ html {
     height: 850px;
 }
 
-@media (max-width: 480px) {
+#cover {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    @media (max-width: 480px) {
         background-attachment: scroll;
     }
+}
 
 @import 'bootstrap-4.3.1';
 
