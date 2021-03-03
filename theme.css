@@ -18,6 +18,22 @@ html {
 #carousel2 .carousel-item {
   height: 850px; }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(https://live.staticflickr.com/65535/50990251433_3c68c4f643_k.jpg) no-repeat center center;
+  background: url(https://live.staticflickr.com/65535/50999536147_90445bc1c4_k.jpg) no-repeat center center;
+  background: url(https://live.staticflickr.com/65535/50999409096_855b7153a4_k.jpg) no-repeat center center;
+  background: url(https://live.staticflickr.com/65535/50998708873_bb968eb7bb_k.jpg) no-repeat center center;
+  background: url(https://live.staticflickr.com/65535/50998708283_a35582ad8f_k.jpg) no-repeat center center;
+  background-size: cover; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
