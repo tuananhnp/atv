@@ -82,7 +82,37 @@ html {
     }
 }
 
-#photobooks {
+#space_interior {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    @media (max-width: 480px) {
+        background-attachment: scroll;
+    }
+}
+
+#food_drink {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    @media (max-width: 480px) {
+        background-attachment: scroll;
+    }
+}
+
+#fashion_lookbook {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    @media (max-width: 480px) {
+        background-attachment: scroll;
+    }
+}
+
+#general {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
