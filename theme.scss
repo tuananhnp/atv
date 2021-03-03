@@ -1,0 +1,78 @@
+@font-face {
+font-family: "Hammersmith One";
+src: url("css/fonts/HammersmithOne.ttf") format("truetype"),
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+
+// Options
+// 
+// Quickly modify global styling by enabling or disabling optional features.
+  
+$enable-rounded:            false;
+$enable-shadows:            false;
+$enable-transitions:        true;
+$enable-hover-media-query:  false;
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+
+
+// Variables
+//
+// Colors
+
+$theme-colors: (
+  primary: black,
+  secondary: black,
+  light: white,
+  dark: black,
+  info: white,
+  success: #28a745,
+  warning: #ffc107,
+  danger: #dc3545
+);
+
+$body-bg: white;
+$body-color: black;
+
+$body-color-inverse: invert($body-color) !default;
+$link-color: black;
+
+
+// Fonts
+
+$font-family-base: 'Playfair Display', serif;
+$headings-font-family: 'Hammersmith One', sans-serif;
+$display-font-family: 'Hammersmith One', sans-serif;
+$btn-font-family: 'Hammersmith One', sans-serif;
+
+
+$headings-font-weight: 200;
+$lead-font-size: 1.3rem;
+
+$spacer: 1.5rem;
+
+$enable-responsive-font-sizes: true;
+$font-size-base: 1rem;
+
+
+.nav-link {font-family:Hammersmith One !important;}
+.nav-item:hover a {color:black !important}
+
+html,body {
+   height:100%;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+#carousel2 .carousel-item {
+    height: 850px;
+}
+
+@import 'bootstrap-4.3.1';
+
+.cocoen {
+}
