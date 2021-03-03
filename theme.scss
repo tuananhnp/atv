@@ -72,15 +72,9 @@ html {
     height: 850px;
 }
 
-.container-fluid.team {
-   background-image: url(../images/bg_teampage.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 100%;
-   height: 100%; 
-   position: fixed;
-   overflow-y: scroll;
-}
+@media (max-width: 480px) {
+        background-attachment: scroll;
+    }
 
 @import 'bootstrap-4.3.1';
 
