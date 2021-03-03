@@ -64,18 +64,8 @@ html,body {
    height:100%;
 }
 
-html {
-    scroll-behavior: smooth !important;
-}
-
 #carousel2 .carousel-item {
     height: 850px;
-}
-
-@media (max-width: @iphone-screen) {
-  background-attachment:inherit;    
-  background-size:cover;
-  -webkit-background-size:cover;
 }
 
 @import 'bootstrap-4.3.1';

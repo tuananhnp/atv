@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
+  <link rel="stylesheet" href="css/transitions.css" type="text/css">
 </head>
 
 <body oncontextmenu="return false">
@@ -27,10 +28,10 @@
       <div class="row">
         <div class="px-md-5 d-flex flex-column justify-content-center col-lg-6 text-center p-4">
           <h1 class="mb-2 display-4">GRAPHIC DESIGN</h1>
-          <p class="lead mb-3">Heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing. Oh, would I could describe these conceptions, could impress upon paper all that is living.</p> <a href="#" class="btn btn-lg mx-auto btn-primary">View porfolio</a>
+          <p class="lead mb-3">Heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing. Oh, would I could describe these conceptions, could impress upon paper all that is living.</p> <a href="#cover" class="btn btn-lg mx-auto btn-primary">View porfolio</a>
         </div>
         <div class="col-md-6 px-0">
-          <div class="carousel slide" data-ride="carousel" id="carousel1">
+          <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel1" data-interval="5000">
             <div class="carousel-inner">
               <div class="carousel-item active"> <img class="d-block img-fluid w-100" src="https://live.staticflickr.com/65535/50998715393_0ddd042c13_k.jpg">
               </div>
@@ -60,7 +61,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 px-0">
-          <div class="carousel slide" data-ride="carousel" id="carousel2">
+          <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel2" data-interval="5000">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"> </li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"> </li>
@@ -77,7 +78,7 @@
                   <div class="row">
                     <div class="mx-auto mx-md-0 ml-md-auto col-md-8 col-10 p-3 text-light">
                       <h1 class="mb-2 display-4">SPACE &amp; INTERIOR</h1>
-                      <a href="#" class="btn btn-lg btn-primary">View gallery</a>
+                      <a href="#cover" class="btn btn-lg btn-primary">View gallery</a>
                     </div>
                   </div>
                 </div>
@@ -91,7 +92,7 @@
                   <div class="row">
                     <div class="mx-auto mx-md-0 ml-md-auto col-md-8 col-10 text-light p-3">
                       <h1 class="mb-2 display-4">FOOD &amp; DRINK</h1>
-                      <a href="#" class="btn btn-lg btn-primary">View gallery</a>
+                      <a href="#cover" class="btn btn-lg btn-primary">View gallery</a>
                     </div>
                   </div>
                 </div>
@@ -105,7 +106,7 @@
                   <div class="row">
                     <div class="mx-auto mx-md-0 ml-md-auto col-md-8 col-10 p-3">
                       <h1 class="mb-2 display-4">FASHION LOOKBOOK</h1>
-                      <a href="#" class="btn btn-lg btn-primary">View gallery</a>
+                      <a href="#cover" class="btn btn-lg btn-primary">View gallery</a>
                     </div>
                   </div>
                 </div>
@@ -119,7 +120,7 @@
                   <div class="row">
                     <div class="mx-auto mx-md-0 ml-md-auto col-md-8 col-10 text-light p-3">
                       <h1 class="mb-2 display-4">GENERAL PRODUCT</h1>
-                      <a href="#" class="btn btn-lg btn-primary">View gallery</a>
+                      <a href="#cover" class="btn btn-lg btn-primary">View gallery</a>
                     </div>
                   </div>
                 </div>
@@ -144,7 +145,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="px-0">
-          <div class="carousel slide" data-ride="carousel" id="carousel3" data-interval="3000">
+          <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel3" data-interval="5000">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class=""> </li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"> </li>
@@ -178,7 +179,7 @@
   <div class="text-center py-4 bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-md-12"><a class="btn btn-outline-primary px-2 pt-1 pb-1 btn-sm" href="#">BACK TO TOP</a></div>
+        <div class="col-md-12"><a class="btn btn-outline-primary px-2 pt-1 pb-1 btn-sm" href="#cover">BACK TO TOP</a></div>
       </div>
     </div>
   </div>
@@ -223,14 +224,22 @@
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" style=""></script>
-  <script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" style=""></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" style=""></script>
-  <script style="">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" style="" crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"></script>
+  <script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" style=""></script>
+  <script>
     $("body").on("contextmenu", "img", function(e) {
       return false;
     });
   </script>
-
+  <script style="">
+    $('.btn, .btn-outline, .btn-lg').click(function() {
+      var sectionTo = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top
+      }, 800);
+    });
+  </script>
 
 </body>
 

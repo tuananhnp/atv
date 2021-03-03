@@ -12,51 +12,8 @@
 html, body {
   height: 100%; }
 
-html {
-  scroll-behavior: smooth !important; }
-
 #carousel2 .carousel-item {
   height: 850px; }
-
-#cover {
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center; }
-  @media (max-width: 480px) {
-    #cover {
-      background-attachment: scroll; } }
-
-#space_interior {
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center; }
-  @media (max-width: 480px) {
-    #space_interior {
-      background-attachment: scroll; } }
-
-#food_drink {
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center; }
-  @media (max-width: 480px) {
-    #food_drink {
-      background-attachment: scroll; } }
-
-#fashion_lookbook {
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center; }
-  @media (max-width: 480px) {
-    #fashion_lookbook {
-      background-attachment: scroll; } }
-
-#general {
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center; }
-  @media (max-width: 480px) {
-    #general {
-      background-attachment: scroll; } }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
