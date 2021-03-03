@@ -77,7 +77,7 @@ html {
     background-attachment: fixed;
     background-position: center center;
 
-    @media (max-width: 720px) {
+    @media (max-width: 480px) {
         background-attachment: scroll;
     }
 }
@@ -87,7 +87,7 @@ html {
     background-attachment: fixed;
     background-position: center center;
 
-    @media (max-width: 720px) {
+    @media (max-width: 480px) {
         background-attachment: scroll;
     }
 }
