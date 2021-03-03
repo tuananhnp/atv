@@ -72,20 +72,14 @@ html {
     height: 850px;
 }
 
-body:before {
-  content: "";
-  display: block;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-  background: url(https://live.staticflickr.com/65535/50990251433_3c68c4f643_k.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.container-fluid.team {
+   background-image: url(../images/bg_teampage.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 100%; 
+   position: fixed;
+   overflow-y: scroll;
 }
 
 @import 'bootstrap-4.3.1';
