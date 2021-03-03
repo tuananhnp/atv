@@ -72,54 +72,10 @@ html {
     height: 850px;
 }
 
-#cover {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-
-    @media (max-width: 480px) {
-        background-attachment: scroll;
-    }
-}
-
-#space_interior {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-
-    @media (max-width: 480px) {
-        background-attachment: scroll;
-    }
-}
-
-#food_drink {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-
-    @media (max-width: 480px) {
-        background-attachment: scroll;
-    }
-}
-
-#fashion_lookbook {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-
-    @media (max-width: @iphone-screen) {
-        background-attachment: scroll;
-    }
-}
-
-#general {
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-
-    @media (max-width: @iphone-screen) {
-        background-attachment: scroll;
-    }
+@media (max-width: @iphone-screen) {
+  background-attachment:inherit;    
+  background-size:cover;
+  -webkit-background-size:cover;
 }
 
 @import 'bootstrap-4.3.1';
