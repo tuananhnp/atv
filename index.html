@@ -224,8 +224,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" style=""></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" style="" crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"></script>
   <script src="js/parallax.js"></script>
-  <script src="js/jquery.touchSwipe.min.js"></script>
-  <script>
+  <script src="js/jquery.touchSwipe.min.js" style=""></script>
+  <script style="">
     $("body").on("contextmenu", "img", function(e) {
       return false;
     });
@@ -235,7 +235,7 @@
       var sectionTo = $(this).attr('href');
       $('html, body').animate({
         scrollTop: $(sectionTo).offset().top
-      }, 800);
+      }, 2000);
     });
   </script>
   <script>
