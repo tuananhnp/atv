@@ -68,7 +68,9 @@ html,body {
     height: 850px;
 }
 
-
+.carousel.pointer-event {
+  touch-action: pan-y pinch-zoom;
+}
 
 @import 'bootstrap-4.3.1';
 
