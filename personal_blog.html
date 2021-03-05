@@ -6,12 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
+  <link rel="stylesheet" href="css/scrolltotop_arrow_style.css" type="text/css">
 </head>
 
 <body oncontextmenu="return false">
+  <div id="scrolltotop_parent" class="scrolltotop_hide_onload" style="">
+    <div tabindex="0" id="scrolltotop_arrow"></div>
+  </div>
   <nav class="navbar navbar-expand-md navbar-light bg-light" style="">
     <div class="container-fluid"> <a class="navbar-brand text-primary" href="#">
-        <img src="ATV_logo.png" width="200" class="d-inline-block align-top img-fluid" alt=""></a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4" style="">
+      </a><a href="index.html"> <img src="ATV_logo.png" width="200" class="d-inline-block align-top img-fluid" alt=""></a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4" style="">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar4">
@@ -41,7 +45,7 @@
       </div>
     </div>
   </nav>
-  <div class="text-center text-md-right py-5 h-75 text-light" style="	background-image: url(&quot;https://live.staticflickr.com/65535/50988849511_7b29461ca3_o_d.jpg&quot;);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
+  <div class="py-5 text-center h-75 align-items-center d-flex parallax-window text-light" data-parallax="scroll" data-image-src="https://live.staticflickr.com/65535/50988849511_7b29461ca3_o_d.jpg">
     <div class="container py-5">
       <div class="row">
         <div class="mx-auto mx-md-0 ml-md-auto p-3 col-10 text-right col-md-7">
@@ -51,7 +55,7 @@
       </div>
     </div>
   </div>
-  <div class="text-center text-md-right py-5 h-75 text-light" style="	background-image: url(&quot;https://live.staticflickr.com/65535/51006295917_06fb785ef0_o_d.jpg&quot;);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
+  <div class="py-5 text-center h-75 align-items-center d-flex parallax-window text-light" data-parallax="scroll" data-image-src="https://live.staticflickr.com/65535/51005470773_f24cb08b9c_o_d.jpg">
     <div class="container py-5">
       <div class="row">
         <div class="mx-auto mx-md-0 ml-md-0 p-3 col-10 text-left col-md-7">
@@ -61,7 +65,7 @@
       </div>
     </div>
   </div>
-  <div class="text-center text-md-right text-light py-5 h-75" style="	background-image: url(https://live.staticflickr.com/65535/50979618557_84596d2b5d_o_d.jpg);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
+  <div class="py-5 text-center text-white h-75 align-items-center d-flex parallax-window" data-parallax="scroll" data-image-src="https://live.staticflickr.com/65535/50979618557_84596d2b5d_o_d.jpg">
     <div class="container py-5">
       <div class="row">
         <div class="mx-auto mx-md-0 ml-md-auto p-3 col-10 text-right col-md-7">
@@ -71,7 +75,7 @@
       </div>
     </div>
   </div>
-  <div class="text-center text-light py-5 h-75" style="	background-image: url(https://live.staticflickr.com/65535/50990759906_ee2379965b_o_d.jpg);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
+  <div class="py-5 text-center text-white h-75 align-items-center d-flex parallax-window" data-parallax="scroll" data-image-src="https://live.staticflickr.com/65535/50990759906_ee2379965b_o_d.jpg">
     <div class="container py-5">
       <div class="row">
         <div class="mx-auto p-3 text-center col-10 col-md-9">
@@ -126,9 +130,12 @@
       </div>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" style=""></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" style=""></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" style="" crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"></script>
+  <script src="js/parallax.js" style=""></script>
+  <script src="js/scrolltotop_arrow_code.js" style=""></script>
   <script>
     $("body").on("contextmenu", "img", function(e) {
       return false;
