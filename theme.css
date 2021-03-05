@@ -3,14 +3,14 @@
   font-family: "Hammersmith One";
   src: url("css/fonts/HammersmithOne.ttf") format("truetype"); }
 
+html, body {
+  height: 100%; }
+
 .nav-link {
   font-family: Hammersmith One !important; }
 
 .nav-item:hover a {
   color: black !important; }
-
-html, body {
-  height: 100%; }
 
 #carousel2 .carousel-item {
   height: 850px; }
