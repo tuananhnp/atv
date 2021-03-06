@@ -36,6 +36,9 @@ body {
           transform: scale(3, 3);
   color: #ffffff; }
 
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
+  touch-action: auto; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
