@@ -1,8 +1,3 @@
-var owl = $('.owl-carousel');
-    owl.owlCarousel({
-    //  your options
-})
-
 // disable scroll
 owl.on('drag.owl.carousel', function(event) {
     document.ontouchmove = function (e) {
