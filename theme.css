@@ -6,14 +6,35 @@
 html, body {
   height: 100%; }
 
+body {
+  padding-bottom: 0; }
+
 .nav-link {
   font-family: Hammersmith One !important; }
 
 .nav-item:hover a {
   color: black !important; }
 
-#carousel2 .carousel-item {
+.slide-item {
   height: 850px; }
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border: 0px solid black; }
+
+.owl-prev {
+  left: 30px; }
+
+.owl-next {
+  right: 30px; }
+
+.owl-prev i, .owl-next i {
+  -webkit-transform: scale(3, 3);
+          transform: scale(3, 3);
+  color: #ffffff; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -2186,7 +2207,7 @@ input[type="button"].btn-block {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 5rem;
+  min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
@@ -2357,7 +2378,7 @@ input[type="button"].btn-block {
 
 .dropdown-item-text {
   display: block;
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 1.5rem;
   color: #212529; }
 
 .btn-group,

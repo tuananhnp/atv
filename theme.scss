@@ -61,17 +61,28 @@ html,body {
    height:100%;
 }
 
-body
-{   
-    padding-bottom:0;   
+body {   
+   padding-bottom:0;   
 }
 
 .nav-link {font-family:Hammersmith One !important;}
 .nav-item:hover a {color:black !important}
 
-#carousel2 .carousel-item {
-    height: 850px;
+.slide-item {
+   height:850px;
 }
+
+.owl-prev, .owl-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border:0px solid black;
+    }
+    .owl-prev {left: 30px;}
+    .owl-next {right: 30px;}
+    .owl-prev i, .owl-next i {
+        transform : scale(3,3);
+        color: #ffffff;}
 
 @import 'bootstrap-4.3.1';
 
