@@ -57,6 +57,9 @@ $enable-responsive-font-sizes: true;
 $font-size-base: 1rem;
 
 
+.nav-link {font-family:Hammersmith One !important;}
+.nav-item:hover a {color:black !important}
+
 html,body {
    height:100%;
 }
@@ -65,16 +68,8 @@ body {
    padding-bottom:0 !important;   
 }
 
-.nav-link {font-family:Hammersmith One !important;}
-.nav-item:hover a {color:black !important}
-
 .slide-item {
    height: 850px;
-}
-
-.img-fluid {
-   max-width: 100%;
-   height: auto;
 }
 
 .owl-prev, .owl-next {
