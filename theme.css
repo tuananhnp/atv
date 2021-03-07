@@ -7,7 +7,7 @@ html, body {
   height: 100%; }
 
 body {
-  padding-bottom: 0; }
+  padding-bottom: 0 !important; }
 
 .nav-link {
   font-family: Hammersmith One !important; }
@@ -17,6 +17,10 @@ body {
 
 .slide-item {
   height: 850px; }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto; }
 
 .owl-prev, .owl-next {
   position: absolute;
@@ -35,9 +39,6 @@ body {
   -webkit-transform: scale(3, 3);
           transform: scale(3, 3);
   color: #ffffff; }
-
-.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item {
-  touch-action: auto; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -2210,7 +2211,7 @@ input[type="button"].btn-block {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 2rem;
+  min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;

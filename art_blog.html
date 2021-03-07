@@ -10,71 +10,39 @@
 </head>
 
 <body oncontextmenu="return false">
-  <div id="scrolltotop_parent" class="scrolltotop_hide_onload" style="display: none;">
+  <div class="scrolltotop_hide_onload" style="display: none;" id="scrolltotop_parent">
     <div tabindex="0" id="scrolltotop_arrow"></div>
   </div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="">
-    <div class="container-fluid"> <a href="index.html" class="navbar-brand text-primary">
-        <img class="d-inline-block align-top img-fluid mb-1" src="ATV_logo.png" width="200"></a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4" style="">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar4" style="">
-        <ul class="navbar-nav text-center ml-auto">
-          <li class="nav-item px-1"> <a class="nav-link" href="#">GRAPHIC DESIGN</a> </li>
-          <li class="nav-item dropdown px-1">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PHOTOGRAPHY</a>
-            <div class="dropdown-menu text-lg-left text-center">
-              <a class="dropdown-item" href="#">All photobooks</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product photography</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Ly Son island - Part I</a>
-              <a class="dropdown-item" href="#">Ly Son island - Part II</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Hanoi</a>
-              <a class="dropdown-item" href="#">Trips to hometown</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Dalat 2016</a>
-              <a class="dropdown-item" href="#">Dalat 2020</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item pb-2" href="#">Europe trips</a>
-            </div>
-          </li>
-          <li class="nav-item px-1"> <a class="nav-link" href="#">COLOR GRADING</a> </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
   <div class="py-5 text-light" style="	background-image: url(img/Caspar_David_Friedrich_-_Mondaufgang_über_dem_Meer.jpg);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
     <div class="container-fluid px-sm-5">
       <div class="row">
-        <div class="mx-auto col-md-8 text-center col-lg-6 col-11">
+        <div class="mx-auto text-center col-11 col-md-11 col-lg-8">
           <h1>Choose your favourite topic of today!</h1>
-          <p class="mb-4">Pick one that is both requisite and inspirational to you. Read, sip some tea with snack, and take note if necessary. Enjoy, my baby.&nbsp;<i>I love you.</i></p>
+          <p class="mb-4 lead">Pick one that is both requisite and inspirational to you. Read, sip some tea with snack, and take note if necessary. Enjoy, my baby.&nbsp;<i>I love you.</i></p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4 p-3 col-12">
-          <div class="card bg-dark"> <img class="card-img-top" src="img/Design and marketing_02.jpg" alt="Card image cap">
+          <div class="card text-dark" onclick="window.open('branding_packaging.html', '_blank')" style="cursor:pointer"> <img class="card-img-top" src="img/Design and marketing_02.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">BRANDING &amp; PACKAGING</h5>
-              <p class="card-text">Knowledge</p>
+              <p class="card-text">Overview of knowledge of the particular programme you are applying for, which intensively use design as a means to achieve efficient brand identity.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 p-3 col-12">
-          <div class="card bg-dark"> <img class="card-img-top" src="img/More logos and letterheads_01.jpg" alt="Card image cap">
+          <div class="card text-dark" onclick="window.open('design.html', '_blank')" style="cursor:pointer"> <img class="card-img-top" src="img/More logos and letterheads_01.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title"> <b>DESIGN</b></h5>
-              <p class="card-text">Skills</p>
+              <p class="card-text">Fundamental skills required to imbue harmony into your artworks regarding <i>proportion, balance, contrast, rhythm, </i>and <i>unity</i>.</p>
             </div>
           </div>
         </div>
         <div class="col-lg-4 p-3 mx-auto col-12">
-          <div class="card bg-dark"> <img class="card-img-top" src="img/Drawing for fun_01.jpg" alt="Card image cap">
+          <div class="card text-dark" onclick="window.open('techniques.html', '_blank')" style="cursor:pointer"> <img class="card-img-top" src="img/Drawing for fun_01.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">TECHNIQUES</h5>
-              <p class="card-text">Skills</p>
+              <p class="card-text">Skills that once mastered will bring confidence &amp; ease to your process of design: Pen/pencil, watercolour, print-making, oil/acrylic painting, etc.</p>
             </div>
           </div>
         </div>
@@ -84,40 +52,23 @@
   <div class="py-3">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-6 p-3" style="">
+        <div class="col-lg-4 col-6 p-3" style="">
           <h5> <b>Main</b> </h5>
           <ul class="list-unstyled">
-            <li> <a href="#">Graphic design</a> </li>
-            <li> <a href="#">Photography</a> </li>
-            <li> <a href="#">Color grading</a> </li>
+            <li> <a href="branding_packaging.html">Branding &amp; Packaging</a> </li>
+            <li> <a href="design.html">Design</a> </li>
+            <li> <a href="techniques.html">Techniques</a> </li>
           </ul>
         </div>
-        <div class="col-lg-3 col-6 p-3" style="">
+        <div class="col-lg-4 col-6 p-3" style="">
           <h5> <b>Others</b> </h5>
           <ul class="list-unstyled">
-            <li> <a href="#">Contact me</a> </li>
-            <li> <a href="#">Digital to instant film</a> </li>
             <li> <a href="media.html">Music shared with Natalie</a> </li>
           </ul>
         </div>
-        <div class="col-lg-3 col-md-6 p-3" style="">
+        <div class="col-lg-3 col-md-4 p-3" style="">
           <h5> <b>About</b> </h5>
           <p class="mb-0"> This page is serving the purpose of art study for Nalatie, with articles as excerpts found in great classic art books.</p>
-        </div>
-        <div class="col-lg-3 col-md-6 p-3 col-5 mx-auto" style="">
-          <div class="row">
-            <div class="col-md-12 text-center text-md-left">
-              <h5> <b>Follow Alex</b></h5>
-            </div>
-          </div>
-          <div class="row"><a href="#">
-            </a>
-            <div class="col-md-12 d-flex align-items-center justify-content-center justify-content-sm-start col-6 my-2 mx-auto"><a href="#">
-                <i class="d-block fa fa-facebook-official text-muted fa-lg mr-2"></i>
-              </a> <a href="#">
-                <i class="d-block fa fa-instagram text-muted fa-lg ml-2"></i>
-              </a> </div>
-          </div>
         </div>
       </div>
       <div class="row">

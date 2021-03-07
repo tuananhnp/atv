@@ -8,7 +8,7 @@
  */
 .owl-theme .owl-nav {
   margin-top: 0px;
-  text-align: center;
+  text-align: left;
   -webkit-tap-highlight-color: transparent; }
   .owl-theme .owl-nav [class*='owl-'] {
     color: #FFFFFF;
