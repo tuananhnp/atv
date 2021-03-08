@@ -20,7 +20,8 @@ drop {
   font-family: 'Playfair Display', serif; }
 
 body {
-  padding-bottom: 0 !important; }
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important; }
 
 .slide-item {
   height: 850px; }
