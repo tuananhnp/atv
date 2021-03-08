@@ -1,13 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap");
 @font-face {
   font-family: "Hammersmith One";
   src: url("css/fonts/HammersmithOne.ttf") format("truetype"); }
-
-html, body {
-  height: 100%; }
-
-body {
-  padding-bottom: 0 !important; }
 
 .nav-link {
   font-family: Hammersmith One !important; }
@@ -15,12 +9,14 @@ body {
 .nav-item:hover a {
   color: black !important; }
 
+html, body {
+  height: 100%; }
+
+body {
+  padding-bottom: 0 !important; }
+
 .slide-item {
   height: 850px; }
-
-.img-fluid {
-  max-width: 100%;
-  height: auto; }
 
 .owl-prev, .owl-next {
   position: absolute;
@@ -30,10 +26,10 @@ body {
   border: 0px solid black; }
 
 .owl-prev {
-  left: 30px; }
+  left: 20px; }
 
 .owl-next {
-  right: 30px; }
+  right: 20px; }
 
 .owl-prev i, .owl-next i {
   -webkit-transform: scale(3, 3);
