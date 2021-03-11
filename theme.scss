@@ -77,6 +77,16 @@ body {
    margin-bottom:0 !important;
 }
 
+#fullpage {
+  height:100vh;
+  overflow:hidden;
+}
+
+#fullpage section {
+  height:100vh;
+}
+
+
 .slide-item {
    height: 850px;
 }
