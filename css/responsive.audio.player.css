@@ -18,6 +18,7 @@ font-weight:400;
 }
 
 *,::before,::after {
+margin-left:0;
 color:#000000;
 box-sizing:border-box;
 }
@@ -190,6 +191,10 @@ a.plyr__controls__item.plyr__control:hover,
 background-color:rgba(0, 0, 0, .1);
 }
 
+.plyr__progress--full {
+width:100%;
+}
+
 .plyr__progress--played,
 .plyr__volume--display {
 color:rgba(0, 0, 0, .1);
@@ -205,7 +210,7 @@ color:rgba(0, 0, 0, .1);
 }
 
 .plyr--full-ui input[type="range"] {
-width:calc(100% - 39px);
+width:calc(100%);
 }
 
 .plyr__controls .plyr__controls__item.plyr__time {
