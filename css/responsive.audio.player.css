@@ -199,14 +199,16 @@ color:rgba(0, 0, 0, .1);
 .plyr--audio .plyr__progress--buffer,
 .plyr--audio .plyr__volume--display {
 background-color:rgba(0, 0, 0, .1);
+width:100%;
 }
 
 .plyr--audio .plyr__progress--buffer {
 color:rgba(0, 0, 0, .1);
+width:100%;
 }
 
 .plyr--full-ui input[type="range"] {
-width:calc(100%);
+width:100%;
 }
 
 .plyr__controls .plyr__controls__item.plyr__time {
