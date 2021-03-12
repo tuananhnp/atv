@@ -7,13 +7,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
   <link rel="stylesheet" href="css/scrolltotop_arrow_style.css" type="text/css">
+  <link rel="stylesheet" href="css/plyr.css" type="text/css">
+  <link rel="stylesheet" href="css/responsive.audio.player.css" type="text/css">
 </head>
 
-<body oncontextmenu="return false">
+<body>
   <div id="scrolltotop_parent" class="scrolltotop_hide_onload" style="display: none;">
     <div tabindex="0" id="scrolltotop_arrow"></div>
   </div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="">
+  <nav class="navbar navbar-expand-lg bg-light navbar-light" style="">
     <div class="container-fluid"> <a href="index" class="navbar-brand text-primary">
         <img class="d-inline-block align-top img-fluid mb-1" src="ATV_logo.png" width="200"></a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4" style="">
         <span class="navbar-toggler-icon"></span>
@@ -45,18 +47,29 @@
       </div>
     </div>
   </nav>
-  <div class="py-5">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-md-9 col-lg-6">
-          <div class="embed-responsive embed-responsive-1by1" style="	background-image: url(img/R-9320182-1478536529-1052.jpeg.jpg);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
-            <video src="media/大激闘」のテーマ・バリエーション M-17.mp3" class="embed-responsive-item" controls="controls"> Your browser does not support HTML5 video. </video>
+  <div class="py-3">
+    <div class="container">
+      <div class="column add-bottom">
+        <div id="mainwrap">
+          <div id="nowPlay">
+            <span id="npAction">Paused.</span><span id="npTitle"></span>
+          </div>
+          <div id="audiowrap">
+            <div id="audio0">
+              <audio id="audio1" preload="" controls="">Your browser does not support HTML5 Audio! 😢</audio>
+            </div>
+            <div id="tracks">
+              <a id="btnPrev">←</a><a id="btnNext">→</a>
+            </div>
+          </div>
+          <div id="plwrap" class="mx-0 px-0">
+            <ul id="plList" class="mx-0 px-0"></ul>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="py-3 bg-light">
+  <div class="py-3 bg-light text-dark">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-6 p-3" style="">
@@ -105,13 +118,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" style=""></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" style="" crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"></script>
+  <script src="js/html5media.min.js" style=""></script>
+  <script src="js/plyr.min.js" style=""></script>
+  <script src="js/responsive.audio.player.js" style=""></script>
   <script src="js/scrolltotop_arrow_code.js" style=""></script>
-  <script>
-    $("body").on("contextmenu", "img", function(e) {
-      return false;
-    });
-  </script>
-  
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>
