@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <div class="scrolltotop_hide_onload" id="scrolltotop_parent" style="display: flex;">
+  <div class="scrolltotop_hide_onload" id="scrolltotop_parent" style="display: flex; opacity: 0.0664646;">
     <div tabindex="0" id="scrolltotop_arrow"></div>
   </div>
   <div class="text-center align-items-center d-flex parallax-window pb-5 text-white" data-image-src="img/Caspar_David_Friedrich_-_Mondaufgang_am_Meer_-_Google_Art_Project.jpg" data-parallax="scroll" id="cover" style="">
@@ -65,7 +65,7 @@
       </div>
     </div>
   </div>
-  <div class="">
+  <div class="" id="smooth">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 px-0">
@@ -75,7 +75,7 @@
                 <div class="row">
                   <div class="mx-md-0 ml-md-auto text-light col-10 mx-auto col-md-8 p-5">
                     <h1 class="mb-2 display-4">PERSONAL BLOG</h1>
-                    <a class="btn btn-lg btn-primary">View gallery</a>
+                    <a class="btn btn-lg btn-primary" href="personal_blog">View gallery</a>
                   </div>
                 </div>
               </div>
@@ -85,7 +85,7 @@
                 <div class="row">
                   <div class="mx-md-0 ml-md-auto text-light col-10 mx-auto col-md-8 p-5">
                     <h1 class="mb-2 display-4">SPACE &amp; INTERIOR</h1>
-                    <a class="btn btn-lg btn-primary">View gallery</a>
+                    <a class="btn btn-lg btn-primary" href="#">View gallery</a>
                   </div>
                 </div>
               </div>
@@ -95,7 +95,7 @@
                 <div class="row">
                   <div class="mx-md-0 ml-md-auto text-light col-10 mx-auto col-md-8 p-5">
                     <h1 class="mb-2 display-4">FOOD &amp; DRINK</h1>
-                    <a class="btn btn-lg btn-primary">View gallery</a>
+                    <a class="btn btn-lg btn-primary" href="#">View gallery</a>
                   </div>
                 </div>
               </div>
@@ -105,7 +105,7 @@
                 <div class="row">
                   <div class="mx-md-0 ml-md-auto col-10 mx-auto col-md-8 p-5">
                     <h1 class="mb-2 display-4">FASHION LOOKBOOK</h1>
-                    <a class="btn btn-lg btn-primary text-light">View gallery</a>
+                    <a class="btn btn-lg btn-primary" href="#">View gallery</a>
                   </div>
                 </div>
               </div>
@@ -115,7 +115,7 @@
                 <div class="row">
                   <div class="mx-md-0 ml-md-auto col-10 mx-auto col-md-8 p-5">
                     <h1 class="mb-2 display-4">GENERAL PRODUCT</h1>
-                    <a class="btn btn-lg btn-primary text-light">View gallery</a>
+                    <a class="btn btn-lg btn-primary" href="#">View gallery</a>
                   </div>
                 </div>
               </div>
@@ -135,7 +135,7 @@
       </div>
     </div>
   </div>
-  <div class="bg-primary">
+  <div class="bg-primary" id="smooth">
     <div class="container-fluid">
       <div class="row">
         <div class="px-0 col-lg-12">
@@ -163,7 +163,7 @@
       </div>
     </div>
   </div>
-  <div class="py-3 bg-light">
+  <div class="py-3 bg-light" id="smooth">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-6 p-3" style="">
@@ -209,16 +209,15 @@
       </div>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" style=""></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" style=""></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" style="" crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="js/parallax.js" style=""></script>
   <script src="js/jquery.touchSwipe.min.js" style=""></script>
   <script src="js/scrolltotop_arrow_code.js" style=""></script>
   <script src="js/owl.carousel.js"></script>
   <script src="js/prevent_vertical_scroll.js"></script>
-  <script style="">
+  <script>
     $('.btn, .btn-outline, .btn-lg').click(function() {
       var sectionTo = $(this).attr('href');
       $('html, body').animate({
@@ -226,7 +225,7 @@
       }, 1000);
     });
   </script>
-  <script style="">
+  <script>
     $(document).ready(function() {
       $(".owl-carousel").owlCarousel();
     });
@@ -241,6 +240,7 @@
     var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
     dots.css('left', 'calc(50% - ' + dots.width() / 2 + 'px)');
   </script>
+  
 </body>
 
 </html>

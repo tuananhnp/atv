@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap');
 
+@font-face {
+font-family: 'Salzburg';
+src: url('fonts/Salzburg.ttf');
+}
+
 
 // Options
 // 
@@ -21,7 +26,7 @@ $enable-print-styles:       true;
 
 $theme-colors: (
   primary: black,
-  secondary: black,
+  secondary: #a83619,
   light: white,
   dark: black,
   info: white,
@@ -54,13 +59,55 @@ $enable-responsive-font-sizes: true;
 $font-size-base: 1rem;
 
 
-.nav-link {font-family:Hammersmith One !important;}
-.nav-item:hover a {color:black !important}
-
 html,body {
    height:100%;
-   letter-spacing:0.01rem;
-   word-spacing:0.03rem;
+}
+
+.nav-link {font-family:'Hammersmith One' !important;}
+.nav-item:hover a {color:black !important}
+
+.btn {
+  letter-spacing: 0.05rem;
+}
+
+.btn-outline-light {
+   transition: background .5s ease !important;
+}
+
+.btn-primary {
+   border:none !important;
+   transition: background .5s ease !important;
+}
+
+.btn-primary:hover {
+   background:white !important;
+   color:black !important;
+   border:none !important;
+   transition: background .5s ease !important;
+}
+
+h1 {
+  letter-spacing: 0.05rem;
+}
+
+h2 {
+  letter-spacing: 0.05rem;
+}
+
+h3 {
+  letter-spacing: 0.05rem;
+}
+
+h4 {
+  letter-spacing: 0.05rem;
+}
+
+h5 {
+  letter-spacing: 0.05rem;
+}
+
+h6 {
+  letter-spacing: 0.05rem;
 }
 
 drop {
@@ -75,16 +122,6 @@ body {
    padding-bottom:0 !important;
    margin-bottom:0 !important;
 }
-
-#fullpage {
-  height:100vh;
-  overflow:hidden;
-}
-
-#fullpage section {
-  height:100vh;
-}
-
 
 .slide-item {
    height: 850px;
