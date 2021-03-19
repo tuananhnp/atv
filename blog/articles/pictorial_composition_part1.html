@@ -7,8 +7,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="../../theme.css" type="text/css">
   <link rel="stylesheet" href="../../css/scrolltotop_arrow_style.css" type="text/css">
+  <link rel="stylesheet" href="../../css/animated_nav_icon.css">
   <link rel="stylesheet" href="../../css/owl.carousel.css">
   <link rel="stylesheet" href="../../css/owl.theme.default.css">
+  <link rel="stylesheet" href="../../css/jquery.hotspot.dark.css">
+  <link rel="stylesheet" href="../../css/jquery.hotspot.light.css">
 </head>
 
 <body>
@@ -16,9 +19,10 @@
     <div tabindex="0" id="scrolltotop_arrow"></div>
   </div>
   <nav class="navbar navbar-expand-lg navbar-light" style="">
-    <div class="container"> <a href="../../index" class="navbar-brand text-primary">
-        <img class="d-inline-block align-top img-fluid mb-1" src="../../ATV_logo.png" width="200"></a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4" style="">
-        <span class="navbar-toggler-icon"></span>
+    <div class="container">
+      <a href="../../index" class="navbar-brand text-primary"><img class="d-inline-block align-top img-fluid mb-1" src="../../ATV_logo.png" width="200"></a>
+      <button class="navbar-toggler nav-button border-0" type="button" data-toggle="collapse" data-target="#navbar4" style="">
+        <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbar4" style="">
         <ul class="navbar-nav text-center ml-auto">
@@ -415,20 +419,53 @@
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" style=""></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="../../js/parallax.js" style=""></script>
   <script src="../../js/scrolltotop_arrow_code.js" style=""></script>
   <script src="../../js/owl.carousel.js"></script>
   <script src="../../js/prevent_vertical_scroll.js"></script>
-  <script style="">
+  <script src="../../js/jquery.hotspot.dark.js" style=""></script>
+  <script src="../../js/jquery.hotspot.light.js" style=""></script>
+  <script>
+    $(document).ready(function() {
+      $('.nav-button').on('click', function() {
+        $('.animated-icon').toggleClass('open');
+      });
+    });
+  </script>
+  <script>
     $('.owl-carousel').owlCarousel({
       items: 1,
       margin: 0,
       center: false,
-      dots: false,
+      dots: true,
       nav: true,
+      autoHeight: true,
       navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+  <script>
+    $('#hotspotImg').hotSpot({
+      mainselector: '#hotspotImg',
+      selector: '.hot-spot-dark',
+      imageselector: '.img-responsive',
+      tooltipselector: '.tooltip',
+      bindselector: 'hover'
+    });
+  </script>
+  <script style="">
+    $('#hotspotImg').hotSpot({
+      mainselector: '#hotspotImg',
+      selector: '.hot-spot-light',
+      imageselector: '.img-responsive',
+      tooltipselector: '.tooltip',
+      bindselector: 'hover'
     });
   </script>
   

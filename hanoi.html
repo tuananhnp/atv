@@ -7,18 +7,26 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
   <link href="bootstrap-rfs.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animated_nav_icon.css">
+  <link rel="stylesheet" href="css/scrolltotop_arrow_style.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="css/jquery.hotspot.dark.css">
+  <link rel="stylesheet" href="css/jquery.hotspot.light.css">
 </head>
 
 <body oncontextmenu="return false">
   <div id="scrolltotop_parent" class="scrolltotop_hide_onload">
     <div tabindex="0" id="scrolltotop_arrow"></div>
   </div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="">
-    <div class="container-fluid"> <a href="index" class="navbar-brand text-primary">
-        <img class="d-inline-block align-top img-fluid mb-1" src="ATV_logo.png" width="200"></a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4" style="">
-        <span class="navbar-toggler-icon"></span>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a href="index" class="navbar-brand text-primary">
+        <img class="d-inline-block align-top img-fluid mb-1" src="ATV_logo.png" width="200"></a>
+      <button class="navbar-toggler nav-button border-0" type="button" data-toggle="collapse" data-target="#navbar4" style="">
+        <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
       </button>
-      <div class="collapse navbar-collapse" id="navbar4" style="">
+      <div class="collapse navbar-collapse" id="navbar4">
         <ul class="navbar-nav text-center ml-auto">
           <li class="nav-item px-1"> <a class="nav-link" href="#">GRAPHIC DESIGN</a> </li>
           <li class="nav-item dropdown px-1">
@@ -386,6 +394,41 @@
     $("body").on("contextmenu", "img", function(e) {
       return false;
     });
+  </script>
+  <script src="js/parallax.js" style=""></script>
+  <script src="js/jquery.touchSwipe.min.js" style=""></script>
+  <script src="js/scrolltotop_arrow_code.js" style=""></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/prevent_vertical_scroll.js" style=""></script>
+  <script style="">
+    $(document).ready(function() {
+      $('.nav-button').on('click', function() {
+        $('.animated-icon').toggleClass('open');
+      });
+    });
+  </script>
+  <script>
+    $('.btn, .btn-outline, .btn-lg').click(function() {
+      var sectionTo = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top
+      }, 1000);
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $(".owl-carousel").owlCarousel();
+    });
+  </script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      nav: true,
+      navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    });
+  </script>
+  <script>
+    var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
+    dots.css('left', 'calc(50% - ' + dots.width() / 2 + 'px)');
   </script>
   
 </body>

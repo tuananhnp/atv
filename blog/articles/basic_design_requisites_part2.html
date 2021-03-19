@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="../../theme.css" type="text/css">
   <link rel="stylesheet" href="../../css/scrolltotop_arrow_style.css" type="text/css">
+  <link rel="stylesheet" href="../../css/animated_nav_icon.css">
   <link rel="stylesheet" href="../../css/owl.carousel.css">
   <link rel="stylesheet" href="../../css/owl.theme.default.css">
   <link rel="stylesheet" href="../../css/jquery.hotspot.dark.css">
@@ -19,14 +20,15 @@
   </div>
   <nav class="navbar navbar-expand-lg navbar-light" style="">
     <div class="container"> <a href="../../index" class="navbar-brand text-primary">
-        <img class="d-inline-block align-top img-fluid mb-1" src="../../ATV_logo.png" width="200"></a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4" style="">
-        <span class="navbar-toggler-icon"></span>
+        <img class="d-inline-block align-top img-fluid mb-1" src="../../ATV_logo.png" width="200"></a>
+      <button class="navbar-toggler nav-button border-0" type="button" data-toggle="collapse" data-target="#navbar4" style="">
+        <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbar4" style="">
         <ul class="navbar-nav text-center ml-auto">
-          <li class="nav-item px-1"> <a class="nav-link" href="../design.html">DESIGN</a> </li>
+          <li class="nav-item px-1"> <a class="nav-link" href="../design">DESIGN</a> </li>
           <li class="nav-item px-1"> <a class="nav-link" href="../techniques">TECHNIQUES</a> </li>
-          <li class="nav-item px-1"> <a class="nav-link" href="../../media.html">MUSIC</a> </li>
+          <li class="nav-item px-1"> <a class="nav-link" href="../../media">MUSIC</a> </li>
         </ul>
       </div>
     </div>
@@ -829,7 +831,7 @@
         <div class="col-lg-6 p-3 col-12 col-md-6" style="">
           <h5> <b>Topics</b> </h5>
           <ul class="list-unstyled">
-            <li> <a href="../design.html">Design</a> </li>
+            <li> <a href="../design">Design</a> </li>
             <li> <a href="../techniques">Techniques</a> </li>
           </ul>
         </div>
@@ -854,7 +856,14 @@
   <script src="../../js/prevent_vertical_scroll.js"></script>
   <script src="../../js/jquery.hotspot.dark.js" style=""></script>
   <script src="../../js/jquery.hotspot.light.js" style=""></script>
-  <script style="">
+  <script>
+    $(document).ready(function() {
+      $('.nav-button').on('click', function() {
+        $('.animated-icon').toggleClass('open');
+      });
+    });
+  </script>
+  <script>
     $('.owl-carousel').owlCarousel({
       items: 1,
       margin: 0,
@@ -888,6 +897,7 @@
       bindselector: 'hover'
     });
   </script>
+  
 </body>
 
 </html>

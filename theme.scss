@@ -66,6 +66,10 @@ html,body {
 .nav-link {font-family:'Hammersmith One' !important;}
 .nav-item:hover a {color:black !important}
 
+*:focus {
+    outline: 0 !important;
+}
+
 .btn {
   letter-spacing: 0.05rem;
 }
