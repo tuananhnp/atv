@@ -212,11 +212,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/lucid.smooth.scroll.js" style=""></script>
   <script src="js/parallax.js" style=""></script>
   <script src="js/jquery.touchSwipe.min.js" style=""></script>
   <script src="js/scrolltotop_arrow_code.js" style=""></script>
   <script src="js/owl.carousel.js"></script>
   <script src="js/prevent_vertical_scroll.js"></script>
+  <script>
+    $(window).on('load', function() {
+      $(this).impulse();
+    });
+  </script>
   <script>
     $('.btn, .btn-outline, .btn-lg').click(function() {
       var sectionTo = $(this).attr('href');
@@ -240,7 +246,6 @@
     var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
     dots.css('left', 'calc(50% - ' + dots.width() / 2 + 'px)');
   </script>
-  
 </body>
 
 </html>
