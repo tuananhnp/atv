@@ -6,31 +6,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
+  <link rel="stylesheet" href="css/loading.css" type="text/css">
   <link rel="stylesheet" href="css/scrolltotop_arrow_style.css" type="text/css">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="css/universal-parallax.css" type="text/css">
 </head>
 
 <body>
-  <div id="scrolltotop_parent" class="scrolltotop_hide_onload">
+  <div id="scrolltotop_parent" class="scrolltotop_hide_onload" style="display: flex;">
     <div tabindex="0" id="scrolltotop_arrow"></div>
   </div>
-  <div class="text-center align-items-center d-flex parallax-window pb-5 text-white" data-image-src="img/Caspar_David_Friedrich_-_Mondaufgang_am_Meer_-_Google_Art_Project.jpg" data-parallax="scroll" id="cover" >
+  <div class="text-center align-items-center d-flex pb-5 text-white" id="cover">
+    <div class="parallax" data-parallax-image="img/Caspar_David_Friedrich_-_Mondaufgang_am_Meer_-_Google_Art_Project.jpg"></div>
     <div class="container pb-5 mb-5">
-      <div class="row pt-5" >
+      <div class="row pt-5">
         <div class="col-sm-10 col-10 col-lg-10 col-md-10 mx-auto">
           <img class="img-fluid d-block mx-auto pb-3" src="ATV_logo_inverted.png" width="700">
         </div>
       </div>
       <div class="row pb-5 mb-5">
-        <div class="pb-5 mx-auto mb-5 col-lg-12 col-7 col-sm-7 col-md-5">
+        <div class="pb-5 mx-auto mb-5 col-lg-12 col-sm-7 col-md-5 col-8">
           <a class="btn btn-outline-light btn-lg my-1 mx-1 px-3 pb-1" href="#graphic_design">Graphic Design</a><a href="#photography" class="btn btn-outline-light btn-lg my-1 mx-1 px-3 pb-1">Photography</a><a class="btn btn-outline-light btn-lg my-1 mx-1 px-3 pb-1" href="#color_grading">Color Grading</a><a class="btn btn-outline-light btn-lg my-1 mx-1 px-3 pb-1" href="blog/art_blog">Art blog</a> </div>
       </div>
       <div class="row pt-5">
         <div class="col-md-12">
           <div class="blockquote">
             <p class="mb-0">"Moonrise over the Sea"</p>
-            <p class="mb-0" style="font-size: 0.8rem;">by <i>Caspar David Friedrich</i></p>
+            <p class="mb-0" style="font-size: 0.8rem">by <i>Caspar David Friedrich</i></p>
           </div>
         </div>
       </div>
@@ -44,7 +47,7 @@
           <p class="lead mb-3">Heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing. Oh, would I could describe these conceptions, could impress upon paper all that is living.</p> <a href="#cover" class="btn btn-lg mx-auto btn-primary">View porfolio</a>
         </div>
         <div class="px-0 col-lg-6">
-          <div class="owl-carousel owl-theme" >
+          <div class="owl-carousel owl-theme" style="">
             <div><img class="img-fluid d-block" src="https://live.staticflickr.com/65535/50998715393_0ddd042c13_k.jpg"></div>
             <div><img class="img-fluid d-block" src="https://live.staticflickr.com/65535/50999534777_b69e991b88_k.jpg"></div>
             <div><img class="img-fluid d-block" src="https://live.staticflickr.com/65535/50999562752_4462e79980_k.jpg"></div>
@@ -54,7 +57,9 @@
       </div>
     </div>
   </div>
-  <div class="py-5 h-100 parallax-window" data-parallax="scroll" data-image-src="https://live.staticflickr.com/65535/50988942687_dc6e841ca2_k.jpg"> </div>
+  <div class="h-100">
+    <div class="parallax" data-parallax-image="https://live.staticflickr.com/65535/50988942687_dc6e841ca2_k.jpg"></div>
+  </div>
   <div class="text-center py-4 bg-light" id="photography">
     <div class="container">
       <div class="row justify-content-center">
@@ -69,7 +74,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 px-0">
-          <div class="owl-carousel owl-theme" >
+          <div class="owl-carousel owl-theme" style="">
             <div class="slide-item py-5 text-md-right text-center" style="	background-image: url(https://live.staticflickr.com/65535/50988852601_627ff03133_k.jpg);	background-position: center center;	background-size: cover;	background-repeat: no-repeat;">
               <div class="py-5 container mx-auto mt-4">
                 <div class="row">
@@ -166,7 +171,7 @@
   <div class="py-3 bg-light" id="smooth">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3 col-6 p-3" >
+        <div class="col-lg-3 col-6 p-3" style="">
           <h5> <b>Main</b> </h5>
           <ul class="list-unstyled">
             <li> <a href="#">Graphic design</a> </li>
@@ -174,7 +179,7 @@
             <li> <a href="#">Color grading</a> </li>
           </ul>
         </div>
-        <div class="col-lg-3 col-6 p-3" >
+        <div class="col-lg-3 col-6 p-3" style="">
           <h5> <b>Others</b> </h5>
           <ul class="list-unstyled">
             <li> <a href="#">Contact me</a> </li>
@@ -182,11 +187,11 @@
             <li> <a href="media">Media</a> </li>
           </ul>
         </div>
-        <div class="col-lg-3 col-md-6 p-3" >
+        <div class="col-lg-3 col-md-6 p-3" style="">
           <h5> <b>About</b> </h5>
           <p class="mb-0"> I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls.</p>
         </div>
-        <div class="col-lg-3 col-md-6 p-3 col-5 mx-auto" >
+        <div class="col-lg-3 col-md-6 p-3 col-5 mx-auto" style="">
           <div class="row">
             <div class="col-md-12 text-center text-sm-left">
               <h5> <b>Follow Alex</b></h5>
@@ -212,13 +217,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="js/lucid.smooth.scroll.js" ></script>
-  <script src="js/parallax.js" ></script>
-  <script src="js/jquery.touchSwipe.min.js" ></script>
-  <script src="js/scrolltotop_arrow_code.js" ></script>
+  <script src="js/lucid.smooth.scroll.js" style=""></script>
+  <script src="js/jquery.touchSwipe.min.js" style=""></script>
+  <script src="js/scrolltotop_arrow_code.js" style=""></script>
   <script src="js/owl.carousel.js"></script>
-  <script src="js/prevent_vertical_scroll.js"></script>
-  <script>
+  <script src="js/prevent_vertical_scroll.js" style=""></script>
+  <script src="js/universal-parallax.min.js"></script>
+  <script style="">
+    new universalParallax().init();
+  </script>
+  <script style="">
+    $(window).on("load", function() {
+      $(".se-pre-con").fadeOut("slow");;
+    });
+  </script>
+  <script style="">
     $(window).on('load', function() {
       $(this).impulse();
     });
