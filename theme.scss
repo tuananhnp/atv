@@ -146,6 +146,24 @@ body {
 .owl-carousel .owl-item {
   -webkit-transform: translate3d(0px, 0px, 0px);}
 
+.overlapping-text {
+  margin-top: 100px;
+  margin-left: -200px;
+  margin-bottom: 150px;
+  z-index: -1;
+}
+
+.overlapping-image {
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+	.overlapping-text {
+    margin-left: 0;
+  	margin-top: -200px;
+  }
+}
+
 @import 'bootstrap-4.3.1';
 
 .cocoen {
