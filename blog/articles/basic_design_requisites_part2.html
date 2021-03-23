@@ -15,11 +15,12 @@
 </head>
 
 <body>
-  <div id="scrolltotop_parent" class="scrolltotop_hide_onload">
+  <div id="scrolltotop_parent" class="scrolltotop_hide_onload" >
     <div tabindex="0" id="scrolltotop_arrow"></div>
   </div>
   <nav class="navbar navbar-expand-lg navbar-light" >
-    <div class="container"> <a href="../../index" class="navbar-brand text-primary">
+    <div class="container">
+      <a href="../../index" class="navbar-brand text-primary">
         <img class="d-inline-block align-top img-fluid mb-1" src="../../ATV_logo.png" width="200"></a>
       <button class="navbar-toggler nav-button border-0" type="button" data-toggle="collapse" data-target="#navbar4" >
         <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
@@ -851,19 +852,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" ></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="../../js/parallax.js" ></script>
-  <script src="../../js/scrolltotop_arrow_code.js" ></script>
+  <script src="../../js/scrolltotop_arrow_code.js"></script>
   <script src="../../js/owl.carousel.js"></script>
   <script src="../../js/prevent_vertical_scroll.js"></script>
   <script src="../../js/jquery.hotspot.dark.js" ></script>
   <script src="../../js/jquery.hotspot.light.js" ></script>
-  <script>
+  <script >
     $(document).ready(function() {
       $('.nav-button').on('click', function() {
         $('.animated-icon').toggleClass('open');
       });
     });
   </script>
-  <script>
+  <script >
     $('.owl-carousel').owlCarousel({
       items: 1,
       margin: 0,

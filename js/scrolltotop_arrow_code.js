@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
     /*Change this variable to adjust the speed of the scrolling.*/
-    scrolltotop_scroll_speed=500;
+    scrolltotop_scroll_speed=800;
 
     /*Change this variable to adjust the speed of the fading.*/
     scrolltotop_animation_speed=500;

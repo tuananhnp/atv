@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
-  <link href="bootstrap-rfs.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animated_nav_icon.css">
+  <link rel="stylesheet" href="css/loading.css" type="text/css">
   <link rel="stylesheet" href="css/scrolltotop_arrow_style.css" type="text/css">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="css/universal-parallax.css" type="text/css">
   <link rel="stylesheet" href="css/jquery.hotspot.dark.css">
   <link rel="stylesheet" href="css/jquery.hotspot.light.css">
 </head>
@@ -52,7 +53,8 @@
       </div>
     </div>
   </nav>
-  <div class="py-5 align-items-center d-flex text-light parallax-window" data-image-src="https://live.staticflickr.com/65535/50988849511_a3d68e4936_k.jpg" data-parallax="scroll">
+  <div class="py-5 align-items-center d-flex text-light">
+    <div class="parallax" data-parallax-image="https://live.staticflickr.com/65535/50988849511_a3d68e4936_k.jpg"></div>
     <div class="container py-5">
       <div class="row">
         <div class="col-md-8 px-lg-5 px-4">
@@ -69,7 +71,8 @@
       </div>
     </div>
   </div>
-  <div class="py-5 d-flex text-light text-center parallax-window" data-image-src="https://live.staticflickr.com/65535/51006295917_34c0147470_k.jpg" data-parallax="scroll">
+  <div class="py-5 d-flex text-light text-center">
+    <div class="parallax" data-parallax-image="https://live.staticflickr.com/65535/51006295917_34c0147470_k.jpg"></div>
     <div class="container py-5">
       <div class="row">
         <div class="col-md-8 px-lg-5 px-4 mx-auto">
@@ -80,7 +83,8 @@
       </div>
     </div>
   </div>
-  <div class="py-5 align-items-center d-flex text-light text-right parallax-window" data-image-src="https://live.staticflickr.com/65535/50979618557_18821564b7_k.jpg" data-parallax="scroll">
+  <div class="py-5 align-items-center d-flex text-light text-right">
+    <div class="parallax" data-parallax-image="https://live.staticflickr.com/65535/50979618557_18821564b7_k.jpg"></div>
     <div class="container py-5">
       <div class="row">
         <div class="col-md-8 px-lg-5 px-4 ml-auto">
@@ -97,7 +101,8 @@
       </div>
     </div>
   </div>
-  <div class="py-5 d-flex text-light text-center parallax-window" data-image-src="https://live.staticflickr.com/65535/51007812623_ef41394132_k.jpg" data-parallax="scroll">
+  <div class="py-5 d-flex text-light text-center">
+    <div class="parallax" data-parallax-image="https://live.staticflickr.com/65535/51007812623_ef41394132_k.jpg"></div>
     <div class="container py-5">
       <div class="row">
         <div class="col-md-8 px-lg-5 px-4 mx-auto">
@@ -108,7 +113,8 @@
       </div>
     </div>
   </div>
-  <div class="py-5 align-items-center d-flex text-light parallax-window" data-image-src="https://live.staticflickr.com/65535/51008406686_75b2b5d7ea_k.jpg" data-parallax="scroll">
+  <div class="py-5 align-items-center d-flex text-light">
+    <div class="parallax" data-parallax-image="https://live.staticflickr.com/65535/51008406686_75b2b5d7ea_k.jpg"></div>
     <div class="container py-5">
       <div class="row">
         <div class="px-lg-5 px-4 col-md-8">
@@ -118,7 +124,8 @@
       </div>
     </div>
   </div>
-  <div class="py-5 d-flex text-light text-center parallax-window" data-image-src="https://live.staticflickr.com/65535/50990759906_50208387d9_k.jpg" data-parallax="scroll">
+  <div class="py-5 d-flex text-light text-center">
+    <div class="parallax" data-parallax-image="https://live.staticflickr.com/65535/50990759906_50208387d9_k.jpg"></div>
     <div class="container py-5">
       <div class="row">
         <div class="col-md-8 px-lg-5 px-4 mx-auto">
@@ -128,7 +135,7 @@
       </div>
     </div>
   </div>
-  <div class="py-3 bg-light">
+  <div class="py-3 bg-light" id="smooth">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-6 p-3" >
@@ -144,6 +151,7 @@
           <ul class="list-unstyled">
             <li> <a href="#">Contact me</a> </li>
             <li> <a href="#">Digital to instant film</a> </li>
+            <li> <a href="media">Media</a> </li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 p-3" >
@@ -176,19 +184,54 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="js/parallax.js" ></script>
+  <script src="js/lucid.smooth.scroll.js" ></script>
+  <script src="js/jquery.touchSwipe.min.js" ></script>
   <script src="js/scrolltotop_arrow_code.js" ></script>
-  <script>
-    $(document).ready(function() {
-      $('.nav-button').on('click', function() {
-        $('.animated-icon').toggleClass('open');
-      });
-    });
-  </script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/prevent_vertical_scroll.js" ></script>
+  <script src="js/universal-parallax.min.js"></script>
   <script>
     $("body").on("contextmenu", "img", function(e) {
       return false;
     });
+  </script>
+  <script>
+    new universalParallax().init({
+      speed: 12
+    });
+  </script>
+  <script>
+    $(window).on("load", function() {
+      $(".se-pre-con").fadeOut("slow");;
+    });
+  </script>
+  <script>
+    $(window).on('load', function() {
+      $(this).impulse();
+    });
+  </script>
+  <script>
+    $('.btn, .btn-outline, .btn-lg').click(function() {
+      var sectionTo = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top
+      }, 2000);
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $(".owl-carousel").owlCarousel();
+    });
+  </script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      nav: true,
+      navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    });
+  </script>
+  <script>
+    var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
+    dots.css('left', 'calc(50% - ' + dots.width() / 2 + 'px)');
   </script>
   
 </body>
