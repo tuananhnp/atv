@@ -169,11 +169,14 @@
           </div>
           <div class="row"><a href="#">
             </a>
-            <div class="col-md-12 d-flex align-items-center justify-content-center justify-content-sm-start col-6 my-2 mx-auto"><a href="#">
+            <div class="col-md-12 d-flex align-items-center justify-content-center justify-content-sm-start col-6 my-2 mx-auto">
+              <a href="#">
                 <i class="d-block fa fa-facebook-official text-muted fa-lg mr-2"></i>
-              </a> <a href="#">
+              </a>
+              <a href="#">
                 <i class="d-block fa fa-instagram text-muted fa-lg ml-2"></i>
-              </a> </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -200,6 +203,12 @@
     $("body").on("contextmenu", "img", function(e) {
       return false;
     });
+  </script>
+  <script style="">
+    function sendMail() {
+      var link = "mailto:tuananhnp1001@gmail.com" + "?cc=" + "&subject=" + escape("This is my subject") + "&body=" + escape(document.getElementById('myText').value);
+      window.location.href = link;
+    }
   </script>
   <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
