@@ -236,9 +236,9 @@ $.zenith = function(sample) {
 $.fn.impulse.default = {
 
 	target: '',
-	range: 150,
-	leap: 1.4,
-	tempo: 500,
+	range: 200,
+	leap: 1.2,
+	tempo: 300,
 	sloth: 1.1,
 	curb: 5,
 	reset: 85,
