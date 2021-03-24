@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
-  <link href="bootstrap-rfs.css" rel="stylesheet">
   <link rel="stylesheet" href="css/animated_nav_icon.css">
   <link rel="stylesheet" href="css/scrolltotop_arrow_style.css" type="text/css">
   <link rel="stylesheet" href="css/owl.carousel.css">
@@ -16,42 +15,9 @@
 </head>
 
 <body oncontextmenu="return false">
-  <div id="scrolltotop_parent" class="scrolltotop_hide_onload scrolltotop_circle" style="display: flex;">
+  <div id="scrolltotop_parent" class="scrolltotop_hide_onload" >
     <div tabindex="0" id="scrolltotop_arrow"></div>
   </div>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid"> <a href="index" class="navbar-brand text-primary">
-        <img class="d-inline-block align-top img-fluid mb-1" src="ATV_logo.png" width="200"></a>
-      <button class="navbar-toggler nav-button border-0" type="button" data-toggle="collapse" data-target="#navbar4">
-        <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar4">
-        <ul class="navbar-nav text-center ml-auto">
-          <li class="nav-item px-1"> <a class="nav-link" href="#">GRAPHIC DESIGN</a> </li>
-          <li class="nav-item dropdown px-1">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PHOTOGRAPHY</a>
-            <div class="dropdown-menu text-lg-left text-center">
-              <a class="dropdown-item" href="#">All photobooks</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Product photography</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Ly Son island - Part I</a>
-              <a class="dropdown-item" href="#">Ly Son island - Part II</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Hanoi</a>
-              <a class="dropdown-item" href="#">Trips to hometown</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Dalat 2016</a>
-              <a class="dropdown-item" href="#">Dalat 2020</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item pb-2" href="#">Europe trips</a>
-            </div>
-          </li>
-          <li class="nav-item px-1"> <a class="nav-link" href="#">COLOR GRADING</a> </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
   <div>
     <div class="container">
       <div class="row justify-content-center">
@@ -67,19 +33,26 @@
   <div class="py-5 text-center">
     <div class="container">
       <div class="row">
-        <div class="p-5 col-lg-6 col-10 mx-auto border">
+        <div class="p-xl-5 col-10 mx-auto border col-lg-6 col-sm-8" >
           <h1 class="mb-4">DAT HANG</h1>
           <form id="order">
             <div class="form-group">
-              <input type="text" class="form-control" name="PRODUCT" placeholder="Sản phẩm"> </div>
+              <input type="text" class="form-control form-control-lg" name="PRODUCT" placeholder="Sản phẩm" required="required"> </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="TYPE" placeholder="Loại nào?"> </div>
+              <input type="radio" class="form-control" name="TYPE" placeholder="Loại nào?" required="required"> </div>
+            <div class="form-row">
+              <div class="form-group col-md-3 m-0 pt-1 col-12" >
+                <p class="text-left lead pl-2">Số lượng:</p>
+              </div>
+              <div class="form-group col-md-3 col-6" > <input type="number" class="form-control form-control-lg" required="required"> </div>
+              <div class="form-group col-md-4 m-0 pt-1 col-6" >
+                <p class="text-left lead">kg</p>
+              </div>
+            </div>
             <div class="form-group">
-              <input class="form-control" name="QUANTITY" type="text" placeholder="Số lượng"> </div>
+              <input class="form-control form-control-lg" name="ADDRESS" type="text" placeholder="Địa chỉ" required="required"> </div>
             <div class="form-group">
-              <input class="form-control" name="ADDRESS" type="text" placeholder="Địa chỉ"> </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="NOTE" placeholder="Bạn cần lưu ý chúng tôi điều gì không?"> </div>
+              <textarea class="form-control form-control-lg" placeholder="Lời nhắn" name="NOTE" rows="3"></textarea> </div>
             <button type="submit" class="btn btn-primary" id="submit-form">GUI DON HANG</button>
           </form>
         </div>
