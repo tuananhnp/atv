@@ -7,11 +7,26 @@
 html, body {
   height: 100%; }
 
+@media only screen and (min-width: 767px) {
+  .brand-mobile-only {
+    display: none; } }
+
+@media only screen and (max-width: 767px) {
+  .brand-desktop-only {
+    display: none; } }
+
+@media only screen and (max-width: 767px) {
+  .navbar-collapse {
+    height: 100vh; } }
+
 .nav-link {
   font-family: 'Hammersmith One' !important; }
 
 .nav-item:hover a {
   color: black !important; }
+
+.dropdown-item:active {
+  background-color: transparent !important; }
 
 *:focus {
   outline: 0 !important; }
