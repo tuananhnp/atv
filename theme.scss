@@ -87,6 +87,14 @@ html,body {
 .nav-link {font-family:'Hammersmith One' !important;}
 .nav-item:hover a {color:black !important}
 
+#logo-left, #logo-center {
+   transition: 0.3s;
+}
+
+.logo-shrink {
+   width: 150px;
+}
+
 .dropdown-item:active {
 background-color: transparent !important;
 }
