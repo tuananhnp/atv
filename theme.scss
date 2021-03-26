@@ -80,20 +80,16 @@ html::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
   transition: 0.3s !important;
 }
 
-
-/* DESKTOP: Hide brand at left & Show brand in center */
+/* TEMPLATE: Symmetrical nav with fullscreen menu in Mobile */
 @media only screen
-  and (min-width: 991px) {
+  and (min-width: 991px) { /* DESKTOP: Hide brand at left & Show brand in center */
     .brand-mobile-only {
       display: none;
     }
 }
 
-
-/* TEMPLATE: Symmetrical nav with fullscreen menu */
 @media only screen
   and (max-width: 991px) {
-    
     .brand-desktop-only { /* MOBILE: Hide brand in nav list & Show brand at left */
       display: none;
     }
@@ -117,6 +113,10 @@ html::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
       transition: 0.3s !important;
     }
     
+    .switch-color body { /* MOBILE: change body color */
+			display: none;
+		}
+    
     .switch-color .navbar { /* MOBILE: Change navbar color on switch */
       background-color: black !important;
       transition: .3s;
@@ -138,7 +138,6 @@ html::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
       transition: .3s;
 		}
 }
-
 
 /* Add transition while shrinking logo on scroll */
 #logo-left, #logo-center {
