@@ -37,6 +37,8 @@ html::-webkit-scrollbar {
   .navbar-collapse {
     /* MOBILE: Enable fullscreen menu */
     height: 100vh; }
+  .switch-color {
+    overflow: hidden; }
   .navbar-collapse li {
     /* MOBILE: Adjust text in fullscreen menu */
     font-size: 2rem;
@@ -45,13 +47,14 @@ html::-webkit-scrollbar {
     margin: 0px; }
   .navbar-nav {
     /* MOBILE: Lower text block in fullscreen menu */
-    margin-top: 70px; }
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
   .navbar {
     /* MOBILE: Fade out navbar color on switch */
     transition: 0.3s !important; }
-  .switch-color {
-    /* MOBILE: Disable scroll in fullscreen nav */
-    overflow: hidden; }
   .switch-color .navbar {
     /* MOBILE: Change navbar color on switch */
     background-color: black !important;
