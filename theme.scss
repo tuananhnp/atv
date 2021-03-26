@@ -72,20 +72,28 @@ html::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
 
 /* Override navbar's font style */
 .nav-link {font-family:'Hammersmith One' !important;}
-.nav-item:hover a {color:black !important}
+.nav-item a {
+  transition: 0.3s !important;
+}
+.nav-item:hover a {
+  color:black !important;
+  transition: 0.3s !important;
+}
 
 
 /* DESKTOP: Hide brand at left & Show brand in center */
 @media only screen
-  and (min-width: 767px) {
+  and (min-width: 991px) {
     .brand-mobile-only {
       display: none;
     }
 }
 
+
 /* TEMPLATE: Symmetrical nav with fullscreen menu */
 @media only screen
-  and (max-width: 767px) {
+  and (max-width: 991px) {
+    
     .brand-desktop-only { /* MOBILE: Hide brand in nav list & Show brand at left */
       display: none;
     }
@@ -95,18 +103,41 @@ html::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
     }
     
     .navbar-collapse li { /* MOBILE: Adjust text in fullscreen menu */
-      font-size: 2.5rem;
+      font-size: 2rem;
       word-spacing: -0.05rem;
       line-height: 50px;
       margin: 0px;
     }
     
-    .nav-item a {color:black !important} /* MOBILE: Text color in fullscreen menu */
-    .nav-item:hover a {color:gray !important} /* MOBILE: Text hover color in fullscreen menu */
-    
     .navbar-nav { /* MOBILE: Lower text block in fullscreen menu */
       margin-top: 70px;
     }
+    
+    .navbar { /* MOBILE: Fade out navbar color on switch */
+      position: fixed !important;
+      transition: 0.3s !important;
+    }
+    
+    .switch-color .navbar { /* MOBILE: Change navbar color on switch */
+      background-color: black !important;
+      transition: .3s;
+    }
+    
+    .switch-color .nav-item a {color: white !important} /* MOBILE: Text color in fullscreen menu */
+    .switch-color .nav-item:hover a { /* MOBILE: Text hover color in fullscreen menu */
+      color: gray !important;
+      transition: .3s;
+    }
+    
+    .switch-color #logo-left { /* MOBILE: Change logo image on switch */
+      content:url(ATV_logo_inverted.png);
+      transition: .3s;
+    }
+    
+    .switch-color .animated-icon span { /* MOBILE: Change nav toggler color on switch */
+			background: white;
+      transition: .3s;
+		}
 }
 
 
