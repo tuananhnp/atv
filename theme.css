@@ -48,7 +48,6 @@ html::-webkit-scrollbar {
     margin-top: 70px; }
   .navbar {
     /* MOBILE: Fade out navbar color on switch */
-    position: fixed !important;
     transition: 0.3s !important; }
   .switch-color .navbar {
     /* MOBILE: Change navbar color on switch */
