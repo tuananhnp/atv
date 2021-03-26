@@ -113,8 +113,8 @@ html::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
       transition: 0.3s !important;
     }
     
-    .switch-color html, body { /* MOBILE: Disable scroll in fullscreen nav */
-			overflow: hidden !important;
+    .switch-color { /* MOBILE: Disable scroll in fullscreen nav */
+      overflow: hidden;
 		}
     
     .switch-color .navbar { /* MOBILE: Change navbar color on switch */
