@@ -110,11 +110,8 @@ html::-webkit-scrollbar { width: 0 !important; height: 0 !important; }
     }
     
     .navbar-nav { /* MOBILE: Lower text block in fullscreen menu */
-      position: absolute;
-      top: 40%;
-  		left: 50%;
-  		-ms-transform: translate(-50%, -50%);
-  		transform: translate(-50%, -50%);
+      position: center;
+      margin-top: 20%;
     }
     
     .navbar { /* MOBILE: Fade out navbar color on switch */
