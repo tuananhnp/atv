@@ -1,12 +1,7 @@
-$(document).on("scroll", function(){
-    if($(document).scrollTop() > 50)
-    {
-       $("#logo-left").addClass("logo-shrink");
-       $("#logo-center").addClass("logo-shrink");
-    }
-    else
-    {
-       $("#logo-left").removeClass("logo-shrink");
-       $("#logo-center").removeClass("logo-shrink");
-    }
+$(document).on('scroll', function() {
+  if ($(document).scrollTop() > 80) {
+    $('.navbar img').css('width', '150px');
+  } else {
+    $('.navbar img').css('width', '200px');
+  }
 });

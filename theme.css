@@ -4,16 +4,16 @@
   font-family: 'Salzburg';
   src: url("fonts/Salzburg.ttf"); }
 
-/* Full-height cover section */
-html, body {
-  height: 100%; }
-
 /* Remove scroll bar */
 html::-webkit-scrollbar {
   width: 0 !important;
   height: 0 !important; }
 
-/* Override navbar's font style */
+/* Full-height cover section */
+html, body {
+  height: 100%; }
+
+/* Override navbar's font style & Add hover transition */
 .nav-link {
   font-family: 'Hammersmith One' !important; }
 
@@ -24,61 +24,9 @@ html::-webkit-scrollbar {
   color: black !important;
   transition: 0.3s !important; }
 
-/* TEMPLATE: Symmetrical nav with fullscreen menu in Mobile */
-@media only screen and (min-width: 991px) {
-  /* DESKTOP: Hide brand at left & Show brand in center */
-  .brand-mobile-only {
-    display: none; } }
-
-@media only screen and (max-width: 991px) {
-  .brand-desktop-only {
-    /* MOBILE: Hide brand in nav list & Show brand at left */
-    display: none; }
-  .navbar-collapse {
-    /* MOBILE: Enable fullscreen menu */
-    height: 100vh; }
-  .switch-color {
-    overflow: hidden; }
-  .navbar-collapse li {
-    /* MOBILE: Adjust text in fullscreen menu */
-    font-size: 2rem;
-    word-spacing: -0.05rem;
-    line-height: 50px;
-    margin: 0px; }
-  .navbar-nav {
-    /* MOBILE: Lower text block in fullscreen menu */
-    position: center;
-    margin-top: 20%; }
-  .navbar {
-    /* MOBILE: Fade out navbar color on switch */
-    transition: 0.3s !important; }
-  .switch-color .navbar {
-    /* MOBILE: Change navbar color on switch */
-    background-color: black !important;
-    transition: .3s; }
-  .switch-color .nav-item a {
-    color: white !important; }
-  /* MOBILE: Text color in fullscreen menu */
-  .switch-color .nav-item:hover a {
-    /* MOBILE: Text hover color in fullscreen menu */
-    color: gray !important;
-    transition: .3s; }
-  .switch-color #logo-left {
-    /* MOBILE: Change logo image on switch */
-    content: url(ATV_logo_inverted.png);
-    transition: .3s; }
-  .switch-color .animated-icon span {
-    /* MOBILE: Change nav toggler color on switch */
-    background: white;
-    transition: .3s; } }
-
-/* Add transition while shrinking logo on scroll */
-#logo-left, #logo-center {
-  transition: 0.8s; }
-
-/* Shrinking logo on scroll */
-.logo-shrink {
-  width: 150px; }
+.navbar img {
+  /* Add transition while shrinking logo on scroll */
+  transition: 0.8s !important; }
 
 /* Override dropdown's click highlight color */
 .dropdown-item:active {
@@ -174,7 +122,7 @@ drop {
     margin: 0;
     margin-top: -200px; } }
 
-/* Remove blank space under footer on iPad */
+/* Remove blank space below footer on iPad */
 body {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important; }
