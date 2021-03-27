@@ -1,0 +1,107 @@
+/* Animation */
+@-webkit-keyframes 
+pulsate {  0% {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+ opacity: 1;
+}
+ 45% {
+ -webkit-transform: scale(2);
+ transform: scale(2);
+ opacity: 0;
+}
+}
+@keyframes 
+pulsate {  0% {
+ -webkit-transform: scale(1);
+ transform: scale(1);
+ opacity: 1;
+}
+ 45% {
+ -webkit-transform: scale(2);
+ transform: scale(2);
+ opacity: 0;
+}
+}
+
+body { margin: 0; }
+
+/* Hotspot */
+
+#hotspotImg {
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#hotspotImg .img-responsive { max-width: 100%; }
+
+#hotspotImg .hot-spot-light {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+#hotspotImg .hot-spot-light .circle {
+  display: block;
+  position: absolute;
+  top: 49.7%;
+  left: 49.65%;
+  width: 2em;
+  height: 2em;
+  margin: -1em auto auto -1em;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  border-radius: 50%;
+  border: 1.8px solid #ffffff;
+  opacity: 0;
+  -webkit-animation: pulsate 2s ease-out infinite;
+  animation: pulsate 2s ease-out infinite;
+}
+
+#hotspotImg .hot-spot-light .tooltip {
+  background-color: #ffffff;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  color: #000000;
+  display: none;
+  font-size: 14px;
+  opacity: 1.0;
+  left: 5px;
+  padding: 10px 10px;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: 280px;
+  z-index: 999;
+}
+
+#hotspotImg .hot-spot-light .tooltip .img-row {
+  padding: 10px;
+  text-align: center;
+}
+
+#hotspotImg .hot-spot-light .tooltip .text-row { padding: 15px; }
+
+#hotspotImg .hot-spot-light .tooltip h4 {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ffffff;
+}
+
+#hotspotImg .hot-spot-light .tooltip p {
+  font-size: 14px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+
+#hotspotImg .hot-spot-light .tooltip p:last-child { margin-bottom: 0; }
