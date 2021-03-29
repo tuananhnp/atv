@@ -4,10 +4,13 @@
   font-family: 'Salzburg';
   src: url("fonts/Salzburg.ttf"); }
 
-/* Remove scroll bar */
+/* Remove scroll bar in Chrome */
 html::-webkit-scrollbar {
-  width: 0 !important;
-  height: 0 !important; }
+  display: none; }
+
+/* Remove scroll bar in Firefox */
+html {
+  scrollbar-width: none; }
 
 /* Full-height cover section */
 html, body {

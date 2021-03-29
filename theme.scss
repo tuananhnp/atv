@@ -16,7 +16,7 @@ $enable-rounded:            false;
 $enable-shadows:            false;
 $enable-gradients:          false;
 $enable-transitions:        true;
-$enable-hover-media-query:  true;
+$enable-hover-media-query:  false;
 $enable-grid-classes:       true;
 $enable-print-styles:       true;
 
@@ -60,8 +60,12 @@ $enable-responsive-font-sizes: true;
 $font-size-base: 1rem;
 
 
-/* Remove scroll bar */
-html::-webkit-scrollbar {width: 0 !important; height: 0 !important;}
+/* Remove scroll bar in Chrome */
+html::-webkit-scrollbar {display: none;}
+
+
+/* Remove scroll bar in Firefox */
+html {scrollbar-width: none;}
 
 
 /* Full-height cover section */
