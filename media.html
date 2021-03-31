@@ -7,13 +7,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
   <link rel="stylesheet" href="css/animated_nav_icon.css">
-  <link rel="stylesheet" href="css/scrolltotop_arrow_style.css" type="text/css">
+  <link rel="stylesheet" href="css/scrolltotop_arrow_style.css">
   <link rel="stylesheet" href="css/plyr.css" type="text/css">
-  <link rel="stylesheet" href="css/responsive.audio.player.css" type="text/css">
+  <link rel="stylesheet" href="css/responsive.audio.player.css">
 </head>
 
 <body oncontextmenu="return false">
-  <div id="scrolltotop_parent" class="scrolltotop_hide_onload" style="display: flex;">
+  <div id="scrolltotop_parent" class="scrolltotop_hide_onload">
     <div tabindex="0" id="scrolltotop_arrow"></div>
   </div>
   <nav class="navbar navbar-expand-lg navbar-light">
@@ -24,9 +24,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar4">
         <ul class="navbar-nav text-center ml-auto">
-          <li class="nav-item px-1"> <a class="nav-link" href="blog/design.html">DESIGN</a> </li>
+          <li class="nav-item px-1"> <a class="nav-link" href="blog/design">DESIGN</a> </li>
           <li class="nav-item px-1"> <a class="nav-link" href="../techniques">TECHNIQUES</a> </li>
-          <li class="nav-item px-1"> <a class="nav-link active" href="../../media.html">MUSIC</a> </li>
+          <li class="nav-item px-1"> <a class="nav-link active" href="../../media">MUSIC</a> </li>
         </ul>
       </div>
     </div>
@@ -141,11 +141,33 @@
       </div>
     </div>
   </div>
+  <div class="py-3">
+    <div class="container">
+      <div class="column add-bottom">
+        <div id="mainwrap">
+          <div id="nowPlay">
+            <span id="npAction">Paused.</span><span id="npTitle"></span>
+          </div>
+          <div id="audiowrap">
+            <div id="audio0">
+              <audio id="audio1" preload="" controls="">Your browser does not support HTML5 Audio! 😢</audio>
+            </div>
+            <div id="tracks">
+              <a id="btnPrev">←</a><a id="btnNext">→</a>
+            </div>
+          </div>
+          <div id="plwrap" class="mx-0 px-0">
+            <ul id="plList" class="mx-0 px-0"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="py-5 bg-secondary" style="height: 100vh;">
     <div class="container-fluid">
       <div class="row">
         <div class="mx-auto col-md-6 col-lg-5">
-          <svg version="1.1" id="my-svg1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 133.5 131.2" style="" xml:space="preserve">
+          <svg version="1.1" id="my-svg1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 133.5 131.2"  xml:space="preserve">
             <style type="text/css">
               .st0 {
                 fill: none;
@@ -184,7 +206,7 @@
               <path id="XMLID_1515_" class="st0 wgoWyXiY_14" d="M51.2,81.3c2.3,2.5,2.7,7.6,5.4,8.6"></path>
             </g>
           </svg>
-          <svg version="1.1" id="my-svg2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 133.5 131.2" style="" xml:space="preserve">
+          <svg version="1.1" id="my-svg2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 133.5 131.2"  xml:space="preserve">
             <style type="text/css">
               .st0 {
                 fill: none;
@@ -334,7 +356,7 @@
               <path id="XMLID_1717_" class="st0 rIlmBHyz_117" d="M65.9,82c-0.5,0.5-1.3,0.8-2,0.9"></path>
             </g>
           </svg>
-          <svg version="1.1" id="my-svg3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 133.5 131.2" style="" xml:space="preserve">
+          <svg version="1.1" id="my-svg3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 133.5 131.2"  xml:space="preserve">
             <style type="text/css">
               .st0 {
                 fill: none;
@@ -607,7 +629,7 @@
         <div class="col-lg-6 p-3 col-12 col-md-6">
           <h5> <b>Topics</b> </h5>
           <ul class="list-unstyled">
-            <li> <a href="blog/design.html">Design</a> </li>
+            <li> <a href="blog/design">Design</a> </li>
             <li> <a href="../techniques">Techniques</a> </li>
           </ul>
         </div>
@@ -624,7 +646,7 @@
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" style=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" ></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="js/html5media.min.js"></script>
   <script src="js/plyr.min.js"></script>
@@ -639,18 +661,27 @@
       });
     });
   </script>
-  <script style="">
-    var $elem = $('#my-svg1, #my-svg2, #my-svg3');
+  <script>
+    var $svg = $('#my-svg1, #my-svg2, #my-svg3');
     var in_view = new Waypoint.Inview({
-      element: $elem[0],
+      element: $svg[0],
       enter: function() {
-        $elem.addClass('animated');
+        $svg.addClass('animated1');
+        setTimeout(function() {
+          $svg.addClass('animated2');
+        }, 1000)
+        setTimeout(function() {
+          $svg.addClass('animated3');
+        }, 3000)
       },
       exited: function() {
-        $elem.removeClass('animated');
+        $svg.removeClass('animated1');
+        $svg.removeClass('animated2');
+        $svg.removeClass('animated3');
       },
     });
   </script>
+  
 </body>
 
 </html>
