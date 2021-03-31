@@ -130,98 +130,88 @@ body {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important; }
 
+/* Animated SVGs */
 #my-svg1, #my-svg2, #my-svg3 {
-  position: absolute; }
+  position: absolute;
+  opacity: 0; }
 
-#my-svg1.animated .wgoWyXiY_0 {
-  stroke-dasharray: 46 48;
-  stroke-dashoffset: 47;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 0ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 0ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_1 {
-  stroke-dasharray: 16 18;
-  stroke-dashoffset: 17;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 142ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 142ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_2 {
-  stroke-dasharray: 15 17;
-  stroke-dashoffset: 16;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 285ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 285ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_3 {
-  stroke-dasharray: 16 18;
-  stroke-dashoffset: 17;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 428ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 428ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_4 {
-  stroke-dasharray: 13 15;
-  stroke-dashoffset: 14;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 571ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 571ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_5 {
-  stroke-dasharray: 22 24;
-  stroke-dashoffset: 23;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 714ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 714ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_6 {
-  stroke-dasharray: 12 14;
-  stroke-dashoffset: 13;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 857ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 857ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_7 {
-  stroke-dasharray: 10 12;
-  stroke-dashoffset: 11;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 1000ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 1000ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_8 {
-  stroke-dasharray: 34 36;
-  stroke-dashoffset: 35;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 1142ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 1142ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_9 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 1285ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 1285ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_10 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 1428ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 1428ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_11 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 1571ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 1571ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_12 {
-  stroke-dasharray: 8 10;
-  stroke-dashoffset: 9;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 1714ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 1714ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_13 {
-  stroke-dasharray: 13 15;
-  stroke-dashoffset: 14;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 1857ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 1857ms forwards; }
-
-#my-svg1.animated .wgoWyXiY_14 {
-  stroke-dasharray: 11 13;
-  stroke-dashoffset: 12;
-  -webkit-animation: wgoWyXiY_draw 1000ms ease 2000ms forwards;
-          animation: wgoWyXiY_draw 1000ms ease 2000ms forwards; }
+#my-svg1.animated1 {
+  opacity: 1; }
+  #my-svg1.animated1 .wgoWyXiY_0 {
+    stroke-dasharray: 46 48;
+    stroke-dashoffset: 47;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 0ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 0ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_1 {
+    stroke-dasharray: 16 18;
+    stroke-dashoffset: 17;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 142ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 142ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_2 {
+    stroke-dasharray: 15 17;
+    stroke-dashoffset: 16;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 285ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 285ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_3 {
+    stroke-dasharray: 16 18;
+    stroke-dashoffset: 17;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 428ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 428ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_4 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 571ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 571ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_5 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 714ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 714ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_6 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 857ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 857ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_7 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 1000ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 1000ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_8 {
+    stroke-dasharray: 34 36;
+    stroke-dashoffset: 35;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 1142ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 1142ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_9 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 1285ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 1285ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_10 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 1428ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 1428ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_11 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 1571ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 1571ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_12 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 1714ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 1714ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_13 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 1857ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 1857ms forwards; }
+  #my-svg1.animated1 .wgoWyXiY_14 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: wgoWyXiY_draw 1000ms ease 2000ms forwards;
+            animation: wgoWyXiY_draw 1000ms ease 2000ms forwards; }
 
 @-webkit-keyframes wgoWyXiY_draw {
   100% {
@@ -247,713 +237,598 @@ body {
   100% {
     stroke-opacity: 0; } }
 
-#my-svg2.animated .rIlmBHyz_0 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 0ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 0ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_1 {
-  stroke-dasharray: 9 11;
-  stroke-dashoffset: 10;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 25ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 25ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_2 {
-  stroke-dasharray: 19 21;
-  stroke-dashoffset: 20;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 51ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 51ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_3 {
-  stroke-dasharray: 14 16;
-  stroke-dashoffset: 15;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 76ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 76ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_4 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 102ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 102ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_5 {
-  stroke-dasharray: 8 10;
-  stroke-dashoffset: 9;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 128ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 128ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_6 {
-  stroke-dasharray: 13 15;
-  stroke-dashoffset: 14;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 153ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 153ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_7 {
-  stroke-dasharray: 1 3;
-  stroke-dashoffset: 2;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 179ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 179ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_8 {
-  stroke-dasharray: 10 12;
-  stroke-dashoffset: 11;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 205ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 205ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_9 {
-  stroke-dasharray: 15 17;
-  stroke-dashoffset: 16;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 230ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 230ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_10 {
-  stroke-dasharray: 12 14;
-  stroke-dashoffset: 13;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 256ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 256ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_11 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 282ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 282ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_12 {
-  stroke-dasharray: 8 10;
-  stroke-dashoffset: 9;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 307ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 307ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_13 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 333ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 333ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_14 {
-  stroke-dasharray: 15 17;
-  stroke-dashoffset: 16;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 358ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 358ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_15 {
-  stroke-dasharray: 22 24;
-  stroke-dashoffset: 23;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 384ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 384ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_16 {
-  stroke-dasharray: 9 11;
-  stroke-dashoffset: 10;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 410ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 410ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_17 {
-  stroke-dasharray: 20 22;
-  stroke-dashoffset: 21;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 435ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 435ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_18 {
-  stroke-dasharray: 19 21;
-  stroke-dashoffset: 20;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 461ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 461ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_19 {
-  stroke-dasharray: 1 3;
-  stroke-dashoffset: 2;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 487ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 487ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_20 {
-  stroke-dasharray: 12 14;
-  stroke-dashoffset: 13;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 512ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 512ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_21 {
-  stroke-dasharray: 15 17;
-  stroke-dashoffset: 16;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 538ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 538ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_22 {
-  stroke-dasharray: 8 10;
-  stroke-dashoffset: 9;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 564ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 564ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_23 {
-  stroke-dasharray: 17 19;
-  stroke-dashoffset: 18;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 589ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 589ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_24 {
-  stroke-dasharray: 21 23;
-  stroke-dashoffset: 22;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 615ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 615ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_25 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 641ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 641ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_26 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 666ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 666ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_27 {
-  stroke-dasharray: 9 11;
-  stroke-dashoffset: 10;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 692ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 692ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_28 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 717ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 717ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_29 {
-  stroke-dasharray: 16 18;
-  stroke-dashoffset: 17;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 743ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 743ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_30 {
-  stroke-dasharray: 14 16;
-  stroke-dashoffset: 15;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 769ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 769ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_31 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 794ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 794ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_32 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 820ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 820ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_33 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 846ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 846ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_34 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 871ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 871ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_35 {
-  stroke-dasharray: 10 12;
-  stroke-dashoffset: 11;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 897ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 897ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_36 {
-  stroke-dasharray: 16 18;
-  stroke-dashoffset: 17;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 923ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 923ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_37 {
-  stroke-dasharray: 15 17;
-  stroke-dashoffset: 16;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 948ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 948ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_38 {
-  stroke-dasharray: 34 36;
-  stroke-dashoffset: 35;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 974ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 974ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_39 {
-  stroke-dasharray: 14 16;
-  stroke-dashoffset: 15;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1000ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1000ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_40 {
-  stroke-dasharray: 21 23;
-  stroke-dashoffset: 22;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1025ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1025ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_41 {
-  stroke-dasharray: 28 30;
-  stroke-dashoffset: 29;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1051ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1051ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_42 {
-  stroke-dasharray: 15 17;
-  stroke-dashoffset: 16;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1076ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1076ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_43 {
-  stroke-dasharray: 17 19;
-  stroke-dashoffset: 18;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1102ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1102ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_44 {
-  stroke-dasharray: 17 19;
-  stroke-dashoffset: 18;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1128ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1128ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_45 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1153ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1153ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_46 {
-  stroke-dasharray: 13 15;
-  stroke-dashoffset: 14;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1179ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1179ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_47 {
-  stroke-dasharray: 9 11;
-  stroke-dashoffset: 10;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1205ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1205ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_48 {
-  stroke-dasharray: 23 25;
-  stroke-dashoffset: 24;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1230ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1230ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_49 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1256ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1256ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_50 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1282ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1282ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_51 {
-  stroke-dasharray: 1 3;
-  stroke-dashoffset: 2;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1307ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1307ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_52 {
-  stroke-dasharray: 11 13;
-  stroke-dashoffset: 12;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1333ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1333ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_53 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1358ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1358ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_54 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1384ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1384ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_55 {
-  stroke-dasharray: 20 22;
-  stroke-dashoffset: 21;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1410ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1410ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_56 {
-  stroke-dasharray: 20 22;
-  stroke-dashoffset: 21;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1435ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1435ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_57 {
-  stroke-dasharray: 9 11;
-  stroke-dashoffset: 10;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1461ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1461ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_58 {
-  stroke-dasharray: 10 12;
-  stroke-dashoffset: 11;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1487ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1487ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_59 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1512ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1512ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_60 {
-  stroke-dasharray: 8 10;
-  stroke-dashoffset: 9;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1538ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1538ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_61 {
-  stroke-dasharray: 14 16;
-  stroke-dashoffset: 15;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1564ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1564ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_62 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1589ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1589ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_63 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1615ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1615ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_64 {
-  stroke-dasharray: 17 19;
-  stroke-dashoffset: 18;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1641ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1641ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_65 {
-  stroke-dasharray: 19 21;
-  stroke-dashoffset: 20;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1666ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1666ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_66 {
-  stroke-dasharray: 24 26;
-  stroke-dashoffset: 25;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1692ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1692ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_67 {
-  stroke-dasharray: 13 15;
-  stroke-dashoffset: 14;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1717ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1717ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_68 {
-  stroke-dasharray: 30 32;
-  stroke-dashoffset: 31;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1743ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1743ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_69 {
-  stroke-dasharray: 13 15;
-  stroke-dashoffset: 14;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1769ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1769ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_70 {
-  stroke-dasharray: 30 32;
-  stroke-dashoffset: 31;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1794ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1794ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_71 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1820ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1820ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_72 {
-  stroke-dasharray: 19 21;
-  stroke-dashoffset: 20;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1846ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1846ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_73 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1871ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1871ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_74 {
-  stroke-dasharray: 12 14;
-  stroke-dashoffset: 13;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1897ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1897ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_75 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1923ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1923ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_76 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1948ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1948ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_77 {
-  stroke-dasharray: 32 34;
-  stroke-dashoffset: 33;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 1974ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 1974ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_78 {
-  stroke-dasharray: 27 29;
-  stroke-dashoffset: 28;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2000ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2000ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_79 {
-  stroke-dasharray: 19 21;
-  stroke-dashoffset: 20;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2025ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2025ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_80 {
-  stroke-dasharray: 14 16;
-  stroke-dashoffset: 15;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2051ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2051ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_81 {
-  stroke-dasharray: 19 21;
-  stroke-dashoffset: 20;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2076ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2076ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_82 {
-  stroke-dasharray: 27 29;
-  stroke-dashoffset: 28;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2102ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2102ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_83 {
-  stroke-dasharray: 26 28;
-  stroke-dashoffset: 27;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2128ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2128ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_84 {
-  stroke-dasharray: 19 21;
-  stroke-dashoffset: 20;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2153ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2153ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_85 {
-  stroke-dasharray: 13 15;
-  stroke-dashoffset: 14;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2179ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2179ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_86 {
-  stroke-dasharray: 13 15;
-  stroke-dashoffset: 14;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2205ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2205ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_87 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2230ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2230ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_88 {
-  stroke-dasharray: 14 16;
-  stroke-dashoffset: 15;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2256ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2256ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_89 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2282ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2282ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_90 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2307ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2307ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_91 {
-  stroke-dasharray: 8 10;
-  stroke-dashoffset: 9;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2333ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2333ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_92 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2358ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2358ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_93 {
-  stroke-dasharray: 8 10;
-  stroke-dashoffset: 9;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2384ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2384ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_94 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2410ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2410ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_95 {
-  stroke-dasharray: 24 26;
-  stroke-dashoffset: 25;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2435ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2435ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_96 {
-  stroke-dasharray: 8 10;
-  stroke-dashoffset: 9;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2461ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2461ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_97 {
-  stroke-dasharray: 10 12;
-  stroke-dashoffset: 11;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2487ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2487ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_98 {
-  stroke-dasharray: 10 12;
-  stroke-dashoffset: 11;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2512ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2512ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_99 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2538ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2538ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_100 {
-  stroke-dasharray: 9 11;
-  stroke-dashoffset: 10;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2564ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2564ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_101 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2589ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2589ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_102 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2615ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2615ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_103 {
-  stroke-dasharray: 12 14;
-  stroke-dashoffset: 13;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2641ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2641ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_104 {
-  stroke-dasharray: 9 11;
-  stroke-dashoffset: 10;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2666ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2666ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_105 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2692ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2692ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_106 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2717ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2717ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_107 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2743ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2743ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_108 {
-  stroke-dasharray: 17 19;
-  stroke-dashoffset: 18;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2769ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2769ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_109 {
-  stroke-dasharray: 10 12;
-  stroke-dashoffset: 11;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2794ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2794ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_110 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2820ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2820ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_111 {
-  stroke-dasharray: 9 11;
-  stroke-dashoffset: 10;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2846ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2846ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_112 {
-  stroke-dasharray: 10 12;
-  stroke-dashoffset: 11;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2871ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2871ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_113 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2897ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2897ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_114 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2923ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2923ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_115 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2948ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2948ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_116 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 2974ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 2974ms forwards; }
-
-#my-svg2.animated .rIlmBHyz_117 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: rIlmBHyz_draw 2000ms ease 3000ms forwards;
-          animation: rIlmBHyz_draw 2000ms ease 3000ms forwards; }
+#my-svg2.animated2 {
+  opacity: 1; }
+  #my-svg2.animated2 .rIlmBHyz_0 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 0ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 0ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_1 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 25ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 25ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_2 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 51ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 51ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_3 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 76ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 76ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_4 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 102ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 102ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_5 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 128ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 128ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_6 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 153ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 153ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_7 {
+    stroke-dasharray: 1 3;
+    stroke-dashoffset: 2;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 179ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 179ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_8 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 205ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 205ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_9 {
+    stroke-dasharray: 15 17;
+    stroke-dashoffset: 16;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 230ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 230ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_10 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 256ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 256ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_11 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 282ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 282ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_12 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 307ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 307ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_13 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 333ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 333ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_14 {
+    stroke-dasharray: 15 17;
+    stroke-dashoffset: 16;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 358ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 358ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_15 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 384ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 384ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_16 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 410ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 410ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_17 {
+    stroke-dasharray: 20 22;
+    stroke-dashoffset: 21;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 435ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 435ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_18 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 461ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 461ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_19 {
+    stroke-dasharray: 1 3;
+    stroke-dashoffset: 2;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 487ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 487ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_20 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 512ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 512ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_21 {
+    stroke-dasharray: 15 17;
+    stroke-dashoffset: 16;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 538ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 538ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_22 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 564ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 564ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_23 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 589ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 589ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_24 {
+    stroke-dasharray: 21 23;
+    stroke-dashoffset: 22;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 615ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 615ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_25 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 641ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 641ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_26 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 666ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 666ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_27 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 692ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 692ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_28 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 717ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 717ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_29 {
+    stroke-dasharray: 16 18;
+    stroke-dashoffset: 17;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 743ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 743ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_30 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 769ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 769ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_31 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 794ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 794ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_32 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 820ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 820ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_33 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 846ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 846ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_34 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 871ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 871ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_35 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 897ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 897ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_36 {
+    stroke-dasharray: 16 18;
+    stroke-dashoffset: 17;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 923ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 923ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_37 {
+    stroke-dasharray: 15 17;
+    stroke-dashoffset: 16;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 948ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 948ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_38 {
+    stroke-dasharray: 34 36;
+    stroke-dashoffset: 35;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 974ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 974ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_39 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1000ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1000ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_40 {
+    stroke-dasharray: 21 23;
+    stroke-dashoffset: 22;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1025ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1025ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_41 {
+    stroke-dasharray: 28 30;
+    stroke-dashoffset: 29;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1051ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1051ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_42 {
+    stroke-dasharray: 15 17;
+    stroke-dashoffset: 16;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1076ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1076ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_43 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1102ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1102ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_44 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1128ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1128ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_45 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1153ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1153ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_46 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1179ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1179ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_47 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1205ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1205ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_48 {
+    stroke-dasharray: 23 25;
+    stroke-dashoffset: 24;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1230ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1230ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_49 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1256ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1256ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_50 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1282ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1282ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_51 {
+    stroke-dasharray: 1 3;
+    stroke-dashoffset: 2;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1307ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1307ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_52 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1333ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1333ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_53 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1358ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1358ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_54 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1384ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1384ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_55 {
+    stroke-dasharray: 20 22;
+    stroke-dashoffset: 21;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1410ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1410ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_56 {
+    stroke-dasharray: 20 22;
+    stroke-dashoffset: 21;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1435ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1435ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_57 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1461ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1461ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_58 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1487ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1487ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_59 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1512ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1512ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_60 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1538ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1538ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_61 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1564ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1564ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_62 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1589ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1589ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_63 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1615ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1615ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_64 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1641ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1641ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_65 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1666ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1666ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_66 {
+    stroke-dasharray: 24 26;
+    stroke-dashoffset: 25;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1692ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1692ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_67 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1717ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1717ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_68 {
+    stroke-dasharray: 30 32;
+    stroke-dashoffset: 31;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1743ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1743ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_69 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1769ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1769ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_70 {
+    stroke-dasharray: 30 32;
+    stroke-dashoffset: 31;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1794ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1794ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_71 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1820ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1820ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_72 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1846ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1846ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_73 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1871ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1871ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_74 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1897ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1897ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_75 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1923ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1923ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_76 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1948ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1948ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_77 {
+    stroke-dasharray: 32 34;
+    stroke-dashoffset: 33;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 1974ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 1974ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_78 {
+    stroke-dasharray: 27 29;
+    stroke-dashoffset: 28;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2000ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2000ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_79 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2025ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2025ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_80 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2051ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2051ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_81 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2076ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2076ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_82 {
+    stroke-dasharray: 27 29;
+    stroke-dashoffset: 28;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2102ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2102ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_83 {
+    stroke-dasharray: 26 28;
+    stroke-dashoffset: 27;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2128ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2128ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_84 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2153ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2153ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_85 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2179ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2179ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_86 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2205ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2205ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_87 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2230ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2230ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_88 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2256ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2256ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_89 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2282ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2282ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_90 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2307ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2307ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_91 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2333ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2333ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_92 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2358ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2358ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_93 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2384ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2384ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_94 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2410ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2410ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_95 {
+    stroke-dasharray: 24 26;
+    stroke-dashoffset: 25;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2435ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2435ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_96 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2461ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2461ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_97 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2487ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2487ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_98 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2512ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2512ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_99 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2538ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2538ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_100 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2564ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2564ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_101 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2589ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2589ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_102 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2615ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2615ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_103 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2641ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2641ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_104 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2666ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2666ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_105 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2692ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2692ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_106 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2717ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2717ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_107 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2743ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2743ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_108 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2769ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2769ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_109 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2794ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2794ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_110 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2820ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2820ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_111 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2846ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2846ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_112 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2871ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2871ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_113 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2897ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2897ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_114 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2923ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2923ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_115 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2948ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2948ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_116 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 2974ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 2974ms forwards; }
+  #my-svg2.animated2 .rIlmBHyz_117 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: rIlmBHyz_draw 2000ms ease 3000ms forwards;
+            animation: rIlmBHyz_draw 2000ms ease 3000ms forwards; }
 
 @-webkit-keyframes rIlmBHyz_draw {
   100% {
@@ -979,1103 +854,923 @@ body {
   100% {
     stroke-opacity: 0; } }
 
-#my-svg3.animated .nWGmgLjk_0 {
-  stroke-dasharray: 14 16;
-  stroke-dashoffset: 15;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 0ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 0ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_1 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 16ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 16ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_2 {
-  stroke-dasharray: 17 19;
-  stroke-dashoffset: 18;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 32ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 32ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_3 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 49ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 49ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_4 {
-  stroke-dasharray: 9 11;
-  stroke-dashoffset: 10;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 65ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 65ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_5 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 82ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 82ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_6 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 98ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 98ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_7 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 115ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 115ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_8 {
-  stroke-dasharray: 17 19;
-  stroke-dashoffset: 18;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 131ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 131ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_9 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 148ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 148ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_10 {
-  stroke-dasharray: 12 14;
-  stroke-dashoffset: 13;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 164ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 164ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_11 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 181ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 181ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_12 {
-  stroke-dasharray: 16 18;
-  stroke-dashoffset: 17;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 197ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 197ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_13 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 214ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 214ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_14 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 230ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 230ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_15 {
-  stroke-dasharray: 17 19;
-  stroke-dashoffset: 18;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 247ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 247ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_16 {
-  stroke-dasharray: 16 18;
-  stroke-dashoffset: 17;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 263ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 263ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_17 {
-  stroke-dasharray: 17 19;
-  stroke-dashoffset: 18;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 280ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 280ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_18 {
-  stroke-dasharray: 17 19;
-  stroke-dashoffset: 18;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 296ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 296ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_19 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 313ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 313ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_20 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 329ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 329ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_21 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 346ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 346ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_22 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 362ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 362ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_23 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 379ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 379ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_24 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 395ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 395ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_25 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 412ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 412ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_26 {
-  stroke-dasharray: 1 3;
-  stroke-dashoffset: 2;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 428ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 428ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_27 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 445ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 445ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_28 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 461ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 461ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_29 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 478ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 478ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_30 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 494ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 494ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_31 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 510ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 510ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_32 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 527ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 527ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_33 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 543ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 543ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_34 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 560ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 560ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_35 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 576ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 576ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_36 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 593ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 593ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_37 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 609ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 609ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_38 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 626ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 626ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_39 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 642ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 642ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_40 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 659ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 659ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_41 {
-  stroke-dasharray: 1 3;
-  stroke-dashoffset: 2;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 675ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 675ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_42 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 692ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 692ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_43 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 708ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 708ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_44 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 725ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 725ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_45 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 741ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 741ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_46 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 758ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 758ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_47 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 774ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 774ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_48 {
-  stroke-dasharray: 1 3;
-  stroke-dashoffset: 2;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 791ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 791ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_49 {
-  stroke-dasharray: 1 3;
-  stroke-dashoffset: 2;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 807ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 807ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_50 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 824ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 824ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_51 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 840ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 840ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_52 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 857ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 857ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_53 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 873ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 873ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_54 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 890ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 890ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_55 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 906ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 906ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_56 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 923ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 923ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_57 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 939ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 939ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_58 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 956ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 956ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_59 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 972ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 972ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_60 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 989ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 989ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_61 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1005ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1005ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_62 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1021ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1021ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_63 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1038ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1038ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_64 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1054ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1054ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_65 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1071ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1071ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_66 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1087ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1087ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_67 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1104ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1104ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_68 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1120ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1120ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_69 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1137ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1137ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_70 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1153ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1153ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_71 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1170ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1170ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_72 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1186ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1186ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_73 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1203ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1203ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_74 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1219ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1219ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_75 {
-  stroke-dasharray: 11 13;
-  stroke-dashoffset: 12;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1236ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1236ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_76 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1252ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1252ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_77 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1269ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1269ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_78 {
-  stroke-dasharray: 9 11;
-  stroke-dashoffset: 10;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1285ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1285ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_79 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1302ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1302ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_80 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1318ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1318ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_81 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1335ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1335ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_82 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1351ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1351ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_83 {
-  stroke-dasharray: 18 20;
-  stroke-dashoffset: 19;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1368ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1368ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_84 {
-  stroke-dasharray: 22 24;
-  stroke-dashoffset: 23;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1384ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1384ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_85 {
-  stroke-dasharray: 13 15;
-  stroke-dashoffset: 14;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1401ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1401ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_86 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1417ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1417ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_87 {
-  stroke-dasharray: 21 23;
-  stroke-dashoffset: 22;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1434ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1434ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_88 {
-  stroke-dasharray: 20 22;
-  stroke-dashoffset: 21;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1450ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1450ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_89 {
-  stroke-dasharray: 22 24;
-  stroke-dashoffset: 23;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1467ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1467ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_90 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1483ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1483ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_91 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1499ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1499ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_92 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1516ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1516ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_93 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1532ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1532ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_94 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1549ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1549ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_95 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1565ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1565ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_96 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1582ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1582ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_97 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1598ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1598ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_98 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1615ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1615ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_99 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1631ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1631ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_100 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1648ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1648ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_101 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1664ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1664ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_102 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1681ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1681ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_103 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1697ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1697ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_104 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1714ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1714ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_105 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1730ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1730ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_106 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1747ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1747ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_107 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1763ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1763ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_108 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1780ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1780ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_109 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1796ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1796ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_110 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1813ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1813ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_111 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1829ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1829ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_112 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1846ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1846ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_113 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1862ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1862ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_114 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1879ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1879ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_115 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1895ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1895ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_116 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1912ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1912ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_117 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1928ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1928ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_118 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1945ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1945ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_119 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1961ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1961ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_120 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1978ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1978ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_121 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 1994ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 1994ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_122 {
-  stroke-dasharray: 8 10;
-  stroke-dashoffset: 9;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2010ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2010ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_123 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2027ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2027ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_124 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2043ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2043ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_125 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2060ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2060ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_126 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2076ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2076ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_127 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2093ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2093ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_128 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2109ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2109ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_129 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2126ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2126ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_130 {
-  stroke-dasharray: 1 3;
-  stroke-dashoffset: 2;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2142ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2142ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_131 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2159ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2159ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_132 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2175ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2175ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_133 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2192ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2192ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_134 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2208ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2208ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_135 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2225ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2225ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_136 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2241ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2241ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_137 {
-  stroke-dasharray: 19 21;
-  stroke-dashoffset: 20;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2258ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2258ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_138 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2274ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2274ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_139 {
-  stroke-dasharray: 9 11;
-  stroke-dashoffset: 10;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2291ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2291ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_140 {
-  stroke-dasharray: 14 16;
-  stroke-dashoffset: 15;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2307ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2307ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_141 {
-  stroke-dasharray: 13 15;
-  stroke-dashoffset: 14;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2324ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2324ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_142 {
-  stroke-dasharray: 18 20;
-  stroke-dashoffset: 19;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2340ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2340ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_143 {
-  stroke-dasharray: 15 17;
-  stroke-dashoffset: 16;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2357ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2357ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_144 {
-  stroke-dasharray: 13 15;
-  stroke-dashoffset: 14;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2373ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2373ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_145 {
-  stroke-dasharray: 17 19;
-  stroke-dashoffset: 18;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2390ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2390ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_146 {
-  stroke-dasharray: 15 17;
-  stroke-dashoffset: 16;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2406ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2406ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_147 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2423ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2423ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_148 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2439ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2439ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_149 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2456ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2456ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_150 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2472ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2472ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_151 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2489ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2489ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_152 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2505ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2505ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_153 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2521ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2521ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_154 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2538ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2538ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_155 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2554ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2554ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_156 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2571ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2571ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_157 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2587ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2587ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_158 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2604ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2604ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_159 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2620ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2620ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_160 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2637ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2637ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_161 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2653ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2653ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_162 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2670ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2670ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_163 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2686ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2686ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_164 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2703ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2703ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_165 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2719ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2719ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_166 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2736ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2736ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_167 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2752ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2752ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_168 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2769ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2769ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_169 {
-  stroke-dasharray: 7 9;
-  stroke-dashoffset: 8;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2785ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2785ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_170 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2802ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2802ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_171 {
-  stroke-dasharray: 5 7;
-  stroke-dashoffset: 6;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2818ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2818ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_172 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2835ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2835ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_173 {
-  stroke-dasharray: 6 8;
-  stroke-dashoffset: 7;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2851ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2851ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_174 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2868ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2868ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_175 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2884ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2884ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_176 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2901ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2901ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_177 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2917ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2917ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_178 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2934ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2934ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_179 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2950ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2950ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_180 {
-  stroke-dasharray: 3 5;
-  stroke-dashoffset: 4;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2967ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2967ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_181 {
-  stroke-dasharray: 4 6;
-  stroke-dashoffset: 5;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2983ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2983ms forwards; }
-
-#my-svg3.animated .nWGmgLjk_182 {
-  stroke-dasharray: 2 4;
-  stroke-dashoffset: 3;
-  -webkit-animation: nWGmgLjk_draw 2000ms ease 2999ms forwards;
-          animation: nWGmgLjk_draw 2000ms ease 2999ms forwards; }
+#my-svg3.animated3 {
+  opacity: 1; }
+  #my-svg3.animated3 .nWGmgLjk_0 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 0ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 0ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_1 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 16ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 16ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_2 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 32ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 32ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_3 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 49ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 49ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_4 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 65ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 65ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_5 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 82ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 82ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_6 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 98ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 98ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_7 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 115ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 115ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_8 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 131ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 131ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_9 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 148ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 148ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_10 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 164ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 164ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_11 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 181ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 181ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_12 {
+    stroke-dasharray: 16 18;
+    stroke-dashoffset: 17;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 197ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 197ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_13 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 214ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 214ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_14 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 230ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 230ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_15 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 247ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 247ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_16 {
+    stroke-dasharray: 16 18;
+    stroke-dashoffset: 17;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 263ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 263ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_17 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 280ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 280ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_18 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 296ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 296ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_19 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 313ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 313ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_20 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 329ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 329ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_21 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 346ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 346ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_22 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 362ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 362ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_23 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 379ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 379ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_24 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 395ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 395ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_25 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 412ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 412ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_26 {
+    stroke-dasharray: 1 3;
+    stroke-dashoffset: 2;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 428ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 428ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_27 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 445ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 445ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_28 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 461ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 461ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_29 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 478ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 478ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_30 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 494ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 494ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_31 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 510ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 510ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_32 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 527ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 527ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_33 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 543ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 543ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_34 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 560ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 560ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_35 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 576ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 576ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_36 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 593ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 593ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_37 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 609ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 609ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_38 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 626ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 626ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_39 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 642ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 642ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_40 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 659ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 659ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_41 {
+    stroke-dasharray: 1 3;
+    stroke-dashoffset: 2;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 675ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 675ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_42 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 692ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 692ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_43 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 708ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 708ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_44 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 725ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 725ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_45 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 741ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 741ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_46 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 758ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 758ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_47 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 774ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 774ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_48 {
+    stroke-dasharray: 1 3;
+    stroke-dashoffset: 2;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 791ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 791ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_49 {
+    stroke-dasharray: 1 3;
+    stroke-dashoffset: 2;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 807ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 807ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_50 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 824ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 824ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_51 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 840ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 840ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_52 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 857ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 857ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_53 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 873ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 873ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_54 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 890ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 890ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_55 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 906ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 906ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_56 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 923ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 923ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_57 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 939ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 939ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_58 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 956ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 956ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_59 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 972ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 972ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_60 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 989ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 989ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_61 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1005ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1005ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_62 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1021ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1021ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_63 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1038ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1038ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_64 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1054ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1054ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_65 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1071ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1071ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_66 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1087ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1087ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_67 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1104ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1104ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_68 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1120ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1120ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_69 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1137ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1137ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_70 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1153ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1153ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_71 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1170ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1170ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_72 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1186ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1186ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_73 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1203ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1203ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_74 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1219ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1219ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_75 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1236ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1236ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_76 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1252ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1252ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_77 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1269ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1269ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_78 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1285ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1285ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_79 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1302ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1302ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_80 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1318ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1318ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_81 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1335ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1335ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_82 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1351ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1351ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_83 {
+    stroke-dasharray: 18 20;
+    stroke-dashoffset: 19;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1368ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1368ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_84 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1384ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1384ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_85 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1401ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1401ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_86 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1417ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1417ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_87 {
+    stroke-dasharray: 21 23;
+    stroke-dashoffset: 22;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1434ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1434ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_88 {
+    stroke-dasharray: 20 22;
+    stroke-dashoffset: 21;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1450ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1450ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_89 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1467ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1467ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_90 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1483ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1483ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_91 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1499ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1499ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_92 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1516ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1516ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_93 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1532ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1532ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_94 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1549ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1549ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_95 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1565ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1565ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_96 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1582ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1582ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_97 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1598ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1598ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_98 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1615ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1615ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_99 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1631ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1631ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_100 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1648ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1648ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_101 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1664ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1664ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_102 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1681ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1681ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_103 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1697ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1697ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_104 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1714ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1714ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_105 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1730ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1730ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_106 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1747ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1747ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_107 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1763ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1763ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_108 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1780ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1780ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_109 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1796ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1796ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_110 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1813ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1813ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_111 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1829ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1829ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_112 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1846ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1846ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_113 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1862ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1862ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_114 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1879ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1879ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_115 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1895ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1895ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_116 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1912ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1912ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_117 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1928ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1928ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_118 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1945ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1945ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_119 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1961ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1961ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_120 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1978ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1978ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_121 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 1994ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 1994ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_122 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2010ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2010ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_123 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2027ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2027ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_124 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2043ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2043ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_125 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2060ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2060ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_126 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2076ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2076ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_127 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2093ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2093ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_128 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2109ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2109ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_129 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2126ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2126ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_130 {
+    stroke-dasharray: 1 3;
+    stroke-dashoffset: 2;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2142ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2142ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_131 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2159ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2159ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_132 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2175ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2175ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_133 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2192ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2192ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_134 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2208ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2208ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_135 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2225ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2225ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_136 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2241ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2241ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_137 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2258ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2258ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_138 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2274ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2274ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_139 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2291ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2291ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_140 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2307ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2307ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_141 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2324ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2324ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_142 {
+    stroke-dasharray: 18 20;
+    stroke-dashoffset: 19;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2340ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2340ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_143 {
+    stroke-dasharray: 15 17;
+    stroke-dashoffset: 16;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2357ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2357ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_144 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2373ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2373ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_145 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2390ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2390ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_146 {
+    stroke-dasharray: 15 17;
+    stroke-dashoffset: 16;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2406ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2406ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_147 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2423ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2423ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_148 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2439ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2439ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_149 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2456ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2456ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_150 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2472ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2472ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_151 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2489ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2489ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_152 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2505ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2505ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_153 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2521ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2521ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_154 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2538ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2538ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_155 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2554ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2554ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_156 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2571ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2571ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_157 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2587ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2587ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_158 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2604ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2604ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_159 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2620ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2620ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_160 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2637ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2637ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_161 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2653ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2653ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_162 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2670ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2670ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_163 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2686ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2686ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_164 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2703ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2703ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_165 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2719ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2719ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_166 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2736ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2736ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_167 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2752ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2752ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_168 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2769ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2769ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_169 {
+    stroke-dasharray: 7 9;
+    stroke-dashoffset: 8;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2785ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2785ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_170 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2802ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2802ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_171 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2818ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2818ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_172 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2835ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2835ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_173 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2851ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2851ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_174 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2868ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2868ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_175 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2884ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2884ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_176 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2901ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2901ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_177 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2917ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2917ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_178 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2934ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2934ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_179 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2950ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2950ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_180 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2967ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2967ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_181 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2983ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2983ms forwards; }
+  #my-svg3.animated3 .nWGmgLjk_182 {
+    stroke-dasharray: 2 4;
+    stroke-dashoffset: 3;
+    -webkit-animation: nWGmgLjk_draw 2000ms ease 2999ms forwards;
+            animation: nWGmgLjk_draw 2000ms ease 2999ms forwards; }
 
 @-webkit-keyframes nWGmgLjk_draw {
   100% {
