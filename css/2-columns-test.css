@@ -1,0 +1,45 @@
+@media (min-width: 767px) {
+	.fixed-right {
+    position: fixed !important;
+    top: 10rem;
+    right: 0;
+  }
+  .svg-box {
+    height: 100vh !important;
+    margin-top: 10rem !important;
+  }
+}
+
+@media (min-width: 767px) {
+  .svg-title-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .svg-title-desktop-starrynight, .svg-title-desktop-moomin-front {
+    display: none !important;
+  }
+}
+
+.svg-title-desktop-starrynight {
+  position: absolute;
+  opacity: 1;
+  transition: 0.5s;
+  }
+
+.svg-title-desktop-moomin-front {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+  }
+
+.svg-title-desktop-starrynight.inactive {
+  opacity: 0;
+  transition: 0.5s;
+  }
+
+.svg-title-desktop-starrynight.active, .svg-title-desktop-moomin-front.active {
+  opacity: 1;
+  transition: 0.5s;
+  }

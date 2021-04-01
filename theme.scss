@@ -214,16 +214,10 @@ body {
 
 
 /* Animated SVGs */
-#moomin-back1, #moomin-back2, #moomin-back3, #moomin-front, #starrynight-back, #test {
+#moomin-back1, #moomin-back2, #moomin-back3, #moomin-front, #starrynight-back {
   position: absolute;
   opacity: 0;
 }
-
-#test.animated {
-  opacity: 1;
-	.BLRGtgFc_0{stroke-dasharray:1028 1030;stroke-dashoffset:1029;animation:BLRGtgFc_draw 4356ms ease-in-out 0ms forwards;}.BLRGtgFc_1{stroke-dasharray:151 153;stroke-dashoffset:152;animation:BLRGtgFc_draw 643ms ease-in-out 4356ms forwards;}@keyframes BLRGtgFc_draw{100%{stroke-dashoffset:0;}}@keyframes BLRGtgFc_fade{0%{stroke-opacity:1;}95.65217391304348%{stroke-opacity:1;}100%{stroke-opacity:0;}}
-}
-
 
 #moomin-back1.animated1 {
   opacity: 1;
