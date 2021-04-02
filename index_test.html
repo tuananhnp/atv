@@ -6,47 +6,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
+  <link rel="stylesheet" href="css/fader.css" type="text/css">
   <link rel="stylesheet" href="css/animated_nav_icon.css">
-  <link rel="stylesheet" href="css/scrolltotop_arrow_style.css">
-  <link rel="stylesheet" href="css/plyr.css" type="text/css">
-  <link rel="stylesheet" href="css/responsive.audio.player.css">
+  <link rel="stylesheet" href="css/scrolltotop_arrow_style.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="css/universal-parallax.css" type="text/css">
+  <link rel="stylesheet" href="css/jquery.hotspot.dark.css">
+  <link rel="stylesheet" href="css/jquery.hotspot.light.css">
   <link rel="stylesheet" href="css/2-columns-test.css">
 </head>
 
 <body oncontextmenu="return false">
-  <div class="scrolltotop_hide_onload" id="scrolltotop_parent">
+  <svg id="fader" class="fade-out"></svg>
+  <script> fadeInPage();
+  </script>
+  <div id="scrolltotop_parent" class="scrolltotop_hide_onload scrolltotop_circle" style="display: flex;">
     <div tabindex="0" id="scrolltotop_arrow"></div>
+  </div>
+  <div class="text-center align-items-center d-flex pb-5 text-white" id="cover" >
+    <div class="parallax" data-parallax-image="img/Caspar_David_Friedrich_-_Mondaufgang_am_Meer_-_Google_Art_Project.jpg"></div>
+    <div class="container pb-5 mb-5">
+      <div class="row pt-5">
+        <div class="col-sm-10 col-10 col-lg-10 col-md-10 mx-auto">
+          <img class="img-fluid d-block mx-auto pb-3" src="ATV_logo_inverted.png" width="700">
+        </div>
+      </div>
+      <div class="row pb-5 mb-5">
+        <div class="pb-5 mx-auto mb-5 col-lg-12 col-sm-7 col-md-5 col-8">
+          <a class="btn btn-outline-light btn-lg my-1 mx-1 px-3 pb-1" href="#graphic_design">Graphic Design</a><a href="#photography" class="btn btn-outline-light btn-lg my-1 mx-1 px-3 pb-1">Photography</a><a class="btn btn-outline-light btn-lg my-1 mx-1 px-3 pb-1" href="#color_grading">Color Grading</a><a class="btn btn-outline-light btn-lg my-1 mx-1 px-3 pb-1" href="template_nav_fullscreen_fade">Nav Templates</a> </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-md-12">
+          <div class="blockquote">
+            <p class="mb-0">"Moonrise over the Sea"</p>
+            <p class="mb-0" style="font-size: 0.8rem">by <i>Caspar David Friedrich</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="bg-secondary">
     <div class="container-fluid">
       <div class="row">
-        <div class="fixed-right col-xl-7 col-md-6 col-12 pl-md-0 pr-md-3 pr-lg-5 my-5 px-4 pb-3 pb-sm-0">
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="text-light display-4">Graphic Design</h1>
-              <p class="lead text-light">Lead paragraph. A wonderful serenity has taken possession of my entire soul.</p>
-              <p class="text-light">Paragraph. Then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing.</p>
-            </div>
-          </div>
-          <div class="svg-title-desktop-starrynight row">
-            <div class="col-md-12">
-              <h2 class="starrynight-header pt-3 mb-0 text-light" style="color: #BFB262 !important">Figure 01</h2>
-              <p class="starrynight-caption text-light lead" style="color: #BFB262 !important"><i style="color: #BFB262 !important">Starry night</i> - Van Gogh</p>
-            </div>
-          </div>
-          <div class="svg-title-desktop-moomin-front row">
-            <div class="col-md-12">
-              <h2 class="moomin-front-header pt-3 mb-0 text-light" style="color: #BFB262 !important">Figure 02</h2>
-              <p class="moomin-front-caption text-light lead" style="color: #BFB262 !important"><i style="color: #BFB262 !important">Mymble</i> - Tove Jansson</p>
-            </div>
-          </div>
-        </div>
         <div class="col-12 col-xl-5 col-md-6">
           <div class="row" id="starrynight-section">
-            <div class="svg-box col-md-12 col-xl-9 mx-auto" style="height: 70vh">
-              <svg version="1.1" id="starrynight-back" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-402 195 155 171" xml:space="preserve" style="position: static !important;">
-                <style>
-                  .st0 {
+            <div class="svg-box col-md-12 col-xl-9 mx-auto col-10">
+              <svg version="1.1" id="starrynight-back" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-402 195 155 171" xml:space="preserve" style="position: static !important;" class="">
+                <style> .st0 {
                     fill: none;
                     stroke: #BFB262;
                     stroke-linecap: round;
@@ -192,14 +199,13 @@
                   <path id="XMLID_50_" class="st0 xxuxgPEX_106" d="M-284.8,305.8c7.3-2.2,13.9-4.9,23.9-4"></path>
                 </g>
               </svg>
-              <p class="svg-title-mobile lead text-light text-center"><i class="text-light">Starry night</i> - Van Gogh</p>
+              <p class="svg-title-mobile lead text-light text-center mb-5"><i class="text-light">Starry night</i> - Van Gogh</p>
             </div>
           </div>
           <div class="row" id="moomin-front-section">
-            <div class="svg-box mx-auto col-md-12 col-xl-10" style="height: 80vh">
-              <svg version="1.1" id="moomin-front" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-386 217.9 186.4 126.1" xml:space="preserve" style="position: static !important">
-                <style>
-                  .st0 {
+            <div class="svg-box mx-auto col-md-12 col-xl-10">
+              <svg version="1.1" id="moomin-front" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-386 217.9 186.4 126.1" xml:space="preserve" style="position: static !important" class="animated4">
+                <style> .st0 {
                     fill: none;
                     stroke: #C6B667;
                     stroke-linecap: round;
@@ -374,9 +380,224 @@
                   </g>
                 </g>
               </svg>
-              <p class="svg-title-mobile lead text-light text-center"><i class="text-light">Mymble</i> - Tove Jansson</p>
+              <p class="svg-title-mobile lead text-light text-center mb-5"><i class="text-light">Mymble</i> - Tove Jansson</p>
             </div>
           </div>
+        </div>
+        <div class="col-xl-7 col-md-6 col-12 pl-md-0 pr-md-3 pr-lg-5 my-5 px-4 pb-3 pb-sm-0 order-first order-md-last">
+          <div class="floating-text">
+            <div class="row">
+              <div class="col-12">
+                <h1 class="text-light display-4">Graphic Design</h1>
+                <p class="text-light">Paragraph. Then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing.</p>
+              </div>
+            </div>
+            <div class="svg-title-desktop-starrynight row inactive">
+              <div class="col-md-12">
+                <h2 class="starrynight-header pt-3 mb-0 text-light" style="color: #BFB262 !important">Figure 01</h2>
+                <p class="starrynight-caption text-light lead" style="color: #BFB262 !important"><i style="color: #BFB262 !important">Starry night</i> - Van Gogh</p>
+              </div>
+            </div>
+            <div class="svg-title-desktop-moomin-front row active">
+              <div class="col-md-12">
+                <h2 class="moomin-front-header pt-3 mb-0 text-light" style="color: #BFB262 !important">Figure 02</h2>
+                <p class="moomin-front-caption text-light lead" style="color: #BFB262 !important"><i style="color: #BFB262 !important">Mymble</i> - Tove Jansson</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="h-100" style="position: relative;">
+    <div class="parallax__wrapper" style="position: relative;">
+      <div class="parallax__wrapper">
+        <div class="parallax" data-parallax-image="https://live.staticflickr.com/65535/50988942687_dc6e841ca2_k.jpg" style="background-image: url(&quot;https://live.staticflickr.com/65535/50988942687_dc6e841ca2_k.jpg&quot;); background-repeat: no-repeat; background-position: center center; background-size: cover;"></div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center py-4 bg-light" id="photography">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 p-0 pb-2 col-9">
+          <h1 class="mb-2">PHOTOGRAPHY</h1>
+          <p class="lead">Heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing. Oh, would I could describe these conceptions, could impress upon paper all that is living.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="" id="smooth">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 px-0">
+          <div class="owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+              <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 8040px;">
+                <div class="owl-item active" style="width: 1608px;">
+                  <div class="slide-item py-5 text-md-right text-center" style="	background-image: url(https://live.staticflickr.com/65535/50988852601_627ff03133_k.jpg);	background-position: center center;	background-size: cover;	background-repeat: no-repeat;">
+                    <div class="py-5 container mx-auto mt-4">
+                      <div class="row">
+                        <div class="mx-md-0 ml-md-auto text-light col-10 mx-auto col-md-8 p-5">
+                          <h1 class="mb-2 display-4">PERSONAL BLOG</h1>
+                          <a class="btn btn-lg btn-primary" href="personal_blog">View gallery</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 1608px;">
+                  <div class="slide-item py-5 text-md-right text-center" style="	background-image: url(https://live.staticflickr.com/65535/50998700688_cc6d015f53_k.jpg);	background-position: center center;	background-size: cover;	background-repeat: no-repeat;">
+                    <div class="py-5 container mx-auto mt-4">
+                      <div class="row">
+                        <div class="mx-md-0 ml-md-auto text-light col-10 mx-auto col-md-8 p-5">
+                          <h1 class="mb-2 display-4">SPACE &amp; INTERIOR</h1>
+                          <a class="btn btn-lg btn-primary" href="#">View gallery</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 1608px;">
+                  <div class="slide-item py-5 text-md-right text-center" style="	background-image: url(https://live.staticflickr.com/65535/50999517072_c2025ae21f_k.jpg);	background-position: center center;	background-size: cover;	background-repeat: no-repeat;">
+                    <div class="py-5 container mx-auto mt-4">
+                      <div class="row">
+                        <div class="mx-md-0 ml-md-auto text-light col-10 mx-auto col-md-8 p-5">
+                          <h1 class="mb-2 display-4">FOOD &amp; DRINK</h1>
+                          <a class="btn btn-lg btn-primary" href="#">View gallery</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 1608px;">
+                  <div class="slide-item py-5 text-md-right text-center" style="	background-image: url(https://live.staticflickr.com/65535/50999521652_bf4324f604_k.jpg);	background-position: center center;	background-size: cover;	background-repeat: no-repeat;">
+                    <div class="py-5 container mx-auto mt-4">
+                      <div class="row">
+                        <div class="mx-md-0 ml-md-auto col-10 mx-auto col-md-8 p-5">
+                          <h1 class="mb-2 display-4">FASHION LOOKBOOK</h1>
+                          <a class="btn btn-lg btn-primary" href="#">View gallery</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 1608px;">
+                  <div class="slide-item py-5 text-md-right text-center" style="	background-image: url(https://live.staticflickr.com/65535/50999399011_a7e66de408_k.jpg);	background-position: center center;	background-size: cover;	background-repeat: no-repeat;">
+                    <div class="py-5 container mx-auto mt-4">
+                      <div class="row">
+                        <div class="mx-md-0 ml-md-auto col-10 mx-auto col-md-8 p-5">
+                          <h1 class="mb-2 display-4">GENERAL PRODUCT</h1>
+                          <a class="btn btn-lg btn-primary" href="#">View gallery</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fa fa-angle-left" aria-hidden="true"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button></div>
+            <div class="owl-dots" style="position: absolute; bottom: 5px; left: calc(50% - 50px);"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>
+            <div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fa fa-angle-left" aria-hidden="true"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button></div>
+            <div class="owl-dots" style="position: absolute; bottom: 5px; left: calc(50% - 50px);"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center py-4 bg-light" id="color_grading">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 p-0 pb-2 col-9">
+          <h1 class="mb-2">INSTANT FILM SIMULATION</h1>
+          <p class="lead">I am specialized in simulating <i>instant film color</i>.<br><br>Swipe through examples below to see how digital images are turn into<br>a variety of instant emulsion of Polaroid and Fujifilm.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-primary" id="smooth">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="px-0 col-lg-12">
+          <div class="owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="owl-stage-outer">
+              <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 4824px;">
+                <div class="owl-item active" style="width: 1608px;">
+                  <div style="background-image: url(&quot;https://live.staticflickr.com/65535/50998708873_bb968eb7bb_k.jpg&quot;);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
+                    <img class="d-block img-fluid mx-auto b-5 col-md-8 px-0" src="img/IMG_6944p.png">
+                    <div class="mx-md-0 ml-md-0 col-md-12 mx-auto col-12 pt-3 pb-5">
+                      <h2 class="text-light text-center">Polaroid Impossible<br>600 Color</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 1608px;">
+                  <div style="	background-image: url(&quot;https://live.staticflickr.com/65535/50999409096_855b7153a4_k.jpg&quot;);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
+                    <img class="d-block img-fluid mx-auto b-5 col-md-8 px-0" src="img/IMG_7053p.png">
+                    <div class="mx-md-0 ml-md-0 col-md-12 mx-auto col-12 pt-3 pb-5">
+                      <h2 class="text-light text-center">Polaroid Impossible<br>PX 70 FF Color Shade</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 1608px;">
+                  <div style="	background-image: url(&quot;https://live.staticflickr.com/65535/50998708283_a35582ad8f_k.jpg&quot;);	background-position: center;	background-size: cover;	background-repeat: no-repeat;" class="carousel-item active">
+                    <img class="d-block img-fluid mx-auto b-5 col-md-8 px-0" src="img/IMG_6819p.png">
+                    <div class="mx-md-0 ml-md-0 col-md-12 mx-auto col-12 pt-3 pb-5">
+                      <h2 class="text-light text-center">Polaroid Impossible<br>PX 70</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fa fa-angle-left" aria-hidden="true"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button></div>
+            <div class="owl-dots" style="position: absolute; bottom: 5px; left: calc(50% - 50px);"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>
+            <div class="owl-nav"><button type="button" role="presentation" class="owl-prev disabled"><i class="fa fa-angle-left" aria-hidden="true"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button></div>
+            <div class="owl-dots" style="position: absolute; bottom: 5px; left: calc(50% - 50px);"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-3 bg-light" id="smooth">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-6 p-3">
+          <h5> <b>Main</b> </h5>
+          <ul class="list-unstyled">
+            <li> <a href="#">Graphic design</a> </li>
+            <li> <a href="#">Photography</a> </li>
+            <li> <a href="#">Color grading</a> </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-6 p-3">
+          <h5> <b>Others</b> </h5>
+          <ul class="list-unstyled">
+            <li> <a href="#">Contact me</a> </li>
+            <li> <a href="#">Digital to instant film</a> </li>
+            <li> <a href="media">Media</a> </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 p-3">
+          <h5> <b>About</b> </h5>
+          <p class="mb-0"> I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 p-3 col-5 mx-auto">
+          <div class="row">
+            <div class="col-md-12 text-center text-md-left">
+              <h5> <b>Follow Alex</b></h5>
+            </div>
+          </div>
+          <div class="row"><a href="#">
+            </a>
+            <div class="col-md-12 d-flex align-items-center justify-content-center justify-content-sm-start col-6 my-2 mx-auto"><a href="#">
+                <i class="d-block fa fa-facebook-official text-muted fa-lg mr-2"></i>
+              </a> <a href="#">
+                <i class="d-block fa fa-instagram text-muted fa-lg ml-2"></i>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mb-0 mt-2">© 2016-2021 Alex's Time Voyage. All rights reserved</p>
         </div>
       </div>
     </div>
@@ -384,18 +605,60 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="js/html5media.min.js"></script>
-  <script src="js/plyr.min.js"></script>
-  <script src="js/responsive.audio.player.js"></script>
+  <script src="js/fader.js"></script>
+  <script src="js/lucid.smooth.scroll.js"></script>
+  <script src="js/jquery.touchSwipe.min.js"></script>
   <script src="js/scrolltotop_arrow_code.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/prevent_vertical_scroll.js"></script>
+  <script src="js/universal-parallax.min.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/inview.min.js" script=""></script>
+  <script src="js/2-columns-test.js" script=""></script>
   <script>
     $(document).ready(function() {
       $('.nav-button').on('click', function() {
         $('.animated-icon').toggleClass('open');
       });
     });
+  </script>
+  <script>
+    $("body").on("contextmenu", "img", function(e) {
+      return false;
+    });
+  </script>
+  <script>
+    new universalParallax().init({
+      speed: 12
+    });
+  </script>
+  <script>
+    $(window).on('load', function() {
+      $(this).impulse();
+    });
+  </script>
+  <script>
+    $('.btn, .btn-outline, .btn-lg').click(function() {
+      var sectionTo = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top
+      }, 2000);
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $(".owl-carousel").owlCarousel();
+    });
+  </script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      nav: true,
+      navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    });
+  </script>
+  <script>
+    var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
+    dots.css('left', 'calc(50% - ' + dots.width() / 2 + 'px)');
   </script>
   <script>
     var $svg1 = $('#starrynight-back');
@@ -419,39 +682,6 @@
       exited: function() {
         $svg2.removeClass('animated4');
       },
-    });
-  </script>
-  <script >
-    // find the top of each section
-    var section1 = $('#starrynight-section').offset().top;
-    var section2 = $('#moomin-front-section').offset().top;
-    // number of pixels before the section to change image
-    var scrollOffset = 400;
-    // run this function when the window scrolls
-    $(window).scroll(function() {
-      // get the window height on scroll
-      var scroll = $(window).scrollTop() + scrollOffset;
-      // if scroll hits the top of section 1  
-      if (scroll < 1000) {
-        $('.svg-title-desktop-starrynight').fadeIn(function() {
-          $(this).addClass('inactive');
-        });
-        $('.svg-title-desktop-starrynight').fadeIn(function() {
-          $(this).addClass('active');
-        });
-        $('.svg-title-desktop-moomin-front').fadeIn(function() {
-          $(this).removeClass('active');
-        });
-      }
-      // if scroll hits the top of section 2
-      if (scroll > section2) {
-        $('.svg-title-desktop-starrynight').fadeIn(function() {
-          $(this).removeClass('active');
-        });
-        $('.svg-title-desktop-moomin-front').fadeIn(function() {
-          $(this).addClass('active');
-        });
-      }
     });
   </script>
   
