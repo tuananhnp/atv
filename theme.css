@@ -131,7 +131,7 @@ body {
   margin-bottom: 0 !important; }
 
 /* Animated SVGs */
-#moomin-back1, #moomin-back2, #moomin-back3, #moomin-front, #starrynight-back {
+#moomin-back1, #moomin-back2, #moomin-back3, #moomin-front, #starrynight-back, #starrynight-front1, #starrynight-front2 {
   position: absolute;
   opacity: 0; }
 
@@ -3036,6 +3036,905 @@ body {
   0% {
     stroke-opacity: 1; }
   96.07843137254902% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+
+#starrynight-front1.animated6 {
+  opacity: 1; }
+  #starrynight-front1.animated6 .HsCPopDQ_0 {
+    stroke-dasharray: 112 114;
+    stroke-dashoffset: 113;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 0ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 0ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_1 {
+    stroke-dasharray: 186 188;
+    stroke-dashoffset: 187;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 138ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 138ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_2 {
+    stroke-dasharray: 35 37;
+    stroke-dashoffset: 36;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 277ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 277ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_3 {
+    stroke-dasharray: 43 45;
+    stroke-dashoffset: 44;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 416ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 416ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_4 {
+    stroke-dasharray: 96 98;
+    stroke-dashoffset: 97;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 555ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 555ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_5 {
+    stroke-dasharray: 68 70;
+    stroke-dashoffset: 69;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 694ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 694ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_6 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 833ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 833ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_7 {
+    stroke-dasharray: 36 38;
+    stroke-dashoffset: 37;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 972ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 972ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_8 {
+    stroke-dasharray: 15 17;
+    stroke-dashoffset: 16;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 1111ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 1111ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_9 {
+    stroke-dasharray: 107 109;
+    stroke-dashoffset: 108;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 1250ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 1250ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_10 {
+    stroke-dasharray: 43 45;
+    stroke-dashoffset: 44;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 1388ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 1388ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_11 {
+    stroke-dasharray: 70 72;
+    stroke-dashoffset: 71;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 1527ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 1527ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_12 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 1666ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 1666ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_13 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 1805ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 1805ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_14 {
+    stroke-dasharray: 136 138;
+    stroke-dashoffset: 137;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 1944ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 1944ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_15 {
+    stroke-dasharray: 31 33;
+    stroke-dashoffset: 32;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 2083ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 2083ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_16 {
+    stroke-dasharray: 35 37;
+    stroke-dashoffset: 36;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 2222ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 2222ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_17 {
+    stroke-dasharray: 35 37;
+    stroke-dashoffset: 36;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 2361ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 2361ms forwards; }
+  #starrynight-front1.animated6 .HsCPopDQ_18 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: HsCPopDQ_draw 2500ms ease 2500ms forwards;
+            animation: HsCPopDQ_draw 2500ms ease 2500ms forwards; }
+
+@-webkit-keyframes HsCPopDQ_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes HsCPopDQ_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes HsCPopDQ_fade {
+  0% {
+    stroke-opacity: 1; }
+  95.65217391304348% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+
+@keyframes HsCPopDQ_fade {
+  0% {
+    stroke-opacity: 1; }
+  95.65217391304348% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+
+#starrynight-front2.animated7 {
+  opacity: 1; }
+  #starrynight-front2.animated7 .LNEKiQpY_0 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 0ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 0ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_1 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 13ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 13ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_2 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 26ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 26ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_3 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 40ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 40ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_4 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 53ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 53ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_5 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 67ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 67ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_6 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 80ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 80ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_7 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 93ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 93ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_8 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 107ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 107ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_9 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 120ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 120ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_10 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 134ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 134ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_11 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 147ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 147ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_12 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 161ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 161ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_13 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 174ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 174ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_14 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 187ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 187ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_15 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 201ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 201ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_16 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 214ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 214ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_17 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 228ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 228ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_18 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 241ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 241ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_19 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 255ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 255ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_20 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 268ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 268ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_21 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 281ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 281ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_22 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 295ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 295ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_23 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 308ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 308ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_24 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 322ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 322ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_25 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 335ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 335ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_26 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 348ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 348ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_27 {
+    stroke-dasharray: 16 18;
+    stroke-dashoffset: 17;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 362ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 362ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_28 {
+    stroke-dasharray: 16 18;
+    stroke-dashoffset: 17;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 375ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 375ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_29 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 389ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 389ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_30 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 402ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 402ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_31 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 416ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 416ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_32 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 429ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 429ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_33 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 442ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 442ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_34 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 456ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 456ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_35 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 469ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 469ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_36 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 483ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 483ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_37 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 496ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 496ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_38 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 510ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 510ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_39 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 523ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 523ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_40 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 536ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 536ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_41 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 550ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 550ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_42 {
+    stroke-dasharray: 9 11;
+    stroke-dashoffset: 10;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 563ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 563ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_43 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 577ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 577ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_44 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 590ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 590ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_45 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 604ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 604ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_46 {
+    stroke-dasharray: 6 8;
+    stroke-dashoffset: 7;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 617ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 617ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_47 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 630ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 630ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_48 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 644ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 644ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_49 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 657ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 657ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_50 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 671ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 671ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_51 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 684ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 684ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_52 {
+    stroke-dasharray: 14 16;
+    stroke-dashoffset: 15;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 697ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 697ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_53 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 711ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 711ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_54 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 724ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 724ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_55 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 738ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 738ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_56 {
+    stroke-dasharray: 8 10;
+    stroke-dashoffset: 9;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 751ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 751ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_57 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 765ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 765ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_58 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 778ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 778ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_59 {
+    stroke-dasharray: 13 15;
+    stroke-dashoffset: 14;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 791ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 791ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_60 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 805ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 805ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_61 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 818ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 818ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_62 {
+    stroke-dasharray: 19 21;
+    stroke-dashoffset: 20;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 832ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 832ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_63 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 845ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 845ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_64 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 859ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 859ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_65 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 872ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 872ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_66 {
+    stroke-dasharray: 17 19;
+    stroke-dashoffset: 18;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 885ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 885ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_67 {
+    stroke-dasharray: 16 18;
+    stroke-dashoffset: 17;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 899ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 899ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_68 {
+    stroke-dasharray: 16 18;
+    stroke-dashoffset: 17;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 912ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 912ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_69 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 926ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 926ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_70 {
+    stroke-dasharray: 11 13;
+    stroke-dashoffset: 12;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 939ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 939ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_71 {
+    stroke-dasharray: 12 14;
+    stroke-dashoffset: 13;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 953ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 953ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_72 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 966ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 966ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_73 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 979ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 979ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_74 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 993ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 993ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_75 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1006ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1006ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_76 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1020ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1020ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_77 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1033ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1033ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_78 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1046ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1046ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_79 {
+    stroke-dasharray: 10 12;
+    stroke-dashoffset: 11;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1060ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1060ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_80 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1073ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1073ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_81 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1087ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1087ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_82 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1100ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1100ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_83 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1114ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1114ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_84 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1127ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1127ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_85 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1140ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1140ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_86 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1154ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1154ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_87 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1167ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1167ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_88 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1181ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1181ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_89 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1194ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1194ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_90 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1208ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1208ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_91 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1221ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1221ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_92 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1234ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1234ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_93 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1248ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1248ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_94 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1261ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1261ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_95 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1275ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1275ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_96 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1288ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1288ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_97 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1302ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1302ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_98 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1315ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1315ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_99 {
+    stroke-dasharray: 5 7;
+    stroke-dashoffset: 6;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1328ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1328ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_100 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1342ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1342ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_101 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1355ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1355ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_102 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1369ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1369ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_103 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1382ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1382ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_104 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1395ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1395ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_105 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1409ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1409ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_106 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1422ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1422ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_107 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1436ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1436ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_108 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1449ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1449ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_109 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1463ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1463ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_110 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1476ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1476ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_111 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1489ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1489ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_112 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1503ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1503ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_113 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1516ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1516ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_114 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1530ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1530ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_115 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1543ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1543ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_116 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1557ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1557ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_117 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1570ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1570ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_118 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1583ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1583ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_119 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1597ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1597ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_120 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1610ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1610ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_121 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1624ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1624ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_122 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1637ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1637ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_123 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1651ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1651ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_124 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1664ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1664ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_125 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1677ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1677ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_126 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1691ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1691ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_127 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1704ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1704ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_128 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1718ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1718ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_129 {
+    stroke-dasharray: 4 6;
+    stroke-dashoffset: 5;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1731ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1731ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_130 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1744ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1744ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_131 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1758ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1758ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_132 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1771ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1771ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_133 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1785ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1785ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_134 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1798ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1798ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_135 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1812ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1812ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_136 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1825ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1825ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_137 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1838ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1838ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_138 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1852ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1852ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_139 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1865ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1865ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_140 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1879ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1879ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_141 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1892ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1892ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_142 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1906ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1906ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_143 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1919ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1919ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_144 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1932ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1932ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_145 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1946ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1946ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_146 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1959ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1959ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_147 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1973ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1973ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_148 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 1986ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 1986ms forwards; }
+  #starrynight-front2.animated7 .LNEKiQpY_149 {
+    stroke-dasharray: 3 5;
+    stroke-dashoffset: 4;
+    -webkit-animation: LNEKiQpY_draw 2000ms ease 2000ms forwards;
+            animation: LNEKiQpY_draw 2000ms ease 2000ms forwards; }
+
+@-webkit-keyframes LNEKiQpY_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes LNEKiQpY_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes LNEKiQpY_fade {
+  0% {
+    stroke-opacity: 1; }
+  95.1219512195122% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+
+@keyframes LNEKiQpY_fade {
+  0% {
+    stroke-opacity: 1; }
+  95.1219512195122% {
     stroke-opacity: 1; }
   100% {
     stroke-opacity: 0; } }

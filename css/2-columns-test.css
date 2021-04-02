@@ -1,7 +1,15 @@
 @media (min-width: 767px) {
-  .svg-box {
-    height: 100vh !important;
-    margin-top: 15rem !important;
+  .svg-box1 {
+	  height: 100vh !important;
+	  padding-top: 15rem;
+  }
+  .svg-box2 {
+	  height: 100vh !important;
+	  padding-top: 12rem;
+  }
+  .svg-box3 {
+	  height: 100vh !important;
+	  padding-top: 18rem;
   }
 }
 
@@ -14,19 +22,31 @@
 	position: -webkit-sticky;
 	top: 0;
 	padding-top: 15rem;
-	padding-bottom: 30rem;
+	padding-bottom: 22rem;
   }
 }
 
 @media (max-width: 767px) {
-  .svg-title-desktop-starrynight, .svg-title-desktop-moomin-front {
-    display: none !important;
-  }
+	.svg-box1, .svg-box2 {
+	  padding-bottom: 10rem;
+	}
+	.svg-box3 {
+	  padding-bottom: 15rem;
+	}
+	.svg-title-desktop-starrynight-front, .svg-title-desktop-starrynight-back, .svg-title-desktop-moomin-front {
+		display: none !important;
+	}
 }
 
-.svg-title-desktop-starrynight {
+.svg-title-desktop-starrynight-front {
   position: absolute;
   opacity: 1;
+  transition: 0.5s;
+  }
+  
+.svg-title-desktop-starrynight-back {
+  position: absolute;
+  opacity: 0;
   transition: 0.5s;
   }
 
@@ -36,12 +56,12 @@
   transition: 0.5s;
   }
 
-.svg-title-desktop-starrynight.inactive {
+.svg-title-desktop-starrynight-front.inactive {
   opacity: 0;
   transition: 0.5s;
   }
 
-.svg-title-desktop-starrynight.active, .svg-title-desktop-moomin-front.active {
+.svg-title-desktop-starrynight-front.active, .svg-title-desktop-starrynight-back.active, .svg-title-desktop-moomin-front.active {
   opacity: 1;
   transition: 0.5s;
   }
