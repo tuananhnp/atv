@@ -131,8 +131,8 @@ body {
   margin-bottom: 0 !important; }
 
 /* Animated SVGs */
-#moomin-front, #starrynight-back, #moomin-back1, #moomin-back2, #moomin-back3, #starrynight-front1, #starrynight-front2 {
-  opacity: 1; }
+#moomin-front, #starrynight-back, #moomin-back1, #moomin-back2, #moomin-back3, #starrynight-front1, #starrynight-front2, #claude-monet, #arthur-rackham {
+  opacity: 0; }
 
 #starrynight-front1, #starrynight-front2 {
   position: absolute; }
@@ -6279,6 +6279,681 @@ body {
     -webkit-animation-delay: 14s;
             animation-delay: 14s; }
 
+#arthur-rackham.animated {
+  opacity: 1; }
+  #arthur-rackham.animated .pJltqeOU_0 {
+    stroke-dasharray: 1150 1152;
+    stroke-dashoffset: 1151;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_1 {
+    stroke-dasharray: 1145 1147;
+    stroke-dashoffset: 1146;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_2 {
+    stroke-dasharray: 1139 1141;
+    stroke-dashoffset: 1140;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_3 {
+    stroke-dasharray: 1133 1135;
+    stroke-dashoffset: 1134;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_4 {
+    stroke-dasharray: 1127 1129;
+    stroke-dashoffset: 1128;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_5 {
+    stroke-dasharray: 1122 1124;
+    stroke-dashoffset: 1123;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_6 {
+    stroke-dasharray: 1116 1118;
+    stroke-dashoffset: 1117;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_7 {
+    stroke-dasharray: 1111 1113;
+    stroke-dashoffset: 1112;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_8 {
+    stroke-dasharray: 1106 1108;
+    stroke-dashoffset: 1107;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_9 {
+    stroke-dasharray: 1100 1102;
+    stroke-dashoffset: 1101;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_10 {
+    stroke-dasharray: 1095 1097;
+    stroke-dashoffset: 1096;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_11 {
+    stroke-dasharray: 1090 1092;
+    stroke-dashoffset: 1091;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_12 {
+    stroke-dasharray: 1084 1086;
+    stroke-dashoffset: 1085;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_13 {
+    stroke-dasharray: 1079 1081;
+    stroke-dashoffset: 1080;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_14 {
+    stroke-dasharray: 1074 1076;
+    stroke-dashoffset: 1075;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_15 {
+    stroke-dasharray: 1069 1071;
+    stroke-dashoffset: 1070;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+  #arthur-rackham.animated .pJltqeOU_16 {
+    stroke-dasharray: 1063 1065;
+    stroke-dashoffset: 1064;
+    -webkit-animation: pJltqeOU_draw 2000ms linear 0ms forwards;
+            animation: pJltqeOU_draw 2000ms linear 0ms forwards; }
+
+@-webkit-keyframes pJltqeOU_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes pJltqeOU_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes pJltqeOU_fade {
+  0% {
+    stroke-opacity: 1; }
+  93.54838709677419% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+
+@keyframes pJltqeOU_fade {
+  0% {
+    stroke-opacity: 1; }
+  93.54838709677419% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+  #arthur-rackham.animated .oAeZigLb_0 {
+    stroke-dasharray: 247 249;
+    stroke-dashoffset: 248;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_1 {
+    stroke-dasharray: 249 251;
+    stroke-dashoffset: 250;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_2 {
+    stroke-dasharray: 250 252;
+    stroke-dashoffset: 251;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_3 {
+    stroke-dasharray: 252 254;
+    stroke-dashoffset: 253;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_4 {
+    stroke-dasharray: 254 256;
+    stroke-dashoffset: 255;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_5 {
+    stroke-dasharray: 255 257;
+    stroke-dashoffset: 256;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_6 {
+    stroke-dasharray: 257 259;
+    stroke-dashoffset: 258;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_7 {
+    stroke-dasharray: 259 261;
+    stroke-dashoffset: 260;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_8 {
+    stroke-dasharray: 261 263;
+    stroke-dashoffset: 262;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_9 {
+    stroke-dasharray: 263 265;
+    stroke-dashoffset: 264;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_10 {
+    stroke-dasharray: 265 267;
+    stroke-dashoffset: 266;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_11 {
+    stroke-dasharray: 267 269;
+    stroke-dashoffset: 268;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_12 {
+    stroke-dasharray: 270 272;
+    stroke-dashoffset: 271;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_13 {
+    stroke-dasharray: 272 274;
+    stroke-dashoffset: 273;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_14 {
+    stroke-dasharray: 274 276;
+    stroke-dashoffset: 275;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_15 {
+    stroke-dasharray: 277 279;
+    stroke-dashoffset: 278;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .oAeZigLb_16 {
+    stroke-dasharray: 279 281;
+    stroke-dashoffset: 280;
+    -webkit-animation: oAeZigLb_draw 700ms ease-out 0ms forwards;
+            animation: oAeZigLb_draw 700ms ease-out 0ms forwards; }
+
+@-webkit-keyframes oAeZigLb_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes oAeZigLb_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes oAeZigLb_fade {
+  0% {
+    stroke-opacity: 1; }
+  91.83673469387755% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+
+@keyframes oAeZigLb_fade {
+  0% {
+    stroke-opacity: 1; }
+  91.83673469387755% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+  #arthur-rackham.animated .CkxPVGyP_0 {
+    stroke-dasharray: 146 148;
+    stroke-dashoffset: 147;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_1 {
+    stroke-dasharray: 143 145;
+    stroke-dashoffset: 144;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_2 {
+    stroke-dasharray: 141 143;
+    stroke-dashoffset: 142;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_3 {
+    stroke-dasharray: 139 141;
+    stroke-dashoffset: 140;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_4 {
+    stroke-dasharray: 136 138;
+    stroke-dashoffset: 137;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_5 {
+    stroke-dasharray: 134 136;
+    stroke-dashoffset: 135;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_6 {
+    stroke-dasharray: 132 134;
+    stroke-dashoffset: 133;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_7 {
+    stroke-dasharray: 130 132;
+    stroke-dashoffset: 131;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_8 {
+    stroke-dasharray: 128 130;
+    stroke-dashoffset: 129;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_9 {
+    stroke-dasharray: 125 127;
+    stroke-dashoffset: 126;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_10 {
+    stroke-dasharray: 123 125;
+    stroke-dashoffset: 124;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_11 {
+    stroke-dasharray: 121 123;
+    stroke-dashoffset: 122;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_12 {
+    stroke-dasharray: 119 121;
+    stroke-dashoffset: 120;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_13 {
+    stroke-dasharray: 117 119;
+    stroke-dashoffset: 118;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_14 {
+    stroke-dasharray: 115 117;
+    stroke-dashoffset: 116;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_15 {
+    stroke-dasharray: 113 115;
+    stroke-dashoffset: 114;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .CkxPVGyP_16 {
+    stroke-dasharray: 111 113;
+    stroke-dashoffset: 112;
+    -webkit-animation: CkxPVGyP_draw 500ms ease 0ms forwards;
+            animation: CkxPVGyP_draw 500ms ease 0ms forwards; }
+
+@-webkit-keyframes CkxPVGyP_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes CkxPVGyP_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes CkxPVGyP_fade {
+  0% {
+    stroke-opacity: 1; }
+  91.48936170212767% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+
+@keyframes CkxPVGyP_fade {
+  0% {
+    stroke-opacity: 1; }
+  91.48936170212767% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+  #arthur-rackham.animated .DQcZGLgR_0 {
+    stroke-dasharray: 186 188;
+    stroke-dashoffset: 187;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_1 {
+    stroke-dasharray: 185 187;
+    stroke-dashoffset: 186;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_2 {
+    stroke-dasharray: 184 186;
+    stroke-dashoffset: 185;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_3 {
+    stroke-dasharray: 183 185;
+    stroke-dashoffset: 184;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_4 {
+    stroke-dasharray: 181 183;
+    stroke-dashoffset: 182;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_5 {
+    stroke-dasharray: 180 182;
+    stroke-dashoffset: 181;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_6 {
+    stroke-dasharray: 179 181;
+    stroke-dashoffset: 180;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_7 {
+    stroke-dasharray: 178 180;
+    stroke-dashoffset: 179;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_8 {
+    stroke-dasharray: 177 179;
+    stroke-dashoffset: 178;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_9 {
+    stroke-dasharray: 176 178;
+    stroke-dashoffset: 177;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_10 {
+    stroke-dasharray: 175 177;
+    stroke-dashoffset: 176;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_11 {
+    stroke-dasharray: 173 175;
+    stroke-dashoffset: 174;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_12 {
+    stroke-dasharray: 172 174;
+    stroke-dashoffset: 173;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_13 {
+    stroke-dasharray: 171 173;
+    stroke-dashoffset: 172;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_14 {
+    stroke-dasharray: 170 172;
+    stroke-dashoffset: 171;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_15 {
+    stroke-dasharray: 169 171;
+    stroke-dashoffset: 170;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+  #arthur-rackham.animated .DQcZGLgR_16 {
+    stroke-dasharray: 168 170;
+    stroke-dashoffset: 169;
+    -webkit-animation: DQcZGLgR_draw 500ms ease 0ms forwards;
+            animation: DQcZGLgR_draw 500ms ease 0ms forwards; }
+
+@-webkit-keyframes DQcZGLgR_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes DQcZGLgR_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes DQcZGLgR_fade {
+  0% {
+    stroke-opacity: 1; }
+  91.48936170212767% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+
+@keyframes DQcZGLgR_fade {
+  0% {
+    stroke-opacity: 1; }
+  91.48936170212767% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+  #arthur-rackham.animated .BBXdWhRI_0 {
+    stroke-dasharray: 588 590;
+    stroke-dashoffset: 589;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_1 {
+    stroke-dasharray: 583 585;
+    stroke-dashoffset: 584;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_2 {
+    stroke-dasharray: 577 579;
+    stroke-dashoffset: 578;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_3 {
+    stroke-dasharray: 572 574;
+    stroke-dashoffset: 573;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_4 {
+    stroke-dasharray: 567 569;
+    stroke-dashoffset: 568;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_5 {
+    stroke-dasharray: 561 563;
+    stroke-dashoffset: 562;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_6 {
+    stroke-dasharray: 556 558;
+    stroke-dashoffset: 557;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_7 {
+    stroke-dasharray: 551 553;
+    stroke-dashoffset: 552;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_8 {
+    stroke-dasharray: 546 548;
+    stroke-dashoffset: 547;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_9 {
+    stroke-dasharray: 541 543;
+    stroke-dashoffset: 542;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_10 {
+    stroke-dasharray: 536 538;
+    stroke-dashoffset: 537;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_11 {
+    stroke-dasharray: 531 533;
+    stroke-dashoffset: 532;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_12 {
+    stroke-dasharray: 526 528;
+    stroke-dashoffset: 527;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_13 {
+    stroke-dasharray: 521 523;
+    stroke-dashoffset: 522;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_14 {
+    stroke-dasharray: 516 518;
+    stroke-dashoffset: 517;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_15 {
+    stroke-dasharray: 511 513;
+    stroke-dashoffset: 512;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+  #arthur-rackham.animated .BBXdWhRI_16 {
+    stroke-dasharray: 506 508;
+    stroke-dashoffset: 507;
+    -webkit-animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards;
+            animation: BBXdWhRI_draw 1500ms ease-out 0ms forwards; }
+
+@-webkit-keyframes BBXdWhRI_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes BBXdWhRI_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes BBXdWhRI_fade {
+  0% {
+    stroke-opacity: 1; }
+  92.98245614035088% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+
+@keyframes BBXdWhRI_fade {
+  0% {
+    stroke-opacity: 1; }
+  92.98245614035088% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+  #arthur-rackham.animated .jIaJNUNA_0 {
+    stroke-dasharray: 589 591;
+    stroke-dashoffset: 590;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_1 {
+    stroke-dasharray: 589 591;
+    stroke-dashoffset: 590;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_2 {
+    stroke-dasharray: 589 591;
+    stroke-dashoffset: 590;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_3 {
+    stroke-dasharray: 590 592;
+    stroke-dashoffset: 591;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_4 {
+    stroke-dasharray: 590 592;
+    stroke-dashoffset: 591;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_5 {
+    stroke-dasharray: 590 592;
+    stroke-dashoffset: 591;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_6 {
+    stroke-dasharray: 590 592;
+    stroke-dashoffset: 591;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_7 {
+    stroke-dasharray: 590 592;
+    stroke-dashoffset: 591;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_8 {
+    stroke-dasharray: 590 592;
+    stroke-dashoffset: 591;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_9 {
+    stroke-dasharray: 591 593;
+    stroke-dashoffset: 592;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_10 {
+    stroke-dasharray: 591 593;
+    stroke-dashoffset: 592;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_11 {
+    stroke-dasharray: 591 593;
+    stroke-dashoffset: 592;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_12 {
+    stroke-dasharray: 591 593;
+    stroke-dashoffset: 592;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_13 {
+    stroke-dasharray: 591 593;
+    stroke-dashoffset: 592;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_14 {
+    stroke-dasharray: 592 594;
+    stroke-dashoffset: 593;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_15 {
+    stroke-dasharray: 592 594;
+    stroke-dashoffset: 593;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+  #arthur-rackham.animated .jIaJNUNA_16 {
+    stroke-dasharray: 592 594;
+    stroke-dashoffset: 593;
+    -webkit-animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards;
+            animation: jIaJNUNA_draw 500ms ease-in-out 0ms forwards; }
+
+@-webkit-keyframes jIaJNUNA_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@keyframes jIaJNUNA_draw {
+  100% {
+    stroke-dashoffset: 0; } }
+
+@-webkit-keyframes jIaJNUNA_fade {
+  0% {
+    stroke-opacity: 1; }
+  91.48936170212767% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+
+@keyframes jIaJNUNA_fade {
+  0% {
+    stroke-opacity: 1; }
+  91.48936170212767% {
+    stroke-opacity: 1; }
+  100% {
+    stroke-opacity: 0; } }
+  #arthur-rackham.animated .stroke1 path {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  #arthur-rackham.animated .stroke2 path {
+    -webkit-animation-delay: 2.2s;
+            animation-delay: 2.2s; }
+  #arthur-rackham.animated .stroke3 path {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s; }
+  #arthur-rackham.animated .stroke4 path {
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s; }
+  #arthur-rackham.animated .stroke5 path {
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s; }
+  #arthur-rackham.animated .stroke6 path {
+    -webkit-animation-delay: 5.5s;
+            animation-delay: 5.5s; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -6300,7 +6975,7 @@ body {
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: black;
-  --secondary: #65302A;
+  --secondary: #213F63;
   --success: #28a745;
   --info: white;
   --warning: #ffc107;
@@ -7401,19 +8076,19 @@ pre {
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-  background-color: #d4c5c3; }
+  background-color: #c1c9d3; }
 
 .table-secondary th,
 .table-secondary td,
 .table-secondary thead th,
 .table-secondary tbody + tbody {
-  border-color: #af9390; }
+  border-color: #8c9bae; }
 
 .table-hover .table-secondary:hover {
-  background-color: #c9b7b4; }
+  background-color: #b2bcc8; }
   .table-hover .table-secondary:hover > td,
   .table-hover .table-secondary:hover > th {
-    background-color: #c9b7b4; }
+    background-color: #b2bcc8; }
 
 .table-success,
 .table-success > th,
@@ -8039,26 +8714,26 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #65302A;
-  border-color: #65302A; }
+  background-color: #213F63;
+  border-color: #213F63; }
   .btn-secondary:hover {
     color: #fff;
-    background-color: #4a231f;
-    border-color: #411f1b; }
+    background-color: #172d46;
+    border-color: #14273d; }
   .btn-secondary:focus, .btn-secondary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(124, 79, 74, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(66, 92, 122, 0.5); }
   .btn-secondary.disabled, .btn-secondary:disabled {
     color: #fff;
-    background-color: #65302A;
-    border-color: #65302A; }
+    background-color: #213F63;
+    border-color: #213F63; }
   .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
   .show > .btn-secondary.dropdown-toggle {
     color: #fff;
-    background-color: #411f1b;
-    border-color: #381b17; }
+    background-color: #14273d;
+    border-color: #112133; }
     .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-secondary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(124, 79, 74, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(66, 92, 122, 0.5); }
 
 .btn-success {
   color: #fff;
@@ -8220,25 +8895,25 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
 
 .btn-outline-secondary {
-  color: #65302A;
-  border-color: #65302A; }
+  color: #213F63;
+  border-color: #213F63; }
   .btn-outline-secondary:hover {
     color: #fff;
-    background-color: #65302A;
-    border-color: #65302A; }
+    background-color: #213F63;
+    border-color: #213F63; }
   .btn-outline-secondary:focus, .btn-outline-secondary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(101, 48, 42, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(33, 63, 99, 0.5); }
   .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-    color: #65302A;
+    color: #213F63;
     background-color: transparent; }
   .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
   .show > .btn-outline-secondary.dropdown-toggle {
     color: #fff;
-    background-color: #65302A;
-    border-color: #65302A; }
+    background-color: #213F63;
+    border-color: #213F63; }
     .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-secondary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(101, 48, 42, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(33, 63, 99, 0.5); }
 
 .btn-outline-success {
   color: #28a745;
@@ -9679,13 +10354,13 @@ input[type="button"].btn-block {
 
 .badge-secondary {
   color: #fff;
-  background-color: #65302A; }
+  background-color: #213F63; }
   a.badge-secondary:hover, a.badge-secondary:focus {
     color: #fff;
-    background-color: #411f1b; }
+    background-color: #14273d; }
   a.badge-secondary:focus, a.badge-secondary.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(101, 48, 42, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(33, 63, 99, 0.5); }
 
 .badge-success {
   color: #fff;
@@ -9790,13 +10465,13 @@ input[type="button"].btn-block {
     color: black; }
 
 .alert-secondary {
-  color: #351916;
-  background-color: #e0d6d4;
-  border-color: #d4c5c3; }
+  color: #112133;
+  background-color: #d3d9e0;
+  border-color: #c1c9d3; }
   .alert-secondary hr {
-    border-top-color: #c9b7b4; }
+    border-top-color: #b2bcc8; }
   .alert-secondary .alert-link {
-    color: #110807; }
+    color: #04080d; }
 
 .alert-success {
   color: #155724;
@@ -10010,15 +10685,15 @@ input[type="button"].btn-block {
     border-color: black; }
 
 .list-group-item-secondary {
-  color: #351916;
-  background-color: #d4c5c3; }
+  color: #112133;
+  background-color: #c1c9d3; }
   .list-group-item-secondary.list-group-item-action:hover, .list-group-item-secondary.list-group-item-action:focus {
-    color: #351916;
-    background-color: #c9b7b4; }
+    color: #112133;
+    background-color: #b2bcc8; }
   .list-group-item-secondary.list-group-item-action.active {
     color: #fff;
-    background-color: #351916;
-    border-color: #351916; }
+    background-color: #112133;
+    border-color: #112133; }
 
 .list-group-item-success {
   color: #155724;
@@ -10735,12 +11410,12 @@ button.bg-primary:focus {
   background-color: black !important; }
 
 .bg-secondary {
-  background-color: #65302A !important; }
+  background-color: #213F63 !important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #411f1b !important; }
+  background-color: #14273d !important; }
 
 .bg-success {
   background-color: #28a745 !important; }
@@ -10830,7 +11505,7 @@ button.bg-dark:focus {
   border-color: black !important; }
 
 .border-secondary {
-  border-color: #65302A !important; }
+  border-color: #213F63 !important; }
 
 .border-success {
   border-color: #28a745 !important; }
@@ -13061,10 +13736,10 @@ a.text-primary:hover, a.text-primary:focus {
   color: black !important; }
 
 .text-secondary {
-  color: #65302A !important; }
+  color: #213F63 !important; }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #2f1614 !important; }
+  color: #0e1a2a !important; }
 
 .text-success {
   color: #28a745 !important; }
