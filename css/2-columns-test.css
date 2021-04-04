@@ -32,10 +32,10 @@
 
 @media (max-width: 767px) {
 	.svg-box1, .svg-box2, .svg-box3 {
-	  padding-bottom: 10rem;
+		height: 100vh;
 	}
 	.svg-box4 {
-	  padding-bottom: 15rem;
+		height: 100vh;
 	}
 	.svg-title-desktop {
 		display: none !important;

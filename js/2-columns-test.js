@@ -17,7 +17,7 @@ $(window).scroll(function() {
   }
   if (scroll > scene3) {
 	$('.svg-title-desktop h2').html("Figure 03");
-	$('.svg-title-desktop p').html("<i>Fillyjonk's wine bottle</i> - Van Gogh");
+	$('.svg-title-desktop p').html("<i>Fillyjonk's wine bottle</i> - Tove Jansson");
   }
   if (scroll > scene4) {
 	$('.svg-title-desktop h2').html("Figure 04");

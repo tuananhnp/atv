@@ -131,9 +131,14 @@ body {
   margin-bottom: 0 !important; }
 
 /* Animated SVGs */
-#moomin-back1, #moomin-back2, #moomin-back3, #moomin-front, #starrynight-back, #starrynight-front1, #starrynight-front2 {
-  position: absolute;
-  opacity: 0; }
+#moomin-front, #starrynight-back, #moomin-back1, #moomin-back2, #moomin-back3, #starrynight-front1, #starrynight-front2 {
+  opacity: 1; }
+
+#starrynight-front1, #starrynight-front2 {
+  position: absolute; }
+
+#moomin-back1, #moomin-back2, #moomin-back3 {
+  position: absolute; }
 
 #moomin-back1.animated {
   opacity: 1; }
@@ -3939,45 +3944,2340 @@ body {
   100% {
     stroke-opacity: 0; } }
 
-#stroke1 {
-  opacity: 0; }
-
-#stroke1.animated, #stroke2.animated {
+#claude-monet.animated {
   opacity: 1; }
-  #stroke1.animated .DhsHCpyD_0, #stroke2.animated .DhsHCpyD_0 {
-    stroke-dasharray: 496 498;
-    stroke-dashoffset: 497;
-    -webkit-animation: DhsHCpyD_draw 476ms ease 0ms forwards;
-            animation: DhsHCpyD_draw 476ms ease 0ms forwards; }
-  #stroke1.animated .DhsHCpyD_1, #stroke2.animated .DhsHCpyD_1 {
-    stroke-dasharray: 544 546;
-    stroke-dashoffset: 545;
-    -webkit-animation: DhsHCpyD_draw 523ms ease 476ms forwards;
-            animation: DhsHCpyD_draw 523ms ease 476ms forwards; }
+  #claude-monet.animated .yhdhksZi_0 {
+    stroke-dasharray: 41 43;
+    stroke-dashoffset: 42;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_1 {
+    stroke-dasharray: 40 42;
+    stroke-dashoffset: 41;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_2 {
+    stroke-dasharray: 40 42;
+    stroke-dashoffset: 41;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_3 {
+    stroke-dasharray: 40 42;
+    stroke-dashoffset: 41;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_4 {
+    stroke-dasharray: 40 42;
+    stroke-dashoffset: 41;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_5 {
+    stroke-dasharray: 41 43;
+    stroke-dashoffset: 42;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_6 {
+    stroke-dasharray: 41 43;
+    stroke-dashoffset: 42;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_7 {
+    stroke-dasharray: 42 44;
+    stroke-dashoffset: 43;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_8 {
+    stroke-dasharray: 43 45;
+    stroke-dashoffset: 44;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_9 {
+    stroke-dasharray: 44 46;
+    stroke-dashoffset: 45;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_10 {
+    stroke-dasharray: 45 47;
+    stroke-dashoffset: 46;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_11 {
+    stroke-dasharray: 46 48;
+    stroke-dashoffset: 47;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_12 {
+    stroke-dasharray: 130 132;
+    stroke-dashoffset: 131;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_13 {
+    stroke-dasharray: 131 133;
+    stroke-dashoffset: 132;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_14 {
+    stroke-dasharray: 131 133;
+    stroke-dashoffset: 132;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_15 {
+    stroke-dasharray: 132 134;
+    stroke-dashoffset: 133;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_16 {
+    stroke-dasharray: 133 135;
+    stroke-dashoffset: 134;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_17 {
+    stroke-dasharray: 134 136;
+    stroke-dashoffset: 135;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_18 {
+    stroke-dasharray: 135 137;
+    stroke-dashoffset: 136;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_19 {
+    stroke-dasharray: 136 138;
+    stroke-dashoffset: 137;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_20 {
+    stroke-dasharray: 137 139;
+    stroke-dashoffset: 138;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_21 {
+    stroke-dasharray: 138 140;
+    stroke-dashoffset: 139;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_22 {
+    stroke-dasharray: 139 141;
+    stroke-dashoffset: 140;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_23 {
+    stroke-dasharray: 140 142;
+    stroke-dashoffset: 141;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_24 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_25 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_26 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_27 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_28 {
+    stroke-dasharray: 46 48;
+    stroke-dashoffset: 47;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_29 {
+    stroke-dasharray: 45 47;
+    stroke-dashoffset: 46;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_30 {
+    stroke-dasharray: 45 47;
+    stroke-dashoffset: 46;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_31 {
+    stroke-dasharray: 44 46;
+    stroke-dashoffset: 45;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_32 {
+    stroke-dasharray: 43 45;
+    stroke-dashoffset: 44;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_33 {
+    stroke-dasharray: 43 45;
+    stroke-dashoffset: 44;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_34 {
+    stroke-dasharray: 42 44;
+    stroke-dashoffset: 43;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_35 {
+    stroke-dasharray: 42 44;
+    stroke-dashoffset: 43;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_36 {
+    stroke-dasharray: 148 150;
+    stroke-dashoffset: 149;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_37 {
+    stroke-dasharray: 147 149;
+    stroke-dashoffset: 148;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_38 {
+    stroke-dasharray: 147 149;
+    stroke-dashoffset: 148;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_39 {
+    stroke-dasharray: 146 148;
+    stroke-dashoffset: 147;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_40 {
+    stroke-dasharray: 146 148;
+    stroke-dashoffset: 147;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_41 {
+    stroke-dasharray: 145 147;
+    stroke-dashoffset: 146;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_42 {
+    stroke-dasharray: 145 147;
+    stroke-dashoffset: 146;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_43 {
+    stroke-dasharray: 145 147;
+    stroke-dashoffset: 146;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_44 {
+    stroke-dasharray: 145 147;
+    stroke-dashoffset: 146;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_45 {
+    stroke-dasharray: 145 147;
+    stroke-dashoffset: 146;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_46 {
+    stroke-dasharray: 146 148;
+    stroke-dashoffset: 147;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_47 {
+    stroke-dasharray: 146 148;
+    stroke-dashoffset: 147;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_48 {
+    stroke-dasharray: 147 149;
+    stroke-dashoffset: 148;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_49 {
+    stroke-dasharray: 147 149;
+    stroke-dashoffset: 148;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_50 {
+    stroke-dasharray: 148 150;
+    stroke-dashoffset: 149;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_51 {
+    stroke-dasharray: 149 151;
+    stroke-dashoffset: 150;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_52 {
+    stroke-dasharray: 150 152;
+    stroke-dashoffset: 151;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_53 {
+    stroke-dasharray: 151 153;
+    stroke-dashoffset: 152;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_54 {
+    stroke-dasharray: 152 154;
+    stroke-dashoffset: 153;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_55 {
+    stroke-dasharray: 154 156;
+    stroke-dashoffset: 155;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_56 {
+    stroke-dasharray: 99 101;
+    stroke-dashoffset: 100;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_57 {
+    stroke-dasharray: 100 102;
+    stroke-dashoffset: 101;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_58 {
+    stroke-dasharray: 100 102;
+    stroke-dashoffset: 101;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_59 {
+    stroke-dasharray: 101 103;
+    stroke-dashoffset: 102;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_60 {
+    stroke-dasharray: 102 104;
+    stroke-dashoffset: 103;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_61 {
+    stroke-dasharray: 103 105;
+    stroke-dashoffset: 104;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_62 {
+    stroke-dasharray: 104 106;
+    stroke-dashoffset: 105;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_63 {
+    stroke-dasharray: 105 107;
+    stroke-dashoffset: 106;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_64 {
+    stroke-dasharray: 106 108;
+    stroke-dashoffset: 107;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_65 {
+    stroke-dasharray: 107 109;
+    stroke-dashoffset: 108;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_66 {
+    stroke-dasharray: 108 110;
+    stroke-dashoffset: 109;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_67 {
+    stroke-dasharray: 110 112;
+    stroke-dashoffset: 111;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_68 {
+    stroke-dasharray: 63 65;
+    stroke-dashoffset: 64;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_69 {
+    stroke-dasharray: 62 64;
+    stroke-dashoffset: 63;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_70 {
+    stroke-dasharray: 60 62;
+    stroke-dashoffset: 61;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_71 {
+    stroke-dasharray: 59 61;
+    stroke-dashoffset: 60;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_72 {
+    stroke-dasharray: 58 60;
+    stroke-dashoffset: 59;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_73 {
+    stroke-dasharray: 58 60;
+    stroke-dashoffset: 59;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_74 {
+    stroke-dasharray: 57 59;
+    stroke-dashoffset: 58;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_75 {
+    stroke-dasharray: 56 58;
+    stroke-dashoffset: 57;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_76 {
+    stroke-dasharray: 56 58;
+    stroke-dashoffset: 57;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_77 {
+    stroke-dasharray: 56 58;
+    stroke-dashoffset: 57;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_78 {
+    stroke-dasharray: 56 58;
+    stroke-dashoffset: 57;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_79 {
+    stroke-dasharray: 56 58;
+    stroke-dashoffset: 57;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_80 {
+    stroke-dasharray: 56 58;
+    stroke-dashoffset: 57;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_81 {
+    stroke-dasharray: 57 59;
+    stroke-dashoffset: 58;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_82 {
+    stroke-dasharray: 57 59;
+    stroke-dashoffset: 58;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_83 {
+    stroke-dasharray: 58 60;
+    stroke-dashoffset: 59;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_84 {
+    stroke-dasharray: 59 61;
+    stroke-dashoffset: 60;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_85 {
+    stroke-dasharray: 60 62;
+    stroke-dashoffset: 61;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_86 {
+    stroke-dasharray: 61 63;
+    stroke-dashoffset: 62;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_87 {
+    stroke-dasharray: 63 65;
+    stroke-dashoffset: 64;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_88 {
+    stroke-dasharray: 28 30;
+    stroke-dashoffset: 29;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_89 {
+    stroke-dasharray: 28 30;
+    stroke-dashoffset: 29;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_90 {
+    stroke-dasharray: 28 30;
+    stroke-dashoffset: 29;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_91 {
+    stroke-dasharray: 28 30;
+    stroke-dashoffset: 29;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_92 {
+    stroke-dasharray: 28 30;
+    stroke-dashoffset: 29;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_93 {
+    stroke-dasharray: 28 30;
+    stroke-dashoffset: 29;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_94 {
+    stroke-dasharray: 29 31;
+    stroke-dashoffset: 30;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_95 {
+    stroke-dasharray: 29 31;
+    stroke-dashoffset: 30;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_96 {
+    stroke-dasharray: 29 31;
+    stroke-dashoffset: 30;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_97 {
+    stroke-dasharray: 30 32;
+    stroke-dashoffset: 31;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_98 {
+    stroke-dasharray: 30 32;
+    stroke-dashoffset: 31;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_99 {
+    stroke-dasharray: 30 32;
+    stroke-dashoffset: 31;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_100 {
+    stroke-dasharray: 55 57;
+    stroke-dashoffset: 56;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_101 {
+    stroke-dasharray: 54 56;
+    stroke-dashoffset: 55;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_102 {
+    stroke-dasharray: 53 55;
+    stroke-dashoffset: 54;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_103 {
+    stroke-dasharray: 53 55;
+    stroke-dashoffset: 54;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_104 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_105 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_106 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_107 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_108 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_109 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_110 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_111 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_112 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_113 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_114 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_115 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_116 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_117 {
+    stroke-dasharray: 53 55;
+    stroke-dashoffset: 54;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_118 {
+    stroke-dasharray: 54 56;
+    stroke-dashoffset: 55;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_119 {
+    stroke-dasharray: 55 57;
+    stroke-dashoffset: 56;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_120 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_121 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_122 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_123 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_124 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_125 {
+    stroke-dasharray: 46 48;
+    stroke-dashoffset: 47;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_126 {
+    stroke-dasharray: 45 47;
+    stroke-dashoffset: 46;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_127 {
+    stroke-dasharray: 44 46;
+    stroke-dashoffset: 45;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_128 {
+    stroke-dasharray: 44 46;
+    stroke-dashoffset: 45;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_129 {
+    stroke-dasharray: 43 45;
+    stroke-dashoffset: 44;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_130 {
+    stroke-dasharray: 43 45;
+    stroke-dashoffset: 44;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_131 {
+    stroke-dasharray: 43 45;
+    stroke-dashoffset: 44;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_132 {
+    stroke-dasharray: 43 45;
+    stroke-dashoffset: 44;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_133 {
+    stroke-dasharray: 44 46;
+    stroke-dashoffset: 45;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_134 {
+    stroke-dasharray: 44 46;
+    stroke-dashoffset: 45;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_135 {
+    stroke-dasharray: 45 47;
+    stroke-dashoffset: 46;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_136 {
+    stroke-dasharray: 46 48;
+    stroke-dashoffset: 47;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_137 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_138 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_139 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_140 {
+    stroke-dasharray: 55 57;
+    stroke-dashoffset: 56;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_141 {
+    stroke-dasharray: 54 56;
+    stroke-dashoffset: 55;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_142 {
+    stroke-dasharray: 53 55;
+    stroke-dashoffset: 54;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_143 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_144 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_145 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_146 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_147 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_148 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_149 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_150 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_151 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_152 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_153 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_154 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_155 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_156 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_157 {
+    stroke-dasharray: 53 55;
+    stroke-dashoffset: 54;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_158 {
+    stroke-dasharray: 54 56;
+    stroke-dashoffset: 55;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_159 {
+    stroke-dasharray: 56 58;
+    stroke-dashoffset: 57;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_160 {
+    stroke-dasharray: 55 57;
+    stroke-dashoffset: 56;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_161 {
+    stroke-dasharray: 55 57;
+    stroke-dashoffset: 56;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_162 {
+    stroke-dasharray: 55 57;
+    stroke-dashoffset: 56;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_163 {
+    stroke-dasharray: 56 58;
+    stroke-dashoffset: 57;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_164 {
+    stroke-dasharray: 56 58;
+    stroke-dashoffset: 57;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_165 {
+    stroke-dasharray: 57 59;
+    stroke-dashoffset: 58;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_166 {
+    stroke-dasharray: 58 60;
+    stroke-dashoffset: 59;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_167 {
+    stroke-dasharray: 58 60;
+    stroke-dashoffset: 59;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_168 {
+    stroke-dasharray: 59 61;
+    stroke-dashoffset: 60;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_169 {
+    stroke-dasharray: 60 62;
+    stroke-dashoffset: 61;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_170 {
+    stroke-dasharray: 61 63;
+    stroke-dashoffset: 62;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_171 {
+    stroke-dasharray: 62 64;
+    stroke-dashoffset: 63;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_172 {
+    stroke-dasharray: 63 65;
+    stroke-dashoffset: 64;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_173 {
+    stroke-dasharray: 64 66;
+    stroke-dashoffset: 65;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_174 {
+    stroke-dasharray: 65 67;
+    stroke-dashoffset: 66;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_175 {
+    stroke-dasharray: 66 68;
+    stroke-dashoffset: 67;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_176 {
+    stroke-dasharray: 67 69;
+    stroke-dashoffset: 68;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_177 {
+    stroke-dasharray: 69 71;
+    stroke-dashoffset: 70;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_178 {
+    stroke-dasharray: 70 72;
+    stroke-dashoffset: 71;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_179 {
+    stroke-dasharray: 71 73;
+    stroke-dashoffset: 72;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_180 {
+    stroke-dasharray: 114 116;
+    stroke-dashoffset: 115;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_181 {
+    stroke-dasharray: 114 116;
+    stroke-dashoffset: 115;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_182 {
+    stroke-dasharray: 115 117;
+    stroke-dashoffset: 116;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_183 {
+    stroke-dasharray: 115 117;
+    stroke-dashoffset: 116;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_184 {
+    stroke-dasharray: 116 118;
+    stroke-dashoffset: 117;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_185 {
+    stroke-dasharray: 117 119;
+    stroke-dashoffset: 118;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_186 {
+    stroke-dasharray: 118 120;
+    stroke-dashoffset: 119;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_187 {
+    stroke-dasharray: 118 120;
+    stroke-dashoffset: 119;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_188 {
+    stroke-dasharray: 119 121;
+    stroke-dashoffset: 120;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_189 {
+    stroke-dasharray: 120 122;
+    stroke-dashoffset: 121;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_190 {
+    stroke-dasharray: 121 123;
+    stroke-dashoffset: 122;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_191 {
+    stroke-dasharray: 122 124;
+    stroke-dashoffset: 123;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_192 {
+    stroke-dasharray: 124 126;
+    stroke-dashoffset: 125;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_193 {
+    stroke-dasharray: 125 127;
+    stroke-dashoffset: 126;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_194 {
+    stroke-dasharray: 126 128;
+    stroke-dashoffset: 127;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_195 {
+    stroke-dasharray: 127 129;
+    stroke-dashoffset: 128;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_196 {
+    stroke-dasharray: 128 130;
+    stroke-dashoffset: 129;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_197 {
+    stroke-dasharray: 129 131;
+    stroke-dashoffset: 130;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_198 {
+    stroke-dasharray: 131 133;
+    stroke-dashoffset: 132;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_199 {
+    stroke-dasharray: 132 134;
+    stroke-dashoffset: 133;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_200 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_201 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_202 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_203 {
+    stroke-dasharray: 46 48;
+    stroke-dashoffset: 47;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_204 {
+    stroke-dasharray: 45 47;
+    stroke-dashoffset: 46;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_205 {
+    stroke-dasharray: 44 46;
+    stroke-dashoffset: 45;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_206 {
+    stroke-dasharray: 43 45;
+    stroke-dashoffset: 44;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_207 {
+    stroke-dasharray: 42 44;
+    stroke-dashoffset: 43;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_208 {
+    stroke-dasharray: 41 43;
+    stroke-dashoffset: 42;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_209 {
+    stroke-dasharray: 40 42;
+    stroke-dashoffset: 41;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_210 {
+    stroke-dasharray: 39 41;
+    stroke-dashoffset: 40;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_211 {
+    stroke-dasharray: 38 40;
+    stroke-dashoffset: 39;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_212 {
+    stroke-dasharray: 28 30;
+    stroke-dashoffset: 29;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_213 {
+    stroke-dasharray: 28 30;
+    stroke-dashoffset: 29;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_214 {
+    stroke-dasharray: 27 29;
+    stroke-dashoffset: 28;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_215 {
+    stroke-dasharray: 26 28;
+    stroke-dashoffset: 27;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_216 {
+    stroke-dasharray: 25 27;
+    stroke-dashoffset: 26;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_217 {
+    stroke-dasharray: 25 27;
+    stroke-dashoffset: 26;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_218 {
+    stroke-dasharray: 24 26;
+    stroke-dashoffset: 25;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_219 {
+    stroke-dasharray: 23 25;
+    stroke-dashoffset: 24;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_220 {
+    stroke-dasharray: 23 25;
+    stroke-dashoffset: 24;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_221 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_222 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_223 {
+    stroke-dasharray: 21 23;
+    stroke-dashoffset: 22;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_224 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_225 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_226 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_227 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_228 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_229 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_230 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_231 {
+    stroke-dasharray: 53 55;
+    stroke-dashoffset: 54;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_232 {
+    stroke-dasharray: 54 56;
+    stroke-dashoffset: 55;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_233 {
+    stroke-dasharray: 55 57;
+    stroke-dashoffset: 56;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_234 {
+    stroke-dasharray: 55 57;
+    stroke-dashoffset: 56;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_235 {
+    stroke-dasharray: 56 58;
+    stroke-dashoffset: 57;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_236 {
+    stroke-dasharray: 24 26;
+    stroke-dashoffset: 25;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_237 {
+    stroke-dasharray: 25 27;
+    stroke-dashoffset: 26;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_238 {
+    stroke-dasharray: 25 27;
+    stroke-dashoffset: 26;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_239 {
+    stroke-dasharray: 25 27;
+    stroke-dashoffset: 26;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_240 {
+    stroke-dasharray: 26 28;
+    stroke-dashoffset: 27;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_241 {
+    stroke-dasharray: 26 28;
+    stroke-dashoffset: 27;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_242 {
+    stroke-dasharray: 27 29;
+    stroke-dashoffset: 28;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_243 {
+    stroke-dasharray: 27 29;
+    stroke-dashoffset: 28;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_244 {
+    stroke-dasharray: 28 30;
+    stroke-dashoffset: 29;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_245 {
+    stroke-dasharray: 28 30;
+    stroke-dashoffset: 29;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_246 {
+    stroke-dasharray: 29 31;
+    stroke-dashoffset: 30;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_247 {
+    stroke-dasharray: 30 32;
+    stroke-dashoffset: 31;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_248 {
+    stroke-dasharray: 39 41;
+    stroke-dashoffset: 40;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_249 {
+    stroke-dasharray: 38 40;
+    stroke-dashoffset: 39;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_250 {
+    stroke-dasharray: 38 40;
+    stroke-dashoffset: 39;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_251 {
+    stroke-dasharray: 37 39;
+    stroke-dashoffset: 38;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_252 {
+    stroke-dasharray: 37 39;
+    stroke-dashoffset: 38;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_253 {
+    stroke-dasharray: 37 39;
+    stroke-dashoffset: 38;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_254 {
+    stroke-dasharray: 37 39;
+    stroke-dashoffset: 38;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_255 {
+    stroke-dasharray: 37 39;
+    stroke-dashoffset: 38;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_256 {
+    stroke-dasharray: 38 40;
+    stroke-dashoffset: 39;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_257 {
+    stroke-dasharray: 38 40;
+    stroke-dashoffset: 39;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_258 {
+    stroke-dasharray: 39 41;
+    stroke-dashoffset: 40;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_259 {
+    stroke-dasharray: 40 42;
+    stroke-dashoffset: 41;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_260 {
+    stroke-dasharray: 112 114;
+    stroke-dashoffset: 113;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_261 {
+    stroke-dasharray: 111 113;
+    stroke-dashoffset: 112;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_262 {
+    stroke-dasharray: 110 112;
+    stroke-dashoffset: 111;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_263 {
+    stroke-dasharray: 109 111;
+    stroke-dashoffset: 110;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_264 {
+    stroke-dasharray: 108 110;
+    stroke-dashoffset: 109;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_265 {
+    stroke-dasharray: 107 109;
+    stroke-dashoffset: 108;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_266 {
+    stroke-dasharray: 106 108;
+    stroke-dashoffset: 107;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_267 {
+    stroke-dasharray: 105 107;
+    stroke-dashoffset: 106;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_268 {
+    stroke-dasharray: 104 106;
+    stroke-dashoffset: 105;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_269 {
+    stroke-dasharray: 103 105;
+    stroke-dashoffset: 104;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_270 {
+    stroke-dasharray: 103 105;
+    stroke-dashoffset: 104;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_271 {
+    stroke-dasharray: 102 104;
+    stroke-dashoffset: 103;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_272 {
+    stroke-dasharray: 94 96;
+    stroke-dashoffset: 95;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_273 {
+    stroke-dasharray: 93 95;
+    stroke-dashoffset: 94;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_274 {
+    stroke-dasharray: 92 94;
+    stroke-dashoffset: 93;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_275 {
+    stroke-dasharray: 92 94;
+    stroke-dashoffset: 93;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_276 {
+    stroke-dasharray: 91 93;
+    stroke-dashoffset: 92;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_277 {
+    stroke-dasharray: 91 93;
+    stroke-dashoffset: 92;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_278 {
+    stroke-dasharray: 91 93;
+    stroke-dashoffset: 92;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_279 {
+    stroke-dasharray: 91 93;
+    stroke-dashoffset: 92;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_280 {
+    stroke-dasharray: 91 93;
+    stroke-dashoffset: 92;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_281 {
+    stroke-dasharray: 91 93;
+    stroke-dashoffset: 92;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_282 {
+    stroke-dasharray: 92 94;
+    stroke-dashoffset: 93;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_283 {
+    stroke-dasharray: 92 94;
+    stroke-dashoffset: 93;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_284 {
+    stroke-dasharray: 105 107;
+    stroke-dashoffset: 106;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_285 {
+    stroke-dasharray: 105 107;
+    stroke-dashoffset: 106;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_286 {
+    stroke-dasharray: 105 107;
+    stroke-dashoffset: 106;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_287 {
+    stroke-dasharray: 105 107;
+    stroke-dashoffset: 106;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_288 {
+    stroke-dasharray: 105 107;
+    stroke-dashoffset: 106;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_289 {
+    stroke-dasharray: 106 108;
+    stroke-dashoffset: 107;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_290 {
+    stroke-dasharray: 106 108;
+    stroke-dashoffset: 107;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_291 {
+    stroke-dasharray: 107 109;
+    stroke-dashoffset: 108;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_292 {
+    stroke-dasharray: 108 110;
+    stroke-dashoffset: 109;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_293 {
+    stroke-dasharray: 108 110;
+    stroke-dashoffset: 109;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_294 {
+    stroke-dasharray: 109 111;
+    stroke-dashoffset: 110;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_295 {
+    stroke-dasharray: 110 112;
+    stroke-dashoffset: 111;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_296 {
+    stroke-dasharray: 81 83;
+    stroke-dashoffset: 82;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_297 {
+    stroke-dasharray: 80 82;
+    stroke-dashoffset: 81;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_298 {
+    stroke-dasharray: 79 81;
+    stroke-dashoffset: 80;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_299 {
+    stroke-dasharray: 78 80;
+    stroke-dashoffset: 79;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_300 {
+    stroke-dasharray: 77 79;
+    stroke-dashoffset: 78;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_301 {
+    stroke-dasharray: 77 79;
+    stroke-dashoffset: 78;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_302 {
+    stroke-dasharray: 77 79;
+    stroke-dashoffset: 78;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_303 {
+    stroke-dasharray: 77 79;
+    stroke-dashoffset: 78;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_304 {
+    stroke-dasharray: 77 79;
+    stroke-dashoffset: 78;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_305 {
+    stroke-dasharray: 77 79;
+    stroke-dashoffset: 78;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_306 {
+    stroke-dasharray: 78 80;
+    stroke-dashoffset: 79;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_307 {
+    stroke-dasharray: 78 80;
+    stroke-dashoffset: 79;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_308 {
+    stroke-dasharray: 45 47;
+    stroke-dashoffset: 46;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_309 {
+    stroke-dasharray: 45 47;
+    stroke-dashoffset: 46;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_310 {
+    stroke-dasharray: 46 48;
+    stroke-dashoffset: 47;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_311 {
+    stroke-dasharray: 46 48;
+    stroke-dashoffset: 47;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_312 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_313 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_314 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_315 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_316 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_317 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_318 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_319 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_320 {
+    stroke-dasharray: 63 65;
+    stroke-dashoffset: 64;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_321 {
+    stroke-dasharray: 64 66;
+    stroke-dashoffset: 65;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_322 {
+    stroke-dasharray: 65 67;
+    stroke-dashoffset: 66;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_323 {
+    stroke-dasharray: 66 68;
+    stroke-dashoffset: 67;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_324 {
+    stroke-dasharray: 68 70;
+    stroke-dashoffset: 69;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_325 {
+    stroke-dasharray: 70 72;
+    stroke-dashoffset: 71;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_326 {
+    stroke-dasharray: 71 73;
+    stroke-dashoffset: 72;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_327 {
+    stroke-dasharray: 73 75;
+    stroke-dashoffset: 74;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_328 {
+    stroke-dasharray: 75 77;
+    stroke-dashoffset: 76;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_329 {
+    stroke-dasharray: 77 79;
+    stroke-dashoffset: 78;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_330 {
+    stroke-dasharray: 79 81;
+    stroke-dashoffset: 80;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_331 {
+    stroke-dasharray: 81 83;
+    stroke-dashoffset: 82;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_332 {
+    stroke-dasharray: 66 68;
+    stroke-dashoffset: 67;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_333 {
+    stroke-dasharray: 68 70;
+    stroke-dashoffset: 69;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_334 {
+    stroke-dasharray: 71 73;
+    stroke-dashoffset: 72;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_335 {
+    stroke-dasharray: 73 75;
+    stroke-dashoffset: 74;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_336 {
+    stroke-dasharray: 76 78;
+    stroke-dashoffset: 77;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_337 {
+    stroke-dasharray: 79 81;
+    stroke-dashoffset: 80;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_338 {
+    stroke-dasharray: 81 83;
+    stroke-dashoffset: 82;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_339 {
+    stroke-dasharray: 84 86;
+    stroke-dashoffset: 85;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_340 {
+    stroke-dasharray: 87 89;
+    stroke-dashoffset: 88;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_341 {
+    stroke-dasharray: 90 92;
+    stroke-dashoffset: 91;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_342 {
+    stroke-dasharray: 92 94;
+    stroke-dashoffset: 93;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_343 {
+    stroke-dasharray: 95 97;
+    stroke-dashoffset: 96;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_344 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_345 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_346 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_347 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_348 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_349 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_350 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_351 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_352 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_353 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_354 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_355 {
+    stroke-dasharray: 53 55;
+    stroke-dashoffset: 54;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_356 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_357 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_358 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_359 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_360 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_361 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_362 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_363 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_364 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_365 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_366 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_367 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_368 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_369 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_370 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_371 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_372 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_373 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_374 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_375 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_376 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_377 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_378 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_379 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_380 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_381 {
+    stroke-dasharray: 47 49;
+    stroke-dashoffset: 48;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_382 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_383 {
+    stroke-dasharray: 48 50;
+    stroke-dashoffset: 49;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_384 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_385 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_386 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_387 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_388 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_389 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_390 {
+    stroke-dasharray: 27 29;
+    stroke-dashoffset: 28;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_391 {
+    stroke-dasharray: 26 28;
+    stroke-dashoffset: 27;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_392 {
+    stroke-dasharray: 26 28;
+    stroke-dashoffset: 27;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_393 {
+    stroke-dasharray: 25 27;
+    stroke-dashoffset: 26;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_394 {
+    stroke-dasharray: 24 26;
+    stroke-dashoffset: 25;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_395 {
+    stroke-dasharray: 24 26;
+    stroke-dashoffset: 25;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_396 {
+    stroke-dasharray: 23 25;
+    stroke-dashoffset: 24;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_397 {
+    stroke-dasharray: 23 25;
+    stroke-dashoffset: 24;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_398 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_399 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_400 {
+    stroke-dasharray: 22 24;
+    stroke-dashoffset: 23;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_401 {
+    stroke-dasharray: 21 23;
+    stroke-dashoffset: 22;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_402 {
+    stroke-dasharray: 73 75;
+    stroke-dashoffset: 74;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_403 {
+    stroke-dasharray: 71 73;
+    stroke-dashoffset: 72;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_404 {
+    stroke-dasharray: 70 72;
+    stroke-dashoffset: 71;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_405 {
+    stroke-dasharray: 68 70;
+    stroke-dashoffset: 69;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_406 {
+    stroke-dasharray: 67 69;
+    stroke-dashoffset: 68;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_407 {
+    stroke-dasharray: 65 67;
+    stroke-dashoffset: 66;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_408 {
+    stroke-dasharray: 64 66;
+    stroke-dashoffset: 65;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_409 {
+    stroke-dasharray: 62 64;
+    stroke-dashoffset: 63;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_410 {
+    stroke-dasharray: 61 63;
+    stroke-dashoffset: 62;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_411 {
+    stroke-dasharray: 59 61;
+    stroke-dashoffset: 60;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_412 {
+    stroke-dasharray: 58 60;
+    stroke-dashoffset: 59;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_413 {
+    stroke-dasharray: 57 59;
+    stroke-dashoffset: 58;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_414 {
+    stroke-dasharray: 83 85;
+    stroke-dashoffset: 84;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_415 {
+    stroke-dasharray: 83 85;
+    stroke-dashoffset: 84;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_416 {
+    stroke-dasharray: 83 85;
+    stroke-dashoffset: 84;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_417 {
+    stroke-dasharray: 83 85;
+    stroke-dashoffset: 84;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_418 {
+    stroke-dasharray: 84 86;
+    stroke-dashoffset: 85;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_419 {
+    stroke-dasharray: 84 86;
+    stroke-dashoffset: 85;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_420 {
+    stroke-dasharray: 84 86;
+    stroke-dashoffset: 85;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_421 {
+    stroke-dasharray: 84 86;
+    stroke-dashoffset: 85;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_422 {
+    stroke-dasharray: 85 87;
+    stroke-dashoffset: 86;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_423 {
+    stroke-dasharray: 85 87;
+    stroke-dashoffset: 86;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_424 {
+    stroke-dasharray: 86 88;
+    stroke-dashoffset: 87;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_425 {
+    stroke-dasharray: 86 88;
+    stroke-dashoffset: 87;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_426 {
+    stroke-dasharray: 86 88;
+    stroke-dashoffset: 87;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_427 {
+    stroke-dasharray: 87 89;
+    stroke-dashoffset: 88;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_428 {
+    stroke-dasharray: 88 90;
+    stroke-dashoffset: 89;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_429 {
+    stroke-dasharray: 88 90;
+    stroke-dashoffset: 89;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_430 {
+    stroke-dasharray: 89 91;
+    stroke-dashoffset: 90;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_431 {
+    stroke-dasharray: 49 51;
+    stroke-dashoffset: 50;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_432 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_433 {
+    stroke-dasharray: 50 52;
+    stroke-dashoffset: 51;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_434 {
+    stroke-dasharray: 51 53;
+    stroke-dashoffset: 52;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_435 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_436 {
+    stroke-dasharray: 52 54;
+    stroke-dashoffset: 53;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_437 {
+    stroke-dasharray: 53 55;
+    stroke-dashoffset: 54;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_438 {
+    stroke-dasharray: 54 56;
+    stroke-dashoffset: 55;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_439 {
+    stroke-dasharray: 55 57;
+    stroke-dashoffset: 56;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_440 {
+    stroke-dasharray: 56 58;
+    stroke-dashoffset: 57;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_441 {
+    stroke-dasharray: 57 59;
+    stroke-dashoffset: 58;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
+  #claude-monet.animated .yhdhksZi_442 {
+    stroke-dasharray: 58 60;
+    stroke-dashoffset: 59;
+    -webkit-animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards;
+            animation: yhdhksZi_draw 500ms ease-in-out 0ms forwards; }
 
-@-webkit-keyframes DhsHCpyD_draw {
+@-webkit-keyframes yhdhksZi_draw {
   100% {
     stroke-dashoffset: 0; } }
 
-@keyframes DhsHCpyD_draw {
+@keyframes yhdhksZi_draw {
   100% {
     stroke-dashoffset: 0; } }
 
-@-webkit-keyframes DhsHCpyD_fade {
+@-webkit-keyframes yhdhksZi_fade {
   0% {
     stroke-opacity: 1; }
-  92.3076923076923% {
+  91.48936170212767% {
     stroke-opacity: 1; }
   100% {
     stroke-opacity: 0; } }
 
-@keyframes DhsHCpyD_fade {
+@keyframes yhdhksZi_fade {
   0% {
     stroke-opacity: 1; }
-  92.3076923076923% {
+  91.48936170212767% {
     stroke-opacity: 1; }
   100% {
     stroke-opacity: 0; } }
+  #claude-monet.animated .stroke1 path {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  #claude-monet.animated .stroke2 path {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  #claude-monet.animated .stroke3 path {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s; }
+  #claude-monet.animated .stroke4 path {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s; }
+  #claude-monet.animated .stroke5 path {
+    -webkit-animation-delay: 1.3s;
+            animation-delay: 1.3s; }
+  #claude-monet.animated .stroke6 path {
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s; }
+  #claude-monet.animated .stroke7 path {
+    -webkit-animation-delay: 2.3s;
+            animation-delay: 2.3s; }
+  #claude-monet.animated .stroke8 path {
+    -webkit-animation-delay: 2.8s;
+            animation-delay: 2.8s; }
+  #claude-monet.animated .stroke9 path {
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s; }
+  #claude-monet.animated .stroke10 path {
+    -webkit-animation-delay: 4.2s;
+            animation-delay: 4.2s; }
+  #claude-monet.animated .stroke11 path {
+    -webkit-animation-delay: 5s;
+            animation-delay: 5s; }
+  #claude-monet.animated .stroke12 path {
+    -webkit-animation-delay: 5.3s;
+            animation-delay: 5.3s; }
+  #claude-monet.animated .stroke13 path {
+    -webkit-animation-delay: 5.6s;
+            animation-delay: 5.6s; }
+  #claude-monet.animated .stroke14 path {
+    -webkit-animation-delay: 6s;
+            animation-delay: 6s; }
+  #claude-monet.animated .stroke15 path {
+    -webkit-animation-delay: 6.3s;
+            animation-delay: 6.3s; }
+  #claude-monet.animated .stroke16 path {
+    -webkit-animation-delay: 6.6s;
+            animation-delay: 6.6s; }
+  #claude-monet.animated .stroke17 path {
+    -webkit-animation-delay: 7.2s;
+            animation-delay: 7.2s; }
+  #claude-monet.animated .stroke18 path {
+    -webkit-animation-delay: 7.5s;
+            animation-delay: 7.5s; }
+  #claude-monet.animated .stroke19 path {
+    -webkit-animation-delay: 8.0s;
+            animation-delay: 8.0s; }
+  #claude-monet.animated .stroke20 path {
+    -webkit-animation-delay: 8.5s;
+            animation-delay: 8.5s; }
+  #claude-monet.animated .stroke21 path {
+    -webkit-animation-delay: 9s;
+            animation-delay: 9s; }
+  #claude-monet.animated .stroke22 path {
+    -webkit-animation-delay: 9.3s;
+            animation-delay: 9.3s; }
+  #claude-monet.animated .stroke23 path {
+    -webkit-animation-delay: 10s;
+            animation-delay: 10s; }
+  #claude-monet.animated .stroke24 path {
+    -webkit-animation-delay: 10.3s;
+            animation-delay: 10.3s; }
+  #claude-monet.animated .stroke25 path {
+    -webkit-animation-delay: 10.8s;
+            animation-delay: 10.8s; }
+  #claude-monet.animated .stroke26 path {
+    -webkit-animation-delay: 11.3s;
+            animation-delay: 11.3s; }
+  #claude-monet.animated .stroke27 path {
+    -webkit-animation-delay: 12s;
+            animation-delay: 12s; }
+  #claude-monet.animated .stroke28 path {
+    -webkit-animation-delay: 12.7s;
+            animation-delay: 12.7s; }
+  #claude-monet.animated .stroke29 path {
+    -webkit-animation-delay: 13s;
+            animation-delay: 13s; }
+  #claude-monet.animated .stroke30 path {
+    -webkit-animation-delay: 13.5s;
+            animation-delay: 13.5s; }
+  #claude-monet.animated .stroke31 path {
+    -webkit-animation-delay: 14s;
+            animation-delay: 14s; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -4000,7 +6300,7 @@ body {
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: black;
-  --secondary: #213F63;
+  --secondary: #65302A;
   --success: #28a745;
   --info: white;
   --warning: #ffc107;
@@ -5101,19 +7401,19 @@ pre {
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-  background-color: #c1c9d3; }
+  background-color: #d4c5c3; }
 
 .table-secondary th,
 .table-secondary td,
 .table-secondary thead th,
 .table-secondary tbody + tbody {
-  border-color: #8c9bae; }
+  border-color: #af9390; }
 
 .table-hover .table-secondary:hover {
-  background-color: #b2bcc8; }
+  background-color: #c9b7b4; }
   .table-hover .table-secondary:hover > td,
   .table-hover .table-secondary:hover > th {
-    background-color: #b2bcc8; }
+    background-color: #c9b7b4; }
 
 .table-success,
 .table-success > th,
@@ -5739,26 +8039,26 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #213F63;
-  border-color: #213F63; }
+  background-color: #65302A;
+  border-color: #65302A; }
   .btn-secondary:hover {
     color: #fff;
-    background-color: #172d46;
-    border-color: #14273d; }
+    background-color: #4a231f;
+    border-color: #411f1b; }
   .btn-secondary:focus, .btn-secondary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(66, 92, 122, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(124, 79, 74, 0.5); }
   .btn-secondary.disabled, .btn-secondary:disabled {
     color: #fff;
-    background-color: #213F63;
-    border-color: #213F63; }
+    background-color: #65302A;
+    border-color: #65302A; }
   .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
   .show > .btn-secondary.dropdown-toggle {
     color: #fff;
-    background-color: #14273d;
-    border-color: #112133; }
+    background-color: #411f1b;
+    border-color: #381b17; }
     .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-secondary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(66, 92, 122, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(124, 79, 74, 0.5); }
 
 .btn-success {
   color: #fff;
@@ -5920,25 +8220,25 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
 
 .btn-outline-secondary {
-  color: #213F63;
-  border-color: #213F63; }
+  color: #65302A;
+  border-color: #65302A; }
   .btn-outline-secondary:hover {
     color: #fff;
-    background-color: #213F63;
-    border-color: #213F63; }
+    background-color: #65302A;
+    border-color: #65302A; }
   .btn-outline-secondary:focus, .btn-outline-secondary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(33, 63, 99, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(101, 48, 42, 0.5); }
   .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-    color: #213F63;
+    color: #65302A;
     background-color: transparent; }
   .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
   .show > .btn-outline-secondary.dropdown-toggle {
     color: #fff;
-    background-color: #213F63;
-    border-color: #213F63; }
+    background-color: #65302A;
+    border-color: #65302A; }
     .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-secondary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(33, 63, 99, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(101, 48, 42, 0.5); }
 
 .btn-outline-success {
   color: #28a745;
@@ -7379,13 +9679,13 @@ input[type="button"].btn-block {
 
 .badge-secondary {
   color: #fff;
-  background-color: #213F63; }
+  background-color: #65302A; }
   a.badge-secondary:hover, a.badge-secondary:focus {
     color: #fff;
-    background-color: #14273d; }
+    background-color: #411f1b; }
   a.badge-secondary:focus, a.badge-secondary.focus {
     outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(33, 63, 99, 0.5); }
+    box-shadow: 0 0 0 0.2rem rgba(101, 48, 42, 0.5); }
 
 .badge-success {
   color: #fff;
@@ -7490,13 +9790,13 @@ input[type="button"].btn-block {
     color: black; }
 
 .alert-secondary {
-  color: #112133;
-  background-color: #d3d9e0;
-  border-color: #c1c9d3; }
+  color: #351916;
+  background-color: #e0d6d4;
+  border-color: #d4c5c3; }
   .alert-secondary hr {
-    border-top-color: #b2bcc8; }
+    border-top-color: #c9b7b4; }
   .alert-secondary .alert-link {
-    color: #04080d; }
+    color: #110807; }
 
 .alert-success {
   color: #155724;
@@ -7710,15 +10010,15 @@ input[type="button"].btn-block {
     border-color: black; }
 
 .list-group-item-secondary {
-  color: #112133;
-  background-color: #c1c9d3; }
+  color: #351916;
+  background-color: #d4c5c3; }
   .list-group-item-secondary.list-group-item-action:hover, .list-group-item-secondary.list-group-item-action:focus {
-    color: #112133;
-    background-color: #b2bcc8; }
+    color: #351916;
+    background-color: #c9b7b4; }
   .list-group-item-secondary.list-group-item-action.active {
     color: #fff;
-    background-color: #112133;
-    border-color: #112133; }
+    background-color: #351916;
+    border-color: #351916; }
 
 .list-group-item-success {
   color: #155724;
@@ -8435,12 +10735,12 @@ button.bg-primary:focus {
   background-color: black !important; }
 
 .bg-secondary {
-  background-color: #213F63 !important; }
+  background-color: #65302A !important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #14273d !important; }
+  background-color: #411f1b !important; }
 
 .bg-success {
   background-color: #28a745 !important; }
@@ -8530,7 +10830,7 @@ button.bg-dark:focus {
   border-color: black !important; }
 
 .border-secondary {
-  border-color: #213F63 !important; }
+  border-color: #65302A !important; }
 
 .border-success {
   border-color: #28a745 !important; }
@@ -10761,10 +13061,10 @@ a.text-primary:hover, a.text-primary:focus {
   color: black !important; }
 
 .text-secondary {
-  color: #213F63 !important; }
+  color: #65302A !important; }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #0e1a2a !important; }
+  color: #2f1614 !important; }
 
 .text-success {
   color: #28a745 !important; }
