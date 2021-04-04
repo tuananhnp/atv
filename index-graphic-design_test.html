@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css">
+  <link rel="stylesheet" href="css/fader.css" type="text/css">
+  <link rel="stylesheet" href="css/animated_nav_icon.css">
+  <link rel="stylesheet" href="css/scrolltotop_arrow_style.css" type="text/css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="css/universal-parallax.css" type="text/css">
+  <link rel="stylesheet" href="css/jquery.hotspot.dark.css">
+  <link rel="stylesheet" href="css/jquery.hotspot.light.css">
+  <link rel="stylesheet" href="css/2-columns-test.css">
+</head>
+
+<body oncontextmenu="return false">
+  <svg id="fader" class="fade-out"></svg>
+  <script>
+    fadeInPage();
+  </script>
+  <div id="scrolltotop_parent" class="scrolltotop_hide_onload scrolltotop_circle" style="display: none; opacity: 0.19107;">
+    <div tabindex="0" id="scrolltotop_arrow"></div>
+  </div>
+  <section class="bg-secondary" style="transition: transform 600ms ease-out; transform: translateY(0%);">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-xl-7 col-md-6 col-12 pl-md-0 pr-md-4 pr-lg-5 my-5 px-4 pb-3 pb-sm-0 order-first order-md-last">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-light display-4">Graphic Design</h1>
+              <p class="text-light">Paragraph. Then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing.</p>
+            </div>
+          </div>
+          <div class="svg-title-desktop row">
+            <div class="col-md-12">
+              <h2 class="pt-3 mb-0 text-light" style="color: #BFB262 !important">Figure 02</h2>
+              <p class="text-light lead" style="color: #BFB262 !important"><i>Starry night: Moon</i> - Van Gogh</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-5 col-md-6"></div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 text-center text-white h-100 align-items-center d-flex" style="height: 100vh; transition: transform 600ms ease-out; transform: translateY(100%);">
+    <div class="container py-5">
+      <div class="row">
+        <div class="mx-auto col-lg-8 col-md-10">
+          <h1 class="display-3 mb-4">A wonderful serenity</h1>
+          <p class="lead mb-5">Has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence.</p> <a href="#" class="btn btn-lg btn-primary mx-1">Take me there</a> <a class="btn btn-lg mx-1 btn-outline-primary" href="#">Let's Go</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/fader.js"></script>
+  <script src="js/jquery.touchSwipe.min.js"></script>
+  <script src="js/scrolltotop_arrow_code.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/prevent_vertical_scroll.js"></script>
+  <script src="js/universal-parallax.min.js"></script>
+  <script src="js/jquery.waypoints.js"></script>
+  <script src="js/inview.js"></script>
+  <script src="js/2-columns-test.js"></script>
+  <script src="js/one-page-scroll.min.js" style=""></script>
+  <script>
+    $(document).ready(function() {
+      $('.nav-button').on('click', function() {
+        $('.animated-icon').toggleClass('open');
+      });
+    });
+  </script>
+  <script>
+    $("body").on("contextmenu", "img", function(e) {
+      return false;
+    });
+  </script>
+  <script>
+    new universalParallax().init({
+      speed: 12
+    });
+  </script>
+  <script>
+    $('.btn, .btn-outline, .btn-lg').click(function() {
+      var sectionTo = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(sectionTo).offset().top
+      }, 2000);
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $(".owl-carousel").owlCarousel();
+    });
+  </script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      nav: true,
+      navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
+    });
+  </script>
+  <script>
+    var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '5px');
+    dots.css('left', 'calc(50% - ' + dots.width() / 2 + 'px)');
+  </script>
+  <script>
+    var $svg1 = $('#starrynight-front1');
+    var in_view = new Waypoint.Inview({
+      element: $svg1[0],
+      enter: function() {
+        $svg1.addClass('animated');
+      },
+      exited: function() {
+        $svg1.removeClass('animated');
+      },
+    });
+  </script>
+  <script>
+    var $svg2 = $('#starrynight-front2');
+    var in_view = new Waypoint.Inview({
+      element: $svg2[0],
+      enter: function() {
+        setTimeout(function() {
+          $svg2.addClass('animated');
+        }, 1500)
+      },
+      exited: function() {
+        $svg2.removeClass('animated');
+      },
+    });
+  </script>
+  <script>
+    var $svg3 = $('#starrynight-back');
+    var in_view = new Waypoint.Inview({
+      element: $svg3[0],
+      enter: function() {
+        $svg3.addClass('animated');
+      },
+      exited: function() {
+        $svg3.removeClass('animated');
+      },
+    });
+  </script>
+  <script>
+    var $svg4 = $('#moomin-back1');
+    var in_view = new Waypoint.Inview({
+      element: $svg4[0],
+      enter: function() {
+        $svg4.addClass('animated');
+      },
+      exited: function() {
+        $svg4.removeClass('animated');
+      },
+    });
+  </script>
+  <script>
+    var $svg5 = $('#moomin-back2');
+    var in_view = new Waypoint.Inview({
+      element: $svg5[0],
+      enter: function() {
+        setTimeout(function() {
+          $svg5.addClass('animated');
+        }, 1500)
+      },
+      exited: function() {
+        $svg5.removeClass('animated');
+      },
+    });
+  </script>
+  <script>
+    var $svg6 = $('#moomin-back3');
+    var in_view = new Waypoint.Inview({
+      element: $svg6[0],
+      enter: function() {
+        setTimeout(function() {
+          $svg6.addClass('animated');
+        }, 3000)
+      },
+      exited: function() {
+        $svg6.removeClass('animated');
+      },
+    });
+  </script>
+  <script>
+    var $svg7 = $('#moomin-front');
+    var in_view = new Waypoint.Inview({
+      element: $svg7[0],
+      enter: function() {
+        $svg7.addClass('animated');
+      },
+      exited: function() {
+        $svg7.removeClass('animated');
+      },
+    });
+  </script>
+  <script>
+    var el = document.querySelectorAll('section');
+    var app = new onePageScroll({
+      el: el
+    });
+  </script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+</body>
+
+</html>
