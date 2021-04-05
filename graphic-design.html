@@ -21,7 +21,7 @@
   <svg id="fader" class="fade-out"></svg>
   <script> fadeInPage();
   </script>
-  <div id="scrolltotop_parent" class="scrolltotop_hide_onload scrolltotop_circle" style="display: none; opacity: 0.19107;">
+  <div id="scrolltotop_parent" class="scrolltotop_hide_onload">
     <div tabindex="0" id="scrolltotop_arrow"></div>
   </div>
   <div id="fullpage">
@@ -30,7 +30,7 @@
         <div class="row mx-lg-auto my-lg-auto">
           <div class="col-xl-6 col-lg-7 col-sm-12 col-12">
             <div class="illustration row align-items-center pb-lg-5">
-              <div class="col-lg-9 col-md-7 col-sm-8 col-10 mx-auto px-0">
+              <div class="col-xl-8 col-lg-9 col-md-7 col-sm-8 col-10 mx-auto px-0">
                 <svg version="1.1" id="starrynight-front1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-393 182.5 172.5 197.5" xml:space="preserve" style="position:absolute">
                   <style type="text/css">
                     .st0 {
@@ -1139,7 +1139,7 @@
   <script src="js/universal-parallax.min.js"></script>
   <script src="js/jquery.waypoints.js"></script>
   <script src="js/inview.js"></script>
-  <script src="js/fullpage.js"></script>
+  <script src="js/fullpage.min.js"></script>
   <script>
     $(document).ready(function() {
       $('.nav-button').on('click', function() {
@@ -1297,7 +1297,7 @@
   <script>
     new fullpage('#fullpage', {
       scrollBar: true,
-      scrollingSpeed: 700,
+      scrollingSpeed: 500,
       keyboardScrolling: true,
       loopBottom: true,
     });
