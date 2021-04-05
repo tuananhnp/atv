@@ -1,36 +1,45 @@
 @media (min-width: 767px) {
-  .svg-box1 {
+	.svg-box1 {
 	  height: 100vh !important;
-	  padding-top: 15rem;
-  }
-  .svg-box2 {
+	}
+	.svg-box2 {
 	  height: 100vh !important;
-	  padding-top: 12rem;
-  }
-  .svg-box3 {
+	}
+	.svg-box3 {
 	  height: 100vh !important;
-	  padding-top: 15rem;
-  }
-  .svg-box4 {
+	}
+	.svg-box4 {
 	  height: 100vh !important;
-	  padding-top: 15rem;
-  }
+	}
 }
 
-@media (min-width: 767px) {
-  .svg-title-mobile {
-    display: none;
-  }
-  .floating-text {
-    position: sticky;
-	position: -webkit-sticky;
-	top: 0;
-	padding-top: 15rem;
-	padding-bottom: 22rem;
-  }
+@media (min-width: 991px) {
+	.portrait {
+		height:100vh;
+		width:100vw;
+	}
+	.signature {
+		height:100vh;
+	}
+	.svg-title-mobile {
+		display: none;
+	}
+	.floating-text {
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0;
+		padding-top: 15rem;
+		padding-bottom: 22rem;
+	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
+	.portrait {
+		height:60vh;
+	}
+	.signature {
+		height:40vh;
+	}
 	.svg-box1, .svg-box2, .svg-box3 {
 		height: 100vh;
 	}
@@ -38,6 +47,9 @@
 		height: 100vh;
 	}
 	.svg-title-desktop {
+		display: none !important;
+	}
+	.caption {
 		display: none !important;
 	}
 }

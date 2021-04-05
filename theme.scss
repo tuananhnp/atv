@@ -27,7 +27,7 @@ $enable-print-styles:       true;
 
 $theme-colors: (
   primary: black,
-  secondary: #213F63,
+  secondary: black,
   light: white,
   dark: black,
   info: white,
@@ -216,15 +216,6 @@ body {
 /* Animated SVGs */
 #moomin-front, #starrynight-back, #moomin-back1, #moomin-back2, #moomin-back3, #starrynight-front1, #starrynight-front2, #claude-monet, #arthur-rackham {
   opacity: 0;
-}
-
-#starrynight-front1, #starrynight-front2 {
-  position: absolute;
-}
-
-
-#moomin-back1, #moomin-back2, #moomin-back3 {
-  position: absolute;
 }
 
 #moomin-back1.animated {

@@ -3,11 +3,11 @@ var scene2 = $('#starrynight-back-scene').offset().top;
 var scene3 = $('#moomin-back-scene').offset().top;
 var scene4 = $('#moomin-front-scene').offset().top;
 
-var scrollOffset = 300;
+var scrollOffset = 200;
 
 $(window).scroll(function() {
   var scroll = $(window).scrollTop() + scrollOffset;
-  if (scroll < 2000) {
+  if (scroll < 1800) {
 	$('.svg-title-desktop h2').html("Figure 01");
 	$('.svg-title-desktop p').html("<i>Starry night: Stars</i> - Van Gogh");
   }
