@@ -6179,97 +6179,97 @@ body {
     stroke-opacity: 1; }
   100% {
     stroke-opacity: 0; } }
-  #claude-monet.animated .stroke1 path {
+  #claude-monet.animated .claude-monet-stroke1 path {
     -webkit-animation-delay: 0s;
             animation-delay: 0s; }
-  #claude-monet.animated .stroke2 path {
+  #claude-monet.animated .claude-monet-stroke2 path {
     -webkit-animation-delay: 0.3s;
             animation-delay: 0.3s; }
-  #claude-monet.animated .stroke3 path {
+  #claude-monet.animated .claude-monet-stroke3 path {
     -webkit-animation-delay: 0.6s;
             animation-delay: 0.6s; }
-  #claude-monet.animated .stroke4 path {
+  #claude-monet.animated .claude-monet-stroke4 path {
     -webkit-animation-delay: 1s;
             animation-delay: 1s; }
-  #claude-monet.animated .stroke5 path {
+  #claude-monet.animated .claude-monet-stroke5 path {
     -webkit-animation-delay: 1.3s;
             animation-delay: 1.3s; }
-  #claude-monet.animated .stroke6 path {
+  #claude-monet.animated .claude-monet-stroke6 path {
     -webkit-animation-delay: 2s;
             animation-delay: 2s; }
-  #claude-monet.animated .stroke7 path {
+  #claude-monet.animated .claude-monet-stroke7 path {
     -webkit-animation-delay: 2.3s;
             animation-delay: 2.3s; }
-  #claude-monet.animated .stroke8 path {
+  #claude-monet.animated .claude-monet-stroke8 path {
     -webkit-animation-delay: 2.8s;
             animation-delay: 2.8s; }
-  #claude-monet.animated .stroke9 path {
+  #claude-monet.animated .claude-monet-stroke9 path {
     -webkit-animation-delay: 3.5s;
             animation-delay: 3.5s; }
-  #claude-monet.animated .stroke10 path {
+  #claude-monet.animated .claude-monet-stroke10 path {
     -webkit-animation-delay: 4.2s;
             animation-delay: 4.2s; }
-  #claude-monet.animated .stroke11 path {
+  #claude-monet.animated .claude-monet-stroke11 path {
     -webkit-animation-delay: 5s;
             animation-delay: 5s; }
-  #claude-monet.animated .stroke12 path {
+  #claude-monet.animated .claude-monet-stroke12 path {
     -webkit-animation-delay: 5.3s;
             animation-delay: 5.3s; }
-  #claude-monet.animated .stroke13 path {
+  #claude-monet.animated .claude-monet-stroke13 path {
     -webkit-animation-delay: 5.6s;
             animation-delay: 5.6s; }
-  #claude-monet.animated .stroke14 path {
+  #claude-monet.animated .claude-monet-stroke14 path {
     -webkit-animation-delay: 6s;
             animation-delay: 6s; }
-  #claude-monet.animated .stroke15 path {
+  #claude-monet.animated .claude-monet-stroke15 path {
     -webkit-animation-delay: 6.3s;
             animation-delay: 6.3s; }
-  #claude-monet.animated .stroke16 path {
+  #claude-monet.animated .claude-monet-stroke16 path {
     -webkit-animation-delay: 6.6s;
             animation-delay: 6.6s; }
-  #claude-monet.animated .stroke17 path {
+  #claude-monet.animated .claude-monet-stroke17 path {
     -webkit-animation-delay: 7.2s;
             animation-delay: 7.2s; }
-  #claude-monet.animated .stroke18 path {
+  #claude-monet.animated .claude-monet-stroke18 path {
     -webkit-animation-delay: 7.5s;
             animation-delay: 7.5s; }
-  #claude-monet.animated .stroke19 path {
+  #claude-monet.animated .claude-monet-stroke19 path {
     -webkit-animation-delay: 8.0s;
             animation-delay: 8.0s; }
-  #claude-monet.animated .stroke20 path {
+  #claude-monet.animated .claude-monet-stroke20 path {
     -webkit-animation-delay: 8.5s;
             animation-delay: 8.5s; }
-  #claude-monet.animated .stroke21 path {
+  #claude-monet.animated .claude-monet-stroke21 path {
     -webkit-animation-delay: 9s;
             animation-delay: 9s; }
-  #claude-monet.animated .stroke22 path {
+  #claude-monet.animated .claude-monet-stroke22 path {
     -webkit-animation-delay: 9.3s;
             animation-delay: 9.3s; }
-  #claude-monet.animated .stroke23 path {
+  #claude-monet.animated .claude-monet-stroke23 path {
     -webkit-animation-delay: 10s;
             animation-delay: 10s; }
-  #claude-monet.animated .stroke24 path {
+  #claude-monet.animated .claude-monet-stroke24 path {
     -webkit-animation-delay: 10.3s;
             animation-delay: 10.3s; }
-  #claude-monet.animated .stroke25 path {
+  #claude-monet.animated .claude-monet-stroke25 path {
     -webkit-animation-delay: 10.8s;
             animation-delay: 10.8s; }
-  #claude-monet.animated .stroke26 path {
+  #claude-monet.animated .claude-monet-stroke26 path {
     -webkit-animation-delay: 11.3s;
             animation-delay: 11.3s; }
-  #claude-monet.animated .stroke27 path {
+  #claude-monet.animated .claude-monet-stroke27 path {
     -webkit-animation-delay: 12s;
             animation-delay: 12s; }
-  #claude-monet.animated .stroke28 path {
+  #claude-monet.animated .claude-monet-stroke28 path {
     -webkit-animation-delay: 12.7s;
             animation-delay: 12.7s; }
-  #claude-monet.animated .stroke29 path {
+  #claude-monet.animated .claude-monet-stroke29 path {
     -webkit-animation-delay: 13s;
             animation-delay: 13s; }
-  #claude-monet.animated .stroke30 path {
+  #claude-monet.animated .claude-monet-stroke30 path {
     -webkit-animation-delay: 13.5s;
             animation-delay: 13.5s; }
-  #claude-monet.animated .stroke31 path {
+  #claude-monet.animated .claude-monet-stroke31 path {
     -webkit-animation-delay: 14s;
             animation-delay: 14s; }
 
@@ -6929,22 +6929,22 @@ body {
     stroke-opacity: 1; }
   100% {
     stroke-opacity: 0; } }
-  #arthur-rackham.animated .stroke1 path {
+  #arthur-rackham.animated .arthur-rackham-stroke1 path {
     -webkit-animation-delay: 0s;
             animation-delay: 0s; }
-  #arthur-rackham.animated .stroke2 path {
+  #arthur-rackham.animated .arthur-rackham-stroke2 path {
     -webkit-animation-delay: 2.2s;
             animation-delay: 2.2s; }
-  #arthur-rackham.animated .stroke3 path {
+  #arthur-rackham.animated .arthur-rackham-stroke3 path {
     -webkit-animation-delay: 3s;
             animation-delay: 3s; }
-  #arthur-rackham.animated .stroke4 path {
+  #arthur-rackham.animated .arthur-rackham-stroke4 path {
     -webkit-animation-delay: 3.5s;
             animation-delay: 3.5s; }
-  #arthur-rackham.animated .stroke5 path {
+  #arthur-rackham.animated .arthur-rackham-stroke5 path {
     -webkit-animation-delay: 4s;
             animation-delay: 4s; }
-  #arthur-rackham.animated .stroke6 path {
+  #arthur-rackham.animated .arthur-rackham-stroke6 path {
     -webkit-animation-delay: 5.5s;
             animation-delay: 5.5s; }
 
